@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1mer_1_1probe__qe__cf" kind="class" prot="public">
+    <compoundname>gr::mer::probe_qe_cf</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="probe__qe__cf_8h" local="no">probe_qe_cf.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1mer_1_1probe__qe__cf_1a1e481b4913ca73518c01ecf8e021e68c" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1mer_1_1probe__qe__cf" kindref="compound">probe_qe_cf</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;probe_qe_cf&gt; gr::mer::probe_qe_cf::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_qe_cf.h" line="42" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/probe_qe_cf.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1mer_1_1probe__qe__cf_1af4f5c18d8dc1faf9be88e7bcfe667d6a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1mer_1_1probe__qe__cf_1a1e481b4913ca73518c01ecf8e021e68c" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::mer::probe_qe_cf::make</definition>
+        <argsstring>(const std::vector&lt; gr_complex &gt; &amp;symbol_table, double alpha)</argsstring>
+        <name>make</name>
+        <param>
+          <type>const std::vector&lt; gr_complex &gt; &amp;</type>
+          <declname>symbol_table</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1mer_1_1probe__qe__cf" kindref="compound">mer::probe_qe_cf</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1mer_1_1probe__qe__cf" kindref="compound">mer::probe_qe_cf</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1mer_1_1probe__qe__cf_1af4f5c18d8dc1faf9be88e7bcfe667d6a" kindref="member">mer::probe_qe_cf::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_qe_cf.h" line="52" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="31">
+        <label>gr::mer::probe_qe_cf</label>
+        <link refid="classgr_1_1mer_1_1probe__qe__cf"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="33">
+        <label>gr::mer::probe_qe_cf</label>
+        <link refid="classgr_1_1mer_1_1probe__qe__cf"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_qe_cf.h" line="40" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/probe_qe_cf.h" bodystart="39" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mer_1_1probe__qe__cf_1af4f5c18d8dc1faf9be88e7bcfe667d6a" prot="public" virt="non-virtual"><scope>gr::mer::probe_qe_cf</scope><name>make</name></member>
+      <member refid="classgr_1_1mer_1_1probe__qe__cf_1a1e481b4913ca73518c01ecf8e021e68c" prot="public" virt="non-virtual"><scope>gr::mer::probe_qe_cf</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

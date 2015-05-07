@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1mer_1_1demapper" kind="class" prot="public">
+    <compoundname>gr::mer::demapper</compoundname>
+    <includes refid="demapper_8h" local="no">demapper.h</includes>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classgr_1_1mer_1_1demapper_1a0403c23bc77065e84aed899313f1ba78" prot="protected" static="yes" mutable="no">
+        <type>const gr_complex</type>
+        <definition>const gr_complex gr::mer::demapper::d_constellation_qpsk[]</definition>
+        <argsstring>[]</argsstring>
+        <name>d_constellation_qpsk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="36" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mer_1_1demapper_1a0e235fd22c9e7c705d908e041c606216" prot="protected" static="yes" mutable="no">
+        <type>const gr_complex</type>
+        <definition>const gr_complex gr::mer::demapper::d_constellation_16qam[]</definition>
+        <argsstring>[]</argsstring>
+        <name>d_constellation_16qam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="37" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mer_1_1demapper_1a7421399b06828279fa136fbab977e544" prot="protected" static="yes" mutable="no">
+        <type>const gr_complex</type>
+        <definition>const gr_complex gr::mer::demapper::d_constellation_64qam[]</definition>
+        <argsstring>[]</argsstring>
+        <name>d_constellation_64qam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="38" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgr_1_1mer_1_1demapper_1a32f9525547b11b4cf4cade6e820f082b" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mer::demapper::d_const_size</definition>
+        <argsstring></argsstring>
+        <name>d_const_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="39" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mer_1_1demapper_1a67ea69ef3934d5d7f82ab39a4e0c9a24" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::mer::demapper::d_re_min</definition>
+        <argsstring></argsstring>
+        <name>d_re_min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="40" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mer_1_1demapper_1a32ff0b4695d819b6b350738f3dae5d41" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::mer::demapper::d_im_min</definition>
+        <argsstring></argsstring>
+        <name>d_im_min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="41" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mer_1_1demapper_1a7b16d36605e10ed5f107fc84978d694f" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::mer::demapper::d_re_max</definition>
+        <argsstring></argsstring>
+        <name>d_re_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="42" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mer_1_1demapper_1ae2c20b57ec9a0c9ab54fac5e59521ff8" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::mer::demapper::d_im_max</definition>
+        <argsstring></argsstring>
+        <name>d_im_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="43" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1mer_1_1demapper_1a827ae5519bc620c4c380b92024e012b7" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::mer::demapper::d_constellation</definition>
+        <argsstring></argsstring>
+        <name>d_constellation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="54" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1mer_1_1demapper_1ad4b6d54af78b31e1ac78ed88da3e7d4c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mer::demapper::max_min_axes</definition>
+        <argsstring>()</argsstring>
+        <name>max_min_axes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="44" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1mer_1_1demapper_1a7a410e05c0987a986b48fe71ecb92ee1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mer::demapper::demapper</definition>
+        <argsstring>(const std::vector&lt; gr_complex &gt; map)</argsstring>
+        <name>demapper</name>
+        <param>
+          <type>const std::vector&lt; gr_complex &gt;</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mer_1_1demapper_1a8d66c0d68a593a4928a9c0e29f0d385c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mer::demapper::~demapper</definition>
+        <argsstring>()</argsstring>
+        <name>~demapper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mer_1_1demapper_1ada81e5b41ef5a49b5180d87e1b06ea90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::mer::demapper::demap</definition>
+        <argsstring>(gr_complex val)</argsstring>
+        <name>demap</name>
+        <param>
+          <type>gr_complex</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mer_1_1demapper_1a1d5cec41e24c62976ebb77bed04438bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::mer::demapper::demap</definition>
+        <argsstring>(gr_complex val, int &amp;index)</argsstring>
+        <name>demap</name>
+        <param>
+          <type>gr_complex</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mer_1_1demapper_1a3384b64c947343d96be04864b3e74ad8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::mer::demapper::left_down_contellation</definition>
+        <argsstring>(int &amp;decimal_point)</argsstring>
+        <name>left_down_contellation</name>
+        <param>
+          <type>int &amp;</type>
+          <declname>decimal_point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mer_1_1demapper_1afdeff7ea25d7ac77e11907aa470c17e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::mer::demapper::left_up_contellation</definition>
+        <argsstring>(int &amp;decimal_point)</argsstring>
+        <name>left_up_contellation</name>
+        <param>
+          <type>int &amp;</type>
+          <declname>decimal_point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mer_1_1demapper_1a78d606bb8da326eec56e1015f2512083" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::mer::demapper::right_down_contellation</definition>
+        <argsstring>(int &amp;decimal_point)</argsstring>
+        <name>right_down_contellation</name>
+        <param>
+          <type>int &amp;</type>
+          <declname>decimal_point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mer_1_1demapper_1a6879eb19aea1a29dab953aae1d521d3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::mer::demapper::right_up_contellation</definition>
+        <argsstring>(int &amp;decimal_point)</argsstring>
+        <name>right_up_contellation</name>
+        <param>
+          <type>int &amp;</type>
+          <declname>decimal_point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="58" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="6">
+        <label>std::vector&lt; gr_complex &gt;</label>
+      </node>
+      <node id="5">
+        <label>gr::mer::demapper</label>
+        <link refid="classgr_1_1mer_1_1demapper"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>d_constellation</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="34" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="33" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mer_1_1demapper_1a32f9525547b11b4cf4cade6e820f082b" prot="protected" virt="non-virtual"><scope>gr::mer::demapper</scope><name>d_const_size</name></member>
+      <member refid="classgr_1_1mer_1_1demapper_1a827ae5519bc620c4c380b92024e012b7" prot="public" virt="non-virtual"><scope>gr::mer::demapper</scope><name>d_constellation</name></member>
+      <member refid="classgr_1_1mer_1_1demapper_1a0e235fd22c9e7c705d908e041c606216" prot="protected" virt="non-virtual"><scope>gr::mer::demapper</scope><name>d_constellation_16qam</name></member>
+      <member refid="classgr_1_1mer_1_1demapper_1a7421399b06828279fa136fbab977e544" prot="protected" virt="non-virtual"><scope>gr::mer::demapper</scope><name>d_constellation_64qam</name></member>
+      <member refid="classgr_1_1mer_1_1demapper_1a0403c23bc77065e84aed899313f1ba78" prot="protected" virt="non-virtual"><scope>gr::mer::demapper</scope><name>d_constellation_qpsk</name></member>
+      <member refid="classgr_1_1mer_1_1demapper_1ae2c20b57ec9a0c9ab54fac5e59521ff8" prot="protected" virt="non-virtual"><scope>gr::mer::demapper</scope><name>d_im_max</name></member>
+      <member refid="classgr_1_1mer_1_1demapper_1a32ff0b4695d819b6b350738f3dae5d41" prot="protected" virt="non-virtual"><scope>gr::mer::demapper</scope><name>d_im_min</name></member>
+      <member refid="classgr_1_1mer_1_1demapper_1a7b16d36605e10ed5f107fc84978d694f" prot="protected" virt="non-virtual"><scope>gr::mer::demapper</scope><name>d_re_max</name></member>
+      <member refid="classgr_1_1mer_1_1demapper_1a67ea69ef3934d5d7f82ab39a4e0c9a24" prot="protected" virt="non-virtual"><scope>gr::mer::demapper</scope><name>d_re_min</name></member>
+      <member refid="classgr_1_1mer_1_1demapper_1ada81e5b41ef5a49b5180d87e1b06ea90" prot="public" virt="non-virtual"><scope>gr::mer::demapper</scope><name>demap</name></member>
+      <member refid="classgr_1_1mer_1_1demapper_1a1d5cec41e24c62976ebb77bed04438bc" prot="public" virt="non-virtual"><scope>gr::mer::demapper</scope><name>demap</name></member>
+      <member refid="classgr_1_1mer_1_1demapper_1a7a410e05c0987a986b48fe71ecb92ee1" prot="public" virt="non-virtual"><scope>gr::mer::demapper</scope><name>demapper</name></member>
+      <member refid="classgr_1_1mer_1_1demapper_1a3384b64c947343d96be04864b3e74ad8" prot="public" virt="non-virtual"><scope>gr::mer::demapper</scope><name>left_down_contellation</name></member>
+      <member refid="classgr_1_1mer_1_1demapper_1afdeff7ea25d7ac77e11907aa470c17e9" prot="public" virt="non-virtual"><scope>gr::mer::demapper</scope><name>left_up_contellation</name></member>
+      <member refid="classgr_1_1mer_1_1demapper_1ad4b6d54af78b31e1ac78ed88da3e7d4c" prot="protected" virt="non-virtual"><scope>gr::mer::demapper</scope><name>max_min_axes</name></member>
+      <member refid="classgr_1_1mer_1_1demapper_1a78d606bb8da326eec56e1015f2512083" prot="public" virt="non-virtual"><scope>gr::mer::demapper</scope><name>right_down_contellation</name></member>
+      <member refid="classgr_1_1mer_1_1demapper_1a6879eb19aea1a29dab953aae1d521d3a" prot="public" virt="non-virtual"><scope>gr::mer::demapper</scope><name>right_up_contellation</name></member>
+      <member refid="classgr_1_1mer_1_1demapper_1a8d66c0d68a593a4928a9c0e29f0d385c" prot="public" virt="non-virtual"><scope>gr::mer::demapper</scope><name>~demapper</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

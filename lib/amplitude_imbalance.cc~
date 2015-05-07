@@ -1,0 +1,75 @@
+/* -*- c++ -*- */
+/* 
+ * Copyright 2015 <ARTES Group, Universidad de la República, Uruguay>.
+ * http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3
+ * 
+ * This is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 3, or (at your option)
+ * any later version.
+ * 
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this software; see the file COPYING.  If not, write to
+ * the Free Software Foundation, Inc., 51 Franklin Street,
+ * Boston, MA 02110-1301, USA.
+ */
+
+/* AMPLITUDE IMBALANCE ERROR
+ * We estimate the amplitude imbalance error finding the  contraction or expansion vector of the constellation. 
+ * In order to estimate the ai error we use the four outer constellation points. 
+ * We estimates the average expansion (contraction) of these four points. We average this contraction (expansion) over the four outer points.
+ * The estimation of the contraction (expansion) of the constellation uses the di vector (see ste.cc). 
+ * This vector has the distance between the theoretical symbol point and the corresponding mean point of the cloud of this symbol point. 
+ * As we add the di vector of the four outer points but changing the sign of opposite points the other linear distorsions 
+ * (Carrier suppression and the quadrature error)  are eliminated.  
+ *  update_ai returns a complex number that has the real and imaginary expansion (contraction) values.
+ * amplitude_imbalance object is called  to update ai with each sample received. This class uses the demapper class to find the four outer constellation points
+ */
+
+
+
+#ifdef HAVE_CONFIG_H
+#include "config.h"
+#endif
+
+#include <gnuradio/io_signature.h>
+#include <mer/amplitude_imbalance.h>
+
+namespace gr {
+  namespace mer {
+
+    amplitude_imbalance::amplitude_imbalance(demapper *demap)
+    {
+	d_demapper = demap;
+	d_demapper->right_down_contellation(decimal_right_down);
+	point_right_up = d_demapper->right_up_contellation(decimal_right_up);
+	d_demapper->left_down_contellation(decimal_left_down);
+	d_demapper->left_up_contellation(decimal_left_up);
+	
+    }
+
+    amplitude_imbalance::~amplitude_imbalance()
+    {
+    }
+    gr_complex
+    amplitude_imbalance::update_ai(double tx_power, gr_complex *di)
+    {
+	gr_complex ai=0;
+	// estimates the amplitude imbalance by meassuring the expansion or the contraction of the outer points of the constellation
+	real(ai)= real(di[decimal_right_up]) + real(di[decimal_right_down])-real(di[decimal_left_down])-real(di[decimal_left_up]) ;
+        imag(ai)= imag(di[decimal_right_up]) - imag(di[decimal_right_down])-imag(di[decimal_left_down])+imag(di[decimal_left_up]) ;	
+	// divide by 4 because we estimate using the 4 outer points of the constellation
+	real(ai)= real(ai)/4/real(point_right_up);
+	imag(ai)= imag(ai)/4/imag(point_right_up);
+        return ai;
+    }
+
+
+  } /* namespace mer */
+} /* namespace gr */
+

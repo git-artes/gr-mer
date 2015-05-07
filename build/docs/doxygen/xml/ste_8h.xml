@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="ste_8h" kind="file">
+    <compoundname>ste.h</compoundname>
+    <includes refid="api_8h" local="no">mer/api.h</includes>
+    <includedby refid="probe__ai__cf_8h" local="no">probe_ai_cf.h</includedby>
+    <includedby refid="probe__all__meassurements__cf_8h" local="no">probe_all_meassurements_cf.h</includedby>
+    <includedby refid="probe__cs__cf_8h" local="no">probe_cs_cf.h</includedby>
+    <includedby refid="probe__pj__cf_8h" local="no">probe_pj_cf.h</includedby>
+    <includedby refid="probe__qe__cf_8h" local="no">probe_qe_cf.h</includedby>
+    <includedby refid="probe__ste__cf_8h" local="no">probe_ste_cf.h</includedby>
+    <incdepgraph>
+      <node id="315">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="314">
+        <label>mer/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="315" relation="include">
+        </childnode>
+      </node>
+      <node id="313">
+        <label>ste.h</label>
+        <link refid="ste.h"/>
+        <childnode refid="314" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="320">
+        <label>probe_all_meassurements_cf_impl.h</label>
+        <link refid="probe__all__meassurements__cf__impl_8h"/>
+      </node>
+      <node id="322">
+        <label>probe_cs_cf_impl.h</label>
+        <link refid="probe__cs__cf__impl_8h"/>
+      </node>
+      <node id="325">
+        <label>probe_qe_cf.h</label>
+        <link refid="probe__qe__cf_8h"/>
+        <childnode refid="326" relation="include">
+        </childnode>
+      </node>
+      <node id="328">
+        <label>probe_ste_cf_impl.h</label>
+        <link refid="probe__ste__cf__impl_8h"/>
+      </node>
+      <node id="321">
+        <label>probe_cs_cf.h</label>
+        <link refid="probe__cs__cf_8h"/>
+        <childnode refid="322" relation="include">
+        </childnode>
+      </node>
+      <node id="317">
+        <label>probe_ai_cf.h</label>
+        <link refid="probe__ai__cf_8h"/>
+        <childnode refid="318" relation="include">
+        </childnode>
+      </node>
+      <node id="327">
+        <label>probe_ste_cf.h</label>
+        <link refid="probe__ste__cf_8h"/>
+        <childnode refid="328" relation="include">
+        </childnode>
+      </node>
+      <node id="326">
+        <label>probe_qe_cf_impl.h</label>
+        <link refid="probe__qe__cf__impl_8h"/>
+      </node>
+      <node id="324">
+        <label>probe_pj_cf_impl.h</label>
+        <link refid="probe__pj__cf__impl_8h"/>
+      </node>
+      <node id="318">
+        <label>probe_ai_cf_impl.h</label>
+        <link refid="probe__ai__cf__impl_8h"/>
+      </node>
+      <node id="323">
+        <label>probe_pj_cf.h</label>
+        <link refid="probe__pj__cf_8h"/>
+        <childnode refid="324" relation="include">
+        </childnode>
+      </node>
+      <node id="319">
+        <label>probe_all_meassurements_cf.h</label>
+        <link refid="probe__all__meassurements__cf_8h"/>
+        <childnode refid="320" relation="include">
+        </childnode>
+      </node>
+      <node id="316">
+        <label>ste.h</label>
+        <link refid="ste.h"/>
+        <childnode refid="317" relation="include">
+        </childnode>
+        <childnode refid="319" relation="include">
+        </childnode>
+        <childnode refid="321" relation="include">
+        </childnode>
+        <childnode refid="323" relation="include">
+        </childnode>
+        <childnode refid="325" relation="include">
+        </childnode>
+        <childnode refid="327" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1mer_1_1ste" prot="public">gr::mer::ste</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1mer">gr::mer</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/ste.h"/>
+  </compounddef>
+</doxygen>

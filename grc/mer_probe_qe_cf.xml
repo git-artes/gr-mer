@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<block>
+  <name>Probe Quadrature Error</name>
+  <key>mer_probe_qe_cf</key>
+  <category>mer</category>
+  <import>import mer</import>
+  <make>mer.probe_qe_cf($symbol_table, $alpha)</make>
+ <param>
+	<name>Symbol Table</name>
+	<key>symbol_table</key>
+	<type>complex_vector</type>
+  </param>
+  <param>
+	<name>Alpha</name>
+	<key>alpha</key>
+	<type>float</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>horizontal angle</name>
+    <type>float</type>
+  </source>
+  <source>
+    <name>Vertical Angle</name>
+    <type>float</type>
+  </source>
+  <source>
+    <name>angleh_msg</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+
+  <source>
+    <name>anglev_msg</name>
+    <type>message</type>
+    <optional>3</optional>
+  </source>
+</block>

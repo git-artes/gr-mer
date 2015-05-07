@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1mer_1_1probe__cs__cf__impl" kind="class" prot="public">
+    <compoundname>gr::mer::probe_cs_cf_impl</compoundname>
+    <basecompoundref refid="classgr_1_1mer_1_1probe__cs__cf" prot="public" virt="non-virtual">gr::mer::probe_cs_cf</basecompoundref>
+    <includes refid="probe__cs__cf__impl_8h" local="no">probe_cs_cf_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1mer_1_1probe__cs__cf__impl_1aabaa70fdaf96998021cf8b648bbfc6be" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mer::probe_cs_cf_impl::d_nsamples</definition>
+        <argsstring></argsstring>
+        <name>d_nsamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" line="32" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mer_1_1probe__cs__cf__impl_1af5b77a4b9b7c9df953b06efaa7f91396" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mer::probe_cs_cf_impl::d_count</definition>
+        <argsstring></argsstring>
+        <name>d_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" line="32" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mer_1_1probe__cs__cf__impl_1af45c63531ce1d8fc52c4d2f39b51e988" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::mer::probe_cs_cf_impl::d_alpha</definition>
+        <argsstring></argsstring>
+        <name>d_alpha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" line="33" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mer_1_1probe__cs__cf__impl_1a8ac0554b29ada87641e26495780caa10" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1mer_1_1demapper" kindref="compound">demapper</ref> *</type>
+        <definition>demapper* gr::mer::probe_cs_cf_impl::d_demapper</definition>
+        <argsstring></argsstring>
+        <name>d_demapper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" line="34" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mer_1_1probe__cs__cf__impl_1a4ea83384dd98a9f3639b2c545b56567d" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1mer_1_1ste" kindref="compound">ste</ref> *</type>
+        <definition>ste* gr::mer::probe_cs_cf_impl::d_ste</definition>
+        <argsstring></argsstring>
+        <name>d_ste</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" line="35" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mer_1_1probe__cs__cf__impl_1a1d5572b31b07766965ec2338748fe7f5" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1mer_1_1mer" kindref="compound">mer</ref> *</type>
+        <definition>mer* gr::mer::probe_cs_cf_impl::d_mer</definition>
+        <argsstring></argsstring>
+        <name>d_mer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" line="36" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mer_1_1probe__cs__cf__impl_1af89b461e532c421cc321f9adb3380b8c" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1mer_1_1carrier__suppression" kindref="compound">carrier_suppression</ref> *</type>
+        <definition>carrier_suppression* gr::mer::probe_cs_cf_impl::d_cs</definition>
+        <argsstring></argsstring>
+        <name>d_cs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" line="37" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mer_1_1probe__cs__cf__impl_1a9bb5c5c1837c8aabce9ee155639f16e9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mer::probe_cs_cf_impl::d_dim_constellation</definition>
+        <argsstring></argsstring>
+        <name>d_dim_constellation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" line="38" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mer_1_1probe__cs__cf__impl_1af5d2c2c70ef5c03a46c033e035bd584d" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::mer::probe_cs_cf_impl::d_cs_port</definition>
+        <argsstring></argsstring>
+        <name>d_cs_port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" line="40" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1mer_1_1probe__cs__cf__impl_1aa2aa71b723676b7b56e8baf77eba5877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mer::probe_cs_cf_impl::probe_cs_cf_impl</definition>
+        <argsstring>(const std::vector&lt; gr_complex &gt; &amp;symbol_table, double alpha)</argsstring>
+        <name>probe_cs_cf_impl</name>
+        <param>
+          <type>const std::vector&lt; gr_complex &gt; &amp;</type>
+          <declname>symbol_table</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mer_1_1probe__cs__cf__impl_1a98aab9ea12ac5827637a11097be5448f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mer::probe_cs_cf_impl::~probe_cs_cf_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~probe_cs_cf_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mer_1_1probe__cs__cf__impl_1a0e31947ea5ed71120e66d9ac61fefcc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::mer::probe_cs_cf_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" line="48" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="38">
+        <label>gr::mer::probe_cs_cf_impl</label>
+        <link refid="classgr_1_1mer_1_1probe__cs__cf__impl"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>sync_block</label>
+      </node>
+      <node id="39">
+        <label>gr::mer::probe_cs_cf</label>
+        <link refid="classgr_1_1mer_1_1probe__cs__cf"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="41">
+        <label>gr::mer::probe_cs_cf_impl</label>
+        <link refid="classgr_1_1mer_1_1probe__cs__cf__impl"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>sync_block</label>
+      </node>
+      <node id="42">
+        <label>gr::mer::probe_cs_cf</label>
+        <link refid="classgr_1_1mer_1_1probe__cs__cf"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" line="30" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_cs_cf_impl.h" bodystart="29" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1af45c63531ce1d8fc52c4d2f39b51e988" prot="private" virt="non-virtual"><scope>gr::mer::probe_cs_cf_impl</scope><name>d_alpha</name></member>
+      <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1af5b77a4b9b7c9df953b06efaa7f91396" prot="private" virt="non-virtual"><scope>gr::mer::probe_cs_cf_impl</scope><name>d_count</name></member>
+      <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1af89b461e532c421cc321f9adb3380b8c" prot="private" virt="non-virtual"><scope>gr::mer::probe_cs_cf_impl</scope><name>d_cs</name></member>
+      <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1af5d2c2c70ef5c03a46c033e035bd584d" prot="private" virt="non-virtual"><scope>gr::mer::probe_cs_cf_impl</scope><name>d_cs_port</name></member>
+      <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1a8ac0554b29ada87641e26495780caa10" prot="private" virt="non-virtual"><scope>gr::mer::probe_cs_cf_impl</scope><name>d_demapper</name></member>
+      <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1a9bb5c5c1837c8aabce9ee155639f16e9" prot="private" virt="non-virtual"><scope>gr::mer::probe_cs_cf_impl</scope><name>d_dim_constellation</name></member>
+      <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1a1d5572b31b07766965ec2338748fe7f5" prot="private" virt="non-virtual"><scope>gr::mer::probe_cs_cf_impl</scope><name>d_mer</name></member>
+      <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1aabaa70fdaf96998021cf8b648bbfc6be" prot="private" virt="non-virtual"><scope>gr::mer::probe_cs_cf_impl</scope><name>d_nsamples</name></member>
+      <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1a4ea83384dd98a9f3639b2c545b56567d" prot="private" virt="non-virtual"><scope>gr::mer::probe_cs_cf_impl</scope><name>d_ste</name></member>
+      <member refid="classgr_1_1mer_1_1probe__cs__cf_1a70bd0cf638e5fbb787db1b3f9f3b30a2" prot="public" virt="non-virtual"><scope>gr::mer::probe_cs_cf_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1aa2aa71b723676b7b56e8baf77eba5877" prot="public" virt="non-virtual"><scope>gr::mer::probe_cs_cf_impl</scope><name>probe_cs_cf_impl</name></member>
+      <member refid="classgr_1_1mer_1_1probe__cs__cf_1a5bc52fe2cce4127ccf6d3fb85715230e" prot="public" virt="non-virtual"><scope>gr::mer::probe_cs_cf_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1a0e31947ea5ed71120e66d9ac61fefcc1" prot="public" virt="non-virtual"><scope>gr::mer::probe_cs_cf_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1a98aab9ea12ac5827637a11097be5448f" prot="public" virt="non-virtual"><scope>gr::mer::probe_cs_cf_impl</scope><name>~probe_cs_cf_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

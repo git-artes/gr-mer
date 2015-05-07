@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="probe__qe__cf_8h" kind="file">
+    <compoundname>probe_qe_cf.h</compoundname>
+    <includes refid="api_8h" local="no">mer/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includes refid="demapper_8h" local="no">mer/demapper.h</includes>
+    <includes refid="ste_8h" local="no">mer/ste.h</includes>
+    <includes refid="mer_8h" local="no">mer/mer.h</includes>
+    <includes refid="quadrature__error_8h" local="no">mer/quadrature_error.h</includes>
+    <includedby refid="probe__qe__cf__impl_8h" local="no">probe_qe_cf_impl.h</includedby>
+    <incdepgraph>
+      <node id="253">
+        <label>mer/demapper.h</label>
+        <link refid="demapper_8h"/>
+        <childnode refid="250" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+        <childnode refid="256" relation="include">
+        </childnode>
+      </node>
+      <node id="252">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="258">
+        <label>mer/mer.h</label>
+        <link refid="mer_8h"/>
+        <childnode refid="250" relation="include">
+        </childnode>
+      </node>
+      <node id="251">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="249">
+        <label>probe_qe_cf.h</label>
+        <link refid="probe_qe_cf.h"/>
+        <childnode refid="250" relation="include">
+        </childnode>
+        <childnode refid="252" relation="include">
+        </childnode>
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="257" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+      </node>
+      <node id="250">
+        <label>mer/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="251" relation="include">
+        </childnode>
+      </node>
+      <node id="256">
+        <label>vector</label>
+      </node>
+      <node id="254">
+        <label>gnuradio/gr_complex.h</label>
+      </node>
+      <node id="259">
+        <label>mer/quadrature_error.h</label>
+        <link refid="quadrature__error_8h"/>
+        <childnode refid="250" relation="include">
+        </childnode>
+        <childnode refid="253" relation="include">
+        </childnode>
+      </node>
+      <node id="257">
+        <label>mer/ste.h</label>
+        <link refid="ste_8h"/>
+        <childnode refid="250" relation="include">
+        </childnode>
+      </node>
+      <node id="255">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="260">
+        <label>probe_qe_cf.h</label>
+        <link refid="probe_qe_cf.h"/>
+        <childnode refid="261" relation="include">
+        </childnode>
+      </node>
+      <node id="261">
+        <label>probe_qe_cf_impl.h</label>
+        <link refid="probe__qe__cf__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1mer_1_1probe__qe__cf" prot="public">gr::mer::probe_qe_cf</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1mer">gr::mer</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_qe_cf.h"/>
+  </compounddef>
+</doxygen>

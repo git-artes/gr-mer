@@ -1,0 +1,12 @@
+/home/belza/Dropbox/software/gr-mer/build/swig/CMakeFiles/_mer_swig.dir
+/home/belza/Dropbox/software/gr-mer/build/swig/CMakeFiles/_mer_swig_doc_tag.dir
+/home/belza/Dropbox/software/gr-mer/build/swig/CMakeFiles/_mer_swig_swig_tag.dir
+/home/belza/Dropbox/software/gr-mer/build/docs/doxygen/CMakeFiles/doxygen_target.dir
+/home/belza/Dropbox/software/gr-mer/build/lib/CMakeFiles/gnuradio-mer.dir
+/home/belza/Dropbox/software/gr-mer/build/swig/CMakeFiles/mer_swig_swig_2d0df.dir
+/home/belza/Dropbox/software/gr-mer/build/swig/CMakeFiles/mer_swig_swig_doc.dir
+/home/belza/Dropbox/software/gr-mer/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/belza/Dropbox/software/gr-mer/build/python/CMakeFiles/pygen_python_c2b0b.dir
+/home/belza/Dropbox/software/gr-mer/build/swig/CMakeFiles/pygen_swig_f0fd1.dir
+/home/belza/Dropbox/software/gr-mer/build/lib/CMakeFiles/test-mer.dir
+/home/belza/Dropbox/software/gr-mer/build/CMakeFiles/uninstall.dir

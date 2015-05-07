@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_d44c64559bbebec7f509842c48db8b23" kind="dir">
+    <compoundname>/home/belza/Dropbox/software/gr-mer/include</compoundname>
+    <innerdir refid="dir_69317002f80de1b29bc99e600bf3a879">/home/belza/Dropbox/software/gr-mer/include/mer</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/belza/Dropbox/software/gr-mer/include/"/>
+  </compounddef>
+</doxygen>

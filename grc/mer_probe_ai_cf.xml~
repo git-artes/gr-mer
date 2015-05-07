@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<block>
+  <name>probe Amplitude Imbalance Error</name>
+  <key>mer_probe_ai_cf</key>
+  <category>mer</category>
+  <import>import mer</import>
+  <make>mer.probe_ai_cf($symbol_table, $alpha)</make>
+ <param>
+	<name>Symbol Table</name>
+	<key>symbol_table</key>
+	<type>complex_vector</type>
+  </param>
+  <param>
+	<name>Alpha</name>
+	<key>alpha</key>
+	<type>float</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>ai_real</name>
+    <type>float</type>
+  </source>
+  <source>
+    <name>ai_imag</name>
+    <type>float</type>
+  </source>
+  <source>
+    <name>ai_msg</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+</block>

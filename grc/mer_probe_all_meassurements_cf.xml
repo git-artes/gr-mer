@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<block>
+  <name>Probe All Measurements</name>
+  <key>mer_probe_all_meassurements_cf</key>
+  <category>mer</category>
+  <import>import mer</import>
+  <make>mer.probe_all_meassurements_cf($symbol_table, $alpha)</make>
+ <param>
+	<name>Symbol Table</name>
+	<key>symbol_table</key>
+	<type>complex_vector</type>
+</param>
+  <param>
+	<name>Alpha</name>
+	<key>alpha</key>
+	<type>float</type>
+  </param>
+
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+  <source>
+    <name>mer</name>
+    <type>float</type>
+  </source>
+  <source>
+    <name>ste</name>
+    <type>float</type>
+    <optional>1</optional>
+  </source>
+  <source>
+    <name>cs</name>
+    <type>float</type>
+    <optional>2</optional>
+  </source>
+ <source>
+    <name>real_ai</name>
+    <type>float</type>
+    <optional>3</optional>
+  </source>
+ <source>
+    <name>imag_ai</name>
+    <type>float</type>
+    <optional>4</optional>
+  </source>
+
+  <source>
+    <name>AngleH</name>
+    <type>float</type>
+    <optional>5</optional>
+  </source>
+  <source>
+    <name>AngleV</name>
+    <type>float</type>
+    <optional>6</optional>
+  </source>
+  <source>
+    <name>pj</name>
+    <type>float</type>
+    <optional>7</optional>
+  </source>
+  <source>
+    <name>snr</name>
+    <type>float</type>
+    <optional>8</optional>
+  </source>
+
+</block>

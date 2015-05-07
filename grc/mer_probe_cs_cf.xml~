@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<block>
+  <name>Probe Carrier Suppression</name>
+  <key>mer_probe_cs_cf</key>
+  <category>mer</category>
+  <import>import mer</import>
+  <make>mer.probe_cs_cf($symbol_table, $alpha)</make>
+ <param>
+	<name>Symbol Table</name>
+	<key>symbol_table</key>
+	<type>complex_vector</type>
+  </param>
+  <param>
+	<name>Alpha</name>
+	<key>alpha</key>
+	<type>float</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>cs</name>
+    <type>float</type>
+  </source>
+
+  <source>
+    <name>cs_msg</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+</block>

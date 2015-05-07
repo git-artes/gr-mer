@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1mer_1_1amplitude__imbalance" kind="class" prot="public">
+    <compoundname>gr::mer::amplitude_imbalance</compoundname>
+    <includes refid="amplitude__imbalance_8h" local="no">amplitude_imbalance.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1mer_1_1amplitude__imbalance_1a0b03ed179c7451cb23356fc7c01cce1b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mer::amplitude_imbalance::decimal_right_down</definition>
+        <argsstring></argsstring>
+        <name>decimal_right_down</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/amplitude_imbalance.h" line="41" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/amplitude_imbalance.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mer_1_1amplitude__imbalance_1a39bad7f5921cfe8a480be1c0fea8a28f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mer::amplitude_imbalance::decimal_right_up</definition>
+        <argsstring></argsstring>
+        <name>decimal_right_up</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/amplitude_imbalance.h" line="42" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/amplitude_imbalance.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mer_1_1amplitude__imbalance_1a77730883da2d25e1480f0c03f4616a13" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mer::amplitude_imbalance::decimal_left_down</definition>
+        <argsstring></argsstring>
+        <name>decimal_left_down</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/amplitude_imbalance.h" line="43" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/amplitude_imbalance.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mer_1_1amplitude__imbalance_1aa665aa81e16a7597676e90a916aaeb73" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mer::amplitude_imbalance::decimal_left_up</definition>
+        <argsstring></argsstring>
+        <name>decimal_left_up</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/amplitude_imbalance.h" line="44" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/amplitude_imbalance.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mer_1_1amplitude__imbalance_1a4f06797c389796830a87fba7819212b0" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::mer::amplitude_imbalance::point_right_up</definition>
+        <argsstring></argsstring>
+        <name>point_right_up</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/amplitude_imbalance.h" line="45" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/amplitude_imbalance.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mer_1_1amplitude__imbalance_1ac9572e141f8205a1e20720469a0c538e" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1mer_1_1demapper" kindref="compound">demapper</ref> *</type>
+        <definition>demapper* gr::mer::amplitude_imbalance::d_demapper</definition>
+        <argsstring></argsstring>
+        <name>d_demapper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/amplitude_imbalance.h" line="46" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/amplitude_imbalance.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1mer_1_1amplitude__imbalance_1afe434a58ba394a75d0c10e7345fbb9b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mer::amplitude_imbalance::amplitude_imbalance</definition>
+        <argsstring>(demapper *demap)</argsstring>
+        <name>amplitude_imbalance</name>
+        <param>
+          <type><ref refid="classgr_1_1mer_1_1demapper" kindref="compound">demapper</ref> *</type>
+          <declname>demap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/amplitude_imbalance.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mer_1_1amplitude__imbalance_1a9dbeae9385a8c3a7fcac86b4441ae6e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mer::amplitude_imbalance::~amplitude_imbalance</definition>
+        <argsstring>()</argsstring>
+        <name>~amplitude_imbalance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/amplitude_imbalance.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mer_1_1amplitude__imbalance_1aa9d7f2707e28f05442654db980496840" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::mer::amplitude_imbalance::update_ai</definition>
+        <argsstring>(double tx_power, gr_complex *di)</argsstring>
+        <name>update_ai</name>
+        <param>
+          <type>double</type>
+          <declname>tx_power</declname>
+        </param>
+        <param>
+          <type>gr_complex *</type>
+          <declname>di</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/amplitude_imbalance.h" line="39" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/amplitude_imbalance.h" line="35" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/amplitude_imbalance.h" bodystart="34" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mer_1_1amplitude__imbalance_1afe434a58ba394a75d0c10e7345fbb9b9" prot="public" virt="non-virtual"><scope>gr::mer::amplitude_imbalance</scope><name>amplitude_imbalance</name></member>
+      <member refid="classgr_1_1mer_1_1amplitude__imbalance_1ac9572e141f8205a1e20720469a0c538e" prot="private" virt="non-virtual"><scope>gr::mer::amplitude_imbalance</scope><name>d_demapper</name></member>
+      <member refid="classgr_1_1mer_1_1amplitude__imbalance_1a77730883da2d25e1480f0c03f4616a13" prot="private" virt="non-virtual"><scope>gr::mer::amplitude_imbalance</scope><name>decimal_left_down</name></member>
+      <member refid="classgr_1_1mer_1_1amplitude__imbalance_1aa665aa81e16a7597676e90a916aaeb73" prot="private" virt="non-virtual"><scope>gr::mer::amplitude_imbalance</scope><name>decimal_left_up</name></member>
+      <member refid="classgr_1_1mer_1_1amplitude__imbalance_1a0b03ed179c7451cb23356fc7c01cce1b" prot="private" virt="non-virtual"><scope>gr::mer::amplitude_imbalance</scope><name>decimal_right_down</name></member>
+      <member refid="classgr_1_1mer_1_1amplitude__imbalance_1a39bad7f5921cfe8a480be1c0fea8a28f" prot="private" virt="non-virtual"><scope>gr::mer::amplitude_imbalance</scope><name>decimal_right_up</name></member>
+      <member refid="classgr_1_1mer_1_1amplitude__imbalance_1a4f06797c389796830a87fba7819212b0" prot="private" virt="non-virtual"><scope>gr::mer::amplitude_imbalance</scope><name>point_right_up</name></member>
+      <member refid="classgr_1_1mer_1_1amplitude__imbalance_1aa9d7f2707e28f05442654db980496840" prot="public" virt="non-virtual"><scope>gr::mer::amplitude_imbalance</scope><name>update_ai</name></member>
+      <member refid="classgr_1_1mer_1_1amplitude__imbalance_1a9dbeae9385a8c3a7fcac86b4441ae6e5" prot="public" virt="non-virtual"><scope>gr::mer::amplitude_imbalance</scope><name>~amplitude_imbalance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

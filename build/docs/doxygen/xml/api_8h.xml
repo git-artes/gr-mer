@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="api_8h" kind="file">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="amplitude__imbalance_8h" local="no">amplitude_imbalance.h</includedby>
+    <includedby refid="carrier__suppression_8h" local="no">carrier_suppression.h</includedby>
+    <includedby refid="demapper_8h" local="no">demapper.h</includedby>
+    <includedby refid="mer_8h" local="no">mer.h</includedby>
+    <includedby refid="phase__jitter_8h" local="no">phase_jitter.h</includedby>
+    <includedby refid="probe__ai__cf_8h" local="no">probe_ai_cf.h</includedby>
+    <includedby refid="probe__all__meassurements__cf_8h" local="no">probe_all_meassurements_cf.h</includedby>
+    <includedby refid="probe__cs__cf_8h" local="no">probe_cs_cf.h</includedby>
+    <includedby refid="probe__mer__c_8h" local="no">probe_mer_c.h</includedby>
+    <includedby refid="probe__pj__cf_8h" local="no">probe_pj_cf.h</includedby>
+    <includedby refid="probe__qe__cf_8h" local="no">probe_qe_cf.h</includedby>
+    <includedby refid="probe__ste__cf_8h" local="no">probe_ste_cf.h</includedby>
+    <includedby refid="quadrature__error_8h" local="no">quadrature_error.h</includedby>
+    <includedby refid="ste_8h" local="no">ste.h</includedby>
+    <incdepgraph>
+      <node id="15">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="14">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="27">
+        <label>demapper.h</label>
+        <link refid="demapper_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>probe_all_meassurements_cf_impl.h</label>
+        <link refid="probe__all__meassurements__cf__impl_8h"/>
+      </node>
+      <node id="29">
+        <label>probe_mer_c.h</label>
+        <link refid="probe__mer__c_8h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>mer.h</label>
+        <link refid="mer_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>phase_jitter.h</label>
+        <link refid="phase__jitter_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>probe_cs_cf_impl.h</label>
+        <link refid="probe__cs__cf__impl_8h"/>
+      </node>
+      <node id="24">
+        <label>carrier_suppression.h</label>
+        <link refid="carrier__suppression_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>probe_qe_cf.h</label>
+        <link refid="probe__qe__cf_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>probe_ste_cf_impl.h</label>
+        <link refid="probe__ste__cf__impl_8h"/>
+      </node>
+      <node id="25">
+        <label>probe_cs_cf.h</label>
+        <link refid="probe__cs__cf_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>amplitude_imbalance.h</label>
+        <link refid="amplitude__imbalance_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>probe_ai_cf.h</label>
+        <link refid="probe__ai__cf_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>probe_ste_cf.h</label>
+        <link refid="probe__ste__cf_8h"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>probe_qe_cf_impl.h</label>
+        <link refid="probe__qe__cf__impl_8h"/>
+      </node>
+      <node id="23">
+        <label>probe_pj_cf_impl.h</label>
+        <link refid="probe__pj__cf__impl_8h"/>
+      </node>
+      <node id="35">
+        <label>quadrature_error.h</label>
+        <link refid="quadrature__error_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>probe_ai_cf_impl.h</label>
+        <link refid="probe__ai__cf__impl_8h"/>
+      </node>
+      <node id="22">
+        <label>probe_pj_cf.h</label>
+        <link refid="probe__pj__cf_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>probe_mer_c_impl.h</label>
+        <link refid="probe__mer__c__impl_8h"/>
+      </node>
+      <node id="20">
+        <label>probe_all_meassurements_cf.h</label>
+        <link refid="probe__all__meassurements__cf_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>ste.h</label>
+        <link refid="ste_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1ab46d21c9baaecdff26fdb50bd0e64f14" prot="public" static="no">
+        <name>MER_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/api.h" line="30" column="12" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/api.h"/>
+  </compounddef>
+</doxygen>

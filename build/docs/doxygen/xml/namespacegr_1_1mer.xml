@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespacegr_1_1mer" kind="namespace">
+    <compoundname>gr::mer</compoundname>
+    <innerclass refid="classgr_1_1mer_1_1amplitude__imbalance" prot="public">gr::mer::amplitude_imbalance</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1carrier__suppression" prot="public">gr::mer::carrier_suppression</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1demapper" prot="public">gr::mer::demapper</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1mer" prot="public">gr::mer::mer</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1phase__jitter" prot="public">gr::mer::phase_jitter</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1probe__ai__cf" prot="public">gr::mer::probe_ai_cf</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1probe__all__meassurements__cf" prot="public">gr::mer::probe_all_meassurements_cf</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1probe__cs__cf" prot="public">gr::mer::probe_cs_cf</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1probe__mer__c" prot="public">gr::mer::probe_mer_c</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1probe__pj__cf" prot="public">gr::mer::probe_pj_cf</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1probe__qe__cf" prot="public">gr::mer::probe_qe_cf</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1probe__ste__cf" prot="public">gr::mer::probe_ste_cf</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1quadrature__error" prot="public">gr::mer::quadrature_error</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1ste" prot="public">gr::mer::ste</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1probe__ai__cf__impl" prot="public">gr::mer::probe_ai_cf_impl</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1probe__all__meassurements__cf__impl" prot="public">gr::mer::probe_all_meassurements_cf_impl</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1probe__cs__cf__impl" prot="public">gr::mer::probe_cs_cf_impl</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1probe__mer__c__impl" prot="public">gr::mer::probe_mer_c_impl</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1probe__pj__cf__impl" prot="public">gr::mer::probe_pj_cf_impl</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1probe__qe__cf__impl" prot="public">gr::mer::probe_qe_cf_impl</innerclass>
+    <innerclass refid="classgr_1_1mer_1_1probe__ste__cf__impl" prot="public">gr::mer::probe_ste_cf_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/amplitude_imbalance.h" line="28" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="classgr_1_1mer_1_1amplitude__imbalance" kind="class"><name>gr::mer::amplitude_imbalance</name>
+    <member refid="classgr_1_1mer_1_1amplitude__imbalance_1a0b03ed179c7451cb23356fc7c01cce1b" kind="variable"><name>decimal_right_down</name></member>
+    <member refid="classgr_1_1mer_1_1amplitude__imbalance_1a39bad7f5921cfe8a480be1c0fea8a28f" kind="variable"><name>decimal_right_up</name></member>
+    <member refid="classgr_1_1mer_1_1amplitude__imbalance_1a77730883da2d25e1480f0c03f4616a13" kind="variable"><name>decimal_left_down</name></member>
+    <member refid="classgr_1_1mer_1_1amplitude__imbalance_1aa665aa81e16a7597676e90a916aaeb73" kind="variable"><name>decimal_left_up</name></member>
+    <member refid="classgr_1_1mer_1_1amplitude__imbalance_1a4f06797c389796830a87fba7819212b0" kind="variable"><name>point_right_up</name></member>
+    <member refid="classgr_1_1mer_1_1amplitude__imbalance_1ac9572e141f8205a1e20720469a0c538e" kind="variable"><name>d_demapper</name></member>
+    <member refid="classgr_1_1mer_1_1amplitude__imbalance_1afe434a58ba394a75d0c10e7345fbb9b9" kind="function"><name>amplitude_imbalance</name></member>
+    <member refid="classgr_1_1mer_1_1amplitude__imbalance_1a9dbeae9385a8c3a7fcac86b4441ae6e5" kind="function"><name>~amplitude_imbalance</name></member>
+    <member refid="classgr_1_1mer_1_1amplitude__imbalance_1aa9d7f2707e28f05442654db980496840" kind="function"><name>update_ai</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1carrier__suppression" kind="class"><name>gr::mer::carrier_suppression</name>
+    <member refid="classgr_1_1mer_1_1carrier__suppression_1a47b050f8e79f5f80b796017be12ad6c4" kind="variable"><name>d_cs</name></member>
+    <member refid="classgr_1_1mer_1_1carrier__suppression_1aa38d2e73f068dafe17a4196f0d35e5b2" kind="variable"><name>decimal_right_down</name></member>
+    <member refid="classgr_1_1mer_1_1carrier__suppression_1a3599163706d793cbf8d844bf827390dc" kind="variable"><name>decimal_right_up</name></member>
+    <member refid="classgr_1_1mer_1_1carrier__suppression_1a72859360ce93e97a1dba5ec791e64f54" kind="variable"><name>decimal_left_down</name></member>
+    <member refid="classgr_1_1mer_1_1carrier__suppression_1a3c494a8cd9983a81bcccf0020a420f1b" kind="variable"><name>decimal_left_up</name></member>
+    <member refid="classgr_1_1mer_1_1carrier__suppression_1a0dc6efe8524c603dd07ce26bebc587a1" kind="variable"><name>d_demapper</name></member>
+    <member refid="classgr_1_1mer_1_1carrier__suppression_1a7bbf417001b312805ccb091c35ec5482" kind="function"><name>carrier_suppression</name></member>
+    <member refid="classgr_1_1mer_1_1carrier__suppression_1ac8fad85c5a0e0fdd67d7f7206853c601" kind="function"><name>~carrier_suppression</name></member>
+    <member refid="classgr_1_1mer_1_1carrier__suppression_1a415cf52821dd34dbb5608080c3b82cdc" kind="function"><name>update_cs</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1demapper" kind="class"><name>gr::mer::demapper</name>
+    <member refid="classgr_1_1mer_1_1demapper_1a0403c23bc77065e84aed899313f1ba78" kind="variable"><name>d_constellation_qpsk</name></member>
+    <member refid="classgr_1_1mer_1_1demapper_1a0e235fd22c9e7c705d908e041c606216" kind="variable"><name>d_constellation_16qam</name></member>
+    <member refid="classgr_1_1mer_1_1demapper_1a7421399b06828279fa136fbab977e544" kind="variable"><name>d_constellation_64qam</name></member>
+    <member refid="classgr_1_1mer_1_1demapper_1a32f9525547b11b4cf4cade6e820f082b" kind="variable"><name>d_const_size</name></member>
+    <member refid="classgr_1_1mer_1_1demapper_1a67ea69ef3934d5d7f82ab39a4e0c9a24" kind="variable"><name>d_re_min</name></member>
+    <member refid="classgr_1_1mer_1_1demapper_1a32ff0b4695d819b6b350738f3dae5d41" kind="variable"><name>d_im_min</name></member>
+    <member refid="classgr_1_1mer_1_1demapper_1a7b16d36605e10ed5f107fc84978d694f" kind="variable"><name>d_re_max</name></member>
+    <member refid="classgr_1_1mer_1_1demapper_1ae2c20b57ec9a0c9ab54fac5e59521ff8" kind="variable"><name>d_im_max</name></member>
+    <member refid="classgr_1_1mer_1_1demapper_1a827ae5519bc620c4c380b92024e012b7" kind="variable"><name>d_constellation</name></member>
+    <member refid="classgr_1_1mer_1_1demapper_1ad4b6d54af78b31e1ac78ed88da3e7d4c" kind="function"><name>max_min_axes</name></member>
+    <member refid="classgr_1_1mer_1_1demapper_1a7a410e05c0987a986b48fe71ecb92ee1" kind="function"><name>demapper</name></member>
+    <member refid="classgr_1_1mer_1_1demapper_1a8d66c0d68a593a4928a9c0e29f0d385c" kind="function"><name>~demapper</name></member>
+    <member refid="classgr_1_1mer_1_1demapper_1ada81e5b41ef5a49b5180d87e1b06ea90" kind="function"><name>demap</name></member>
+    <member refid="classgr_1_1mer_1_1demapper_1a1d5cec41e24c62976ebb77bed04438bc" kind="function"><name>demap</name></member>
+    <member refid="classgr_1_1mer_1_1demapper_1a3384b64c947343d96be04864b3e74ad8" kind="function"><name>left_down_contellation</name></member>
+    <member refid="classgr_1_1mer_1_1demapper_1afdeff7ea25d7ac77e11907aa470c17e9" kind="function"><name>left_up_contellation</name></member>
+    <member refid="classgr_1_1mer_1_1demapper_1a78d606bb8da326eec56e1015f2512083" kind="function"><name>right_down_contellation</name></member>
+    <member refid="classgr_1_1mer_1_1demapper_1a6879eb19aea1a29dab953aae1d521d3a" kind="function"><name>right_up_contellation</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1mer" kind="class"><name>gr::mer::mer</name>
+    <member refid="classgr_1_1mer_1_1mer_1a063052cc746348257044fbd2b65a4888" kind="variable"><name>d_alpha</name></member>
+    <member refid="classgr_1_1mer_1_1mer_1ad9a066add38ea655c7e00c750d359893" kind="variable"><name>d_avgtxsignal_power</name></member>
+    <member refid="classgr_1_1mer_1_1mer_1a503c4580e69ee7dc3a63e73554ed62dd" kind="variable"><name>d_avgerror_power</name></member>
+    <member refid="classgr_1_1mer_1_1mer_1abaac3fa54b9d62a52b3305a6eec8cef6" kind="function"><name>mer</name></member>
+    <member refid="classgr_1_1mer_1_1mer_1ab55c4b5b62b63554384ddb84d199a775" kind="function"><name>~mer</name></member>
+    <member refid="classgr_1_1mer_1_1mer_1ad46eeded410239cbe87c1d7862c275f5" kind="function"><name>update_mer</name></member>
+    <member refid="classgr_1_1mer_1_1mer_1a507caa5aef597e7eabbc3b5a7fc0d47b" kind="function"><name>update_avg_tx_power</name></member>
+    <member refid="classgr_1_1mer_1_1mer_1a34ee6cb90d90269211e011180acc65b1" kind="function"><name>update_avg_error_power</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1phase__jitter" kind="class"><name>gr::mer::phase_jitter</name>
+    <member refid="classgr_1_1mer_1_1phase__jitter_1a19f7b8c4b361fc5659c880144eec0f0f" kind="variable"><name>d_decimal_right_down</name></member>
+    <member refid="classgr_1_1mer_1_1phase__jitter_1acb20559b56f06c20fb0213bb847f4754" kind="variable"><name>d_decimal_right_up</name></member>
+    <member refid="classgr_1_1mer_1_1phase__jitter_1a085ed2e6d664f9a40bad7ce27734bcf0" kind="variable"><name>d_decimal_left_down</name></member>
+    <member refid="classgr_1_1mer_1_1phase__jitter_1a207481dca3eb70c15f1c83f3056811f9" kind="variable"><name>d_decimal_left_up</name></member>
+    <member refid="classgr_1_1mer_1_1phase__jitter_1a959052d0d1f58e09012c55a9599fa801" kind="variable"><name>d_point_right_up</name></member>
+    <member refid="classgr_1_1mer_1_1phase__jitter_1ab7adc634106875965359a6b55c18b897" kind="variable"><name>d_demapper</name></member>
+    <member refid="classgr_1_1mer_1_1phase__jitter_1a05e33ea9b6f56429720e322c55ea7008" kind="variable"><name>d_alpha</name></member>
+    <member refid="classgr_1_1mer_1_1phase__jitter_1a65cd67dd71bd636b695fd32d6beb5a11" kind="variable"><name>d_dim_constellation</name></member>
+    <member refid="classgr_1_1mer_1_1phase__jitter_1a1541b1fe6f846c13af9a858fb1b3e15f" kind="variable"><name>d_var_cloud</name></member>
+    <member refid="classgr_1_1mer_1_1phase__jitter_1ab7167b9bd84c51e09e889c2b857cf3ef" kind="variable"><name>d_mean_cloud</name></member>
+    <member refid="classgr_1_1mer_1_1phase__jitter_1a76aafb1e484ebcd99893e6c0a10b4d4e" kind="variable"><name>d_mean_noise</name></member>
+    <member refid="classgr_1_1mer_1_1phase__jitter_1a210a8ef4f163439ebc463559e36e36c6" kind="variable"><name>d_var_noise</name></member>
+    <member refid="classgr_1_1mer_1_1phase__jitter_1ac972d815961c3332866c14d29157a35c" kind="function"><name>phase_jitter</name></member>
+    <member refid="classgr_1_1mer_1_1phase__jitter_1ab05d587812873d778a2c766b86cf2ed1" kind="function"><name>~phase_jitter</name></member>
+    <member refid="classgr_1_1mer_1_1phase__jitter_1a36171935dd64408377b1c6bbeb334fd5" kind="function"><name>update_pj</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1probe__ai__cf" kind="class"><name>gr::mer::probe_ai_cf</name>
+    <member refid="classgr_1_1mer_1_1probe__ai__cf_1a0412a5f360a82d7f26dc35320a60b637" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ai__cf_1a6a0374efa51a005ffe0c985684ac09f9" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1probe__ai__cf__impl" kind="class"><name>gr::mer::probe_ai_cf_impl</name>
+    <member refid="classgr_1_1mer_1_1probe__ai__cf__impl_1a2d76ea9bfedfcc24c0abf17fabc13ea4" kind="variable"><name>d_nsamples</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ai__cf__impl_1a128ecf66658bd1654328d5a48f705208" kind="variable"><name>d_count</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ai__cf__impl_1ae1ecc28e8c6efefd29e8b41e98766d76" kind="variable"><name>d_alpha</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ai__cf__impl_1a97bfe86d921320d2a964f9c4d9cf2f58" kind="variable"><name>d_demapper</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ai__cf__impl_1a1697ceca88618f3bf4a0cce5fd30674b" kind="variable"><name>d_ste</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ai__cf__impl_1aa113ac45ab8b761f2f9957983675eb0f" kind="variable"><name>d_mer</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ai__cf__impl_1ac39a72a9f243387dc0d6c9eca4897571" kind="variable"><name>d_ai</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ai__cf__impl_1abab14dc571420968a22ee1621cc255c4" kind="variable"><name>d_dim_constellation</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ai__cf__impl_1a1b07bdcfda8b4cceee94b4a6cbb2a6b6" kind="variable"><name>d_ai_port</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ai__cf__impl_1a04733481cfcc5ad11a15c2073f801b13" kind="function"><name>probe_ai_cf_impl</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ai__cf__impl_1a3dc7e3512d277f7fb46aff9fa67e54c2" kind="function"><name>~probe_ai_cf_impl</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ai__cf__impl_1adf83b1dea6cdc09a40557f1752bfbdf7" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1probe__all__meassurements__cf" kind="class"><name>gr::mer::probe_all_meassurements_cf</name>
+    <member refid="classgr_1_1mer_1_1probe__all__meassurements__cf_1a6c4cae9edc9d5167082c644aa293dce8" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1mer_1_1probe__all__meassurements__cf_1ac94bae7a627a377278b7d6bf5cbaff74" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1probe__all__meassurements__cf__impl" kind="class"><name>gr::mer::probe_all_meassurements_cf_impl</name>
+    <member refid="classgr_1_1mer_1_1probe__all__meassurements__cf__impl_1af3908a8cba5c5753bf4ab1a42831c04a" kind="variable"><name>d_nsamples</name></member>
+    <member refid="classgr_1_1mer_1_1probe__all__meassurements__cf__impl_1a6d687c3ae78809a5be5e96acfe9dea1c" kind="variable"><name>d_count</name></member>
+    <member refid="classgr_1_1mer_1_1probe__all__meassurements__cf__impl_1a638b28679d70a0fd2ab494ca34bc91e2" kind="variable"><name>d_alpha</name></member>
+    <member refid="classgr_1_1mer_1_1probe__all__meassurements__cf__impl_1a2488645b0308bed855154cb5dea0cd84" kind="variable"><name>d_demapper</name></member>
+    <member refid="classgr_1_1mer_1_1probe__all__meassurements__cf__impl_1a609655433b7a54772ca9c97ae30bd4cd" kind="variable"><name>d_ste</name></member>
+    <member refid="classgr_1_1mer_1_1probe__all__meassurements__cf__impl_1af27b452e99a1a553fabf3f91402d2ade" kind="variable"><name>d_mer</name></member>
+    <member refid="classgr_1_1mer_1_1probe__all__meassurements__cf__impl_1ac2f6e3d68d631c268a40b853d72901b2" kind="variable"><name>d_qe</name></member>
+    <member refid="classgr_1_1mer_1_1probe__all__meassurements__cf__impl_1aa6681352629135c09d238b7b779f13ce" kind="variable"><name>d_ai</name></member>
+    <member refid="classgr_1_1mer_1_1probe__all__meassurements__cf__impl_1a361e91b3f8607700baba864be518ffce" kind="variable"><name>d_cs</name></member>
+    <member refid="classgr_1_1mer_1_1probe__all__meassurements__cf__impl_1ab8ffd238485342a9c8d1709ef6df8e78" kind="variable"><name>d_pj</name></member>
+    <member refid="classgr_1_1mer_1_1probe__all__meassurements__cf__impl_1af94ca5aabd49c58c01eed34127ad7bcc" kind="variable"><name>d_dim_constellation</name></member>
+    <member refid="classgr_1_1mer_1_1probe__all__meassurements__cf__impl_1a85686549420fa98503d3a6895613cd38" kind="function"><name>probe_all_meassurements_cf_impl</name></member>
+    <member refid="classgr_1_1mer_1_1probe__all__meassurements__cf__impl_1a096b8b17cd46373c9de778350e3d7283" kind="function"><name>~probe_all_meassurements_cf_impl</name></member>
+    <member refid="classgr_1_1mer_1_1probe__all__meassurements__cf__impl_1a5b71858a7e361d2dc936ddf6a0f343dd" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1probe__cs__cf" kind="class"><name>gr::mer::probe_cs_cf</name>
+    <member refid="classgr_1_1mer_1_1probe__cs__cf_1a5bc52fe2cce4127ccf6d3fb85715230e" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1mer_1_1probe__cs__cf_1a70bd0cf638e5fbb787db1b3f9f3b30a2" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1probe__cs__cf__impl" kind="class"><name>gr::mer::probe_cs_cf_impl</name>
+    <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1aabaa70fdaf96998021cf8b648bbfc6be" kind="variable"><name>d_nsamples</name></member>
+    <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1af5b77a4b9b7c9df953b06efaa7f91396" kind="variable"><name>d_count</name></member>
+    <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1af45c63531ce1d8fc52c4d2f39b51e988" kind="variable"><name>d_alpha</name></member>
+    <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1a8ac0554b29ada87641e26495780caa10" kind="variable"><name>d_demapper</name></member>
+    <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1a4ea83384dd98a9f3639b2c545b56567d" kind="variable"><name>d_ste</name></member>
+    <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1a1d5572b31b07766965ec2338748fe7f5" kind="variable"><name>d_mer</name></member>
+    <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1af89b461e532c421cc321f9adb3380b8c" kind="variable"><name>d_cs</name></member>
+    <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1a9bb5c5c1837c8aabce9ee155639f16e9" kind="variable"><name>d_dim_constellation</name></member>
+    <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1af5d2c2c70ef5c03a46c033e035bd584d" kind="variable"><name>d_cs_port</name></member>
+    <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1aa2aa71b723676b7b56e8baf77eba5877" kind="function"><name>probe_cs_cf_impl</name></member>
+    <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1a98aab9ea12ac5827637a11097be5448f" kind="function"><name>~probe_cs_cf_impl</name></member>
+    <member refid="classgr_1_1mer_1_1probe__cs__cf__impl_1a0e31947ea5ed71120e66d9ac61fefcc1" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1probe__mer__c" kind="class"><name>gr::mer::probe_mer_c</name>
+    <member refid="classgr_1_1mer_1_1probe__mer__c_1a833abe0888fbdf978b8921edb5b528fd" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1mer_1_1probe__mer__c_1ac8eed9e9897c01b1bc18d02d7405b834" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1probe__mer__c__impl" kind="class"><name>gr::mer::probe_mer_c_impl</name>
+    <member refid="classgr_1_1mer_1_1probe__mer__c__impl_1a9a261fadbffa968cb0114437cdf5b802" kind="variable"><name>d_nsamples</name></member>
+    <member refid="classgr_1_1mer_1_1probe__mer__c__impl_1aad8f34c4addd0bf68c44e69c2095bd3a" kind="variable"><name>d_count</name></member>
+    <member refid="classgr_1_1mer_1_1probe__mer__c__impl_1a9d0420bd8898f4a76ff4d9f1c464c89b" kind="variable"><name>d_alpha</name></member>
+    <member refid="classgr_1_1mer_1_1probe__mer__c__impl_1ae0f7b1459a9a7b92fd017070b1849aa2" kind="variable"><name>d_demapper</name></member>
+    <member refid="classgr_1_1mer_1_1probe__mer__c__impl_1a3c3fd2bad684d1d1f8e50c40f0f21f01" kind="variable"><name>d_mer</name></member>
+    <member refid="classgr_1_1mer_1_1probe__mer__c__impl_1a301aa4293e258e15f883e0d40ce9f643" kind="variable"><name>d_dim_constellation</name></member>
+    <member refid="classgr_1_1mer_1_1probe__mer__c__impl_1a2ac8cf958ec0e1be9dbbf5d65df19f58" kind="variable"><name>d_mer_port</name></member>
+    <member refid="classgr_1_1mer_1_1probe__mer__c__impl_1a85fff3414f56fb0b26a77a3a879701e7" kind="function"><name>probe_mer_c_impl</name></member>
+    <member refid="classgr_1_1mer_1_1probe__mer__c__impl_1a84ba62ce843c0d3114c858d2908ec286" kind="function"><name>~probe_mer_c_impl</name></member>
+    <member refid="classgr_1_1mer_1_1probe__mer__c__impl_1a897cc517f53019d19807509c778c3d6f" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1probe__pj__cf" kind="class"><name>gr::mer::probe_pj_cf</name>
+    <member refid="classgr_1_1mer_1_1probe__pj__cf_1a93f5b18b2fe9eb075e06696a553cdc8b" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1mer_1_1probe__pj__cf_1ab947b7d0b35eafbbf137f9eb8869ed1b" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1probe__pj__cf__impl" kind="class"><name>gr::mer::probe_pj_cf_impl</name>
+    <member refid="classgr_1_1mer_1_1probe__pj__cf__impl_1afc472f57bae36d2a696ef741b227b266" kind="variable"><name>d_nsamples</name></member>
+    <member refid="classgr_1_1mer_1_1probe__pj__cf__impl_1aa2395cacbccb12c15a3e53476de50ef1" kind="variable"><name>d_count</name></member>
+    <member refid="classgr_1_1mer_1_1probe__pj__cf__impl_1a31e25c476a5c8cd9af22b16d7f736e12" kind="variable"><name>d_alpha</name></member>
+    <member refid="classgr_1_1mer_1_1probe__pj__cf__impl_1a151f4f159e5215dda3f2877d54ea3815" kind="variable"><name>d_demapper</name></member>
+    <member refid="classgr_1_1mer_1_1probe__pj__cf__impl_1aa6635158873661ebe04893d264cbc1e3" kind="variable"><name>d_ste</name></member>
+    <member refid="classgr_1_1mer_1_1probe__pj__cf__impl_1a7b5a4900d5d4dec0c82b579a56176df1" kind="variable"><name>d_mer</name></member>
+    <member refid="classgr_1_1mer_1_1probe__pj__cf__impl_1ad71516beb810d92f4168439d480ff622" kind="variable"><name>d_qe</name></member>
+    <member refid="classgr_1_1mer_1_1probe__pj__cf__impl_1a17bcd1d74ffc5a358468530f5185cae5" kind="variable"><name>d_ai</name></member>
+    <member refid="classgr_1_1mer_1_1probe__pj__cf__impl_1a478de426cbb7c6c5444836eab4d16d5c" kind="variable"><name>d_cs</name></member>
+    <member refid="classgr_1_1mer_1_1probe__pj__cf__impl_1a982a7701a3a86a751da079ae1364ad38" kind="variable"><name>d_pj</name></member>
+    <member refid="classgr_1_1mer_1_1probe__pj__cf__impl_1a9705d9badadf90fe4f966cd0697ef04b" kind="variable"><name>d_dim_constellation</name></member>
+    <member refid="classgr_1_1mer_1_1probe__pj__cf__impl_1a962afc79025a15b25f32d02c920b096c" kind="variable"><name>d_pj_port</name></member>
+    <member refid="classgr_1_1mer_1_1probe__pj__cf__impl_1a9cc5f095a0ec68c2147cee3bc18fab6a" kind="variable"><name>d_snr_port</name></member>
+    <member refid="classgr_1_1mer_1_1probe__pj__cf__impl_1a57d83112d46d478c1ae8d470c97cdfac" kind="function"><name>probe_pj_cf_impl</name></member>
+    <member refid="classgr_1_1mer_1_1probe__pj__cf__impl_1acf31c31dc223210dc6b2d11b675c4253" kind="function"><name>~probe_pj_cf_impl</name></member>
+    <member refid="classgr_1_1mer_1_1probe__pj__cf__impl_1ac19e30119ba752350b1d2f1fb1953c4d" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1probe__qe__cf" kind="class"><name>gr::mer::probe_qe_cf</name>
+    <member refid="classgr_1_1mer_1_1probe__qe__cf_1a1e481b4913ca73518c01ecf8e021e68c" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1mer_1_1probe__qe__cf_1af4f5c18d8dc1faf9be88e7bcfe667d6a" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1probe__qe__cf__impl" kind="class"><name>gr::mer::probe_qe_cf_impl</name>
+    <member refid="classgr_1_1mer_1_1probe__qe__cf__impl_1a4c3d8bc011cafa1b8145f1626e2f356b" kind="variable"><name>d_nsamples</name></member>
+    <member refid="classgr_1_1mer_1_1probe__qe__cf__impl_1a3baf72ed0202f8402da3b092f5182fd7" kind="variable"><name>d_count</name></member>
+    <member refid="classgr_1_1mer_1_1probe__qe__cf__impl_1acf2cdc10f9f989dc86e2e366068c24b8" kind="variable"><name>d_alpha</name></member>
+    <member refid="classgr_1_1mer_1_1probe__qe__cf__impl_1ac13f68669c26f7cf017308675313b95e" kind="variable"><name>d_demapper</name></member>
+    <member refid="classgr_1_1mer_1_1probe__qe__cf__impl_1ace130bb8392a14092f50361f8d5704ce" kind="variable"><name>d_ste</name></member>
+    <member refid="classgr_1_1mer_1_1probe__qe__cf__impl_1a04db191b48ba2285fe40fab922e49911" kind="variable"><name>d_mer</name></member>
+    <member refid="classgr_1_1mer_1_1probe__qe__cf__impl_1aaa7bfc5681ed308f752a38be031389fd" kind="variable"><name>d_qe</name></member>
+    <member refid="classgr_1_1mer_1_1probe__qe__cf__impl_1a68137b072db34dcce793e732cb2986b2" kind="variable"><name>d_dim_constellation</name></member>
+    <member refid="classgr_1_1mer_1_1probe__qe__cf__impl_1a317cef4ff08d7e3ee0a63f49fd7d00b6" kind="variable"><name>d_angleh_port</name></member>
+    <member refid="classgr_1_1mer_1_1probe__qe__cf__impl_1a98ab2c2549ceb3f30bf773323093a7b6" kind="variable"><name>d_anglev_port</name></member>
+    <member refid="classgr_1_1mer_1_1probe__qe__cf__impl_1a6db4b883a975321758e5614acc59eb0d" kind="function"><name>probe_qe_cf_impl</name></member>
+    <member refid="classgr_1_1mer_1_1probe__qe__cf__impl_1a00f1e91252f65d8a4352c08a14ee3a94" kind="function"><name>~probe_qe_cf_impl</name></member>
+    <member refid="classgr_1_1mer_1_1probe__qe__cf__impl_1a725d78864fc1714ffdf1abf4b2311ab5" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1probe__ste__cf" kind="class"><name>gr::mer::probe_ste_cf</name>
+    <member refid="classgr_1_1mer_1_1probe__ste__cf_1a674703136f7e36376ba09615f2fb84fc" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ste__cf_1a71ea6b4b9e95a226a8da1278b5e83b8b" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1probe__ste__cf__impl" kind="class"><name>gr::mer::probe_ste_cf_impl</name>
+    <member refid="classgr_1_1mer_1_1probe__ste__cf__impl_1ae78370c6197e502655f3d4b682ad4324" kind="variable"><name>d_nsamples</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ste__cf__impl_1a3eddca07d0b7c6f6fa8d630e0ae08ef2" kind="variable"><name>d_count</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ste__cf__impl_1ae707d4ebe5caa00015ac43d7f9b28d99" kind="variable"><name>d_alpha</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ste__cf__impl_1a95aa43c5390c5be1d837e26d01b8b2fc" kind="variable"><name>d_demapper</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ste__cf__impl_1a3993f45883daf04b8e2160f49a1ab631" kind="variable"><name>d_ste</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ste__cf__impl_1acb3328a0a1c62af6774daa343c47ff8e" kind="variable"><name>d_mer</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ste__cf__impl_1ad412034d1d7015e5fa17901108b3fa9a" kind="variable"><name>d_dim_constellation</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ste__cf__impl_1a1b6968eeafb14d7a8a890c35f619eb0d" kind="variable"><name>d_ste_port</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ste__cf__impl_1aa376da879d9ed1e2903f2809d1d3cb39" kind="variable"><name>d_stem_port</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ste__cf__impl_1a1e86603642f0f6e8a689e61ec7241698" kind="variable"><name>d_sted_port</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ste__cf__impl_1ad82ed0113c4de800bd6db91f130c5b02" kind="function"><name>probe_ste_cf_impl</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ste__cf__impl_1a134036ba03e408262488cdd957b00157" kind="function"><name>~probe_ste_cf_impl</name></member>
+    <member refid="classgr_1_1mer_1_1probe__ste__cf__impl_1aac2731c19a61690ebc47b3c42c4102b4" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1quadrature__error" kind="class"><name>gr::mer::quadrature_error</name>
+    <member refid="classgr_1_1mer_1_1quadrature__error_1af083ea3f719f88f79efa32e315bc6d82" kind="variable"><name>d_decimal_right_down</name></member>
+    <member refid="classgr_1_1mer_1_1quadrature__error_1a6d298d4b21740d813e8dbb7ae712bcf8" kind="variable"><name>d_decimal_right_up</name></member>
+    <member refid="classgr_1_1mer_1_1quadrature__error_1a38ff75cdfa073d2a29ab16bdbdff0cd0" kind="variable"><name>d_decimal_left_down</name></member>
+    <member refid="classgr_1_1mer_1_1quadrature__error_1a17e3eff0350bfaca5159d5911910e17c" kind="variable"><name>d_decimal_left_up</name></member>
+    <member refid="classgr_1_1mer_1_1quadrature__error_1a4c66539918c1cf4c7f9efc78bfe4745f" kind="variable"><name>d_point_right_up</name></member>
+    <member refid="classgr_1_1mer_1_1quadrature__error_1aae230c4278880c36ba686dcfee0e176c" kind="variable"><name>d_demapper</name></member>
+    <member refid="classgr_1_1mer_1_1quadrature__error_1aadc1a3076308d0138e8c20703d122d2c" kind="variable"><name>d_alpha</name></member>
+    <member refid="classgr_1_1mer_1_1quadrature__error_1ad1d030ee8fa7dc2d6bbb2742268da21c" kind="variable"><name>d_dim_constellation</name></member>
+    <member refid="classgr_1_1mer_1_1quadrature__error_1ac2a60b71d8bd71a9b1ae00c91ce5a52d" kind="function"><name>quadrature_error</name></member>
+    <member refid="classgr_1_1mer_1_1quadrature__error_1ab8befa3f500fcbc1760100343b0c72cd" kind="function"><name>~quadrature_error</name></member>
+    <member refid="classgr_1_1mer_1_1quadrature__error_1a355fd84aefa83de339ac22f0a2843e2b" kind="function"><name>update_qe</name></member>
+  </compound>
+  <compound refid="classgr_1_1mer_1_1ste" kind="class"><name>gr::mer::ste</name>
+    <member refid="classgr_1_1mer_1_1ste_1ad19087e7f422b2b46de65247d0f1e6ef" kind="variable"><name>d_alpha</name></member>
+    <member refid="classgr_1_1mer_1_1ste_1ada3048fca7d62c94450a0c0b933fd698" kind="variable"><name>d_di</name></member>
+    <member refid="classgr_1_1mer_1_1ste_1ac772819a641a62f31ae11dd12b520c4f" kind="variable"><name>d_dim_constellation</name></member>
+    <member refid="classgr_1_1mer_1_1ste_1a5fa7c6818812ef3b9c292e008b3c019d" kind="function"><name>ste</name></member>
+    <member refid="classgr_1_1mer_1_1ste_1a9dacc6dc635e3b6e53ae744a1fdbd94e" kind="function"><name>~ste</name></member>
+    <member refid="classgr_1_1mer_1_1ste_1ad78ece948981633514283a050d94baf8" kind="function"><name>update_ste</name></member>
+    <member refid="classgr_1_1mer_1_1ste_1ace4220cbc7372b23d2b56f3e764d61a0" kind="function"><name>update_stem</name></member>
+    <member refid="classgr_1_1mer_1_1ste_1a9d5993d02b3e16e72a234bf2fd3dbc90" kind="function"><name>update_sted</name></member>
+    <member refid="classgr_1_1mer_1_1ste_1a2b97d2faf2c0d6ef4f41541d0d219266" kind="function"><name>update_di</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1mer" kind="namespace"><name>gr::mer</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="amplitude__imbalance_8h" kind="file"><name>amplitude_imbalance.h</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1ab46d21c9baaecdff26fdb50bd0e64f14" kind="define"><name>MER_API</name></member>
+  </compound>
+  <compound refid="carrier__suppression_8h" kind="file"><name>carrier_suppression.h</name>
+  </compound>
+  <compound refid="demapper_8h" kind="file"><name>demapper.h</name>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="mer_8h" kind="file"><name>mer.h</name>
+  </compound>
+  <compound refid="phase__jitter_8h" kind="file"><name>phase_jitter.h</name>
+  </compound>
+  <compound refid="probe__ai__cf_8h" kind="file"><name>probe_ai_cf.h</name>
+  </compound>
+  <compound refid="probe__ai__cf__impl_8h" kind="file"><name>probe_ai_cf_impl.h</name>
+  </compound>
+  <compound refid="probe__all__meassurements__cf_8h" kind="file"><name>probe_all_meassurements_cf.h</name>
+  </compound>
+  <compound refid="probe__all__meassurements__cf__impl_8h" kind="file"><name>probe_all_meassurements_cf_impl.h</name>
+  </compound>
+  <compound refid="probe__cs__cf_8h" kind="file"><name>probe_cs_cf.h</name>
+  </compound>
+  <compound refid="probe__cs__cf__impl_8h" kind="file"><name>probe_cs_cf_impl.h</name>
+  </compound>
+  <compound refid="probe__mer__c_8h" kind="file"><name>probe_mer_c.h</name>
+  </compound>
+  <compound refid="probe__mer__c__impl_8h" kind="file"><name>probe_mer_c_impl.h</name>
+  </compound>
+  <compound refid="probe__pj__cf_8h" kind="file"><name>probe_pj_cf.h</name>
+  </compound>
+  <compound refid="probe__pj__cf__impl_8h" kind="file"><name>probe_pj_cf_impl.h</name>
+  </compound>
+  <compound refid="probe__qe__cf_8h" kind="file"><name>probe_qe_cf.h</name>
+  </compound>
+  <compound refid="probe__qe__cf__impl_8h" kind="file"><name>probe_qe_cf_impl.h</name>
+  </compound>
+  <compound refid="probe__ste__cf_8h" kind="file"><name>probe_ste_cf.h</name>
+  </compound>
+  <compound refid="probe__ste__cf__impl_8h" kind="file"><name>probe_ste_cf_impl.h</name>
+  </compound>
+  <compound refid="quadrature__error_8h" kind="file"><name>quadrature_error.h</name>
+  </compound>
+  <compound refid="ste_8h" kind="file"><name>ste.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_69317002f80de1b29bc99e600bf3a879" kind="dir"><name>mer</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

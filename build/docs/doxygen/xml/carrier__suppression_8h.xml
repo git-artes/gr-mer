@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="carrier__suppression_8h" kind="file">
+    <compoundname>carrier_suppression.h</compoundname>
+    <includes refid="api_8h" local="no">mer/api.h</includes>
+    <includes refid="demapper_8h" local="no">mer/demapper.h</includes>
+    <includedby refid="probe__all__meassurements__cf_8h" local="no">probe_all_meassurements_cf.h</includedby>
+    <includedby refid="probe__cs__cf_8h" local="no">probe_cs_cf.h</includedby>
+    <includedby refid="probe__pj__cf_8h" local="no">probe_pj_cf.h</includedby>
+    <incdepgraph>
+      <node id="41">
+        <label>mer/demapper.h</label>
+        <link refid="demapper_8h"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="38">
+        <label>carrier_suppression.h</label>
+        <link refid="carrier_suppression.h"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>mer/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>vector</label>
+      </node>
+      <node id="42">
+        <label>gnuradio/gr_complex.h</label>
+      </node>
+      <node id="43">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="47">
+        <label>probe_all_meassurements_cf_impl.h</label>
+        <link refid="probe__all__meassurements__cf__impl_8h"/>
+      </node>
+      <node id="49">
+        <label>probe_cs_cf_impl.h</label>
+        <link refid="probe__cs__cf__impl_8h"/>
+      </node>
+      <node id="45">
+        <label>carrier_suppression.h</label>
+        <link refid="carrier_suppression.h"/>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>probe_cs_cf.h</label>
+        <link refid="probe__cs__cf_8h"/>
+        <childnode refid="49" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>probe_pj_cf_impl.h</label>
+        <link refid="probe__pj__cf__impl_8h"/>
+      </node>
+      <node id="50">
+        <label>probe_pj_cf.h</label>
+        <link refid="probe__pj__cf_8h"/>
+        <childnode refid="51" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>probe_all_meassurements_cf.h</label>
+        <link refid="probe__all__meassurements__cf_8h"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1mer_1_1carrier__suppression" prot="public">gr::mer::carrier_suppression</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1mer">gr::mer</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h"/>
+  </compounddef>
+</doxygen>

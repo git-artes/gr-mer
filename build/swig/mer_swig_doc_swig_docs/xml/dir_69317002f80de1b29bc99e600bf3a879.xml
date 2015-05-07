@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_69317002f80de1b29bc99e600bf3a879" kind="dir">
+    <compoundname>/home/belza/Dropbox/software/gr-mer/include/mer</compoundname>
+    <innerfile refid="amplitude__imbalance_8h">amplitude_imbalance.h</innerfile>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="carrier__suppression_8h">carrier_suppression.h</innerfile>
+    <innerfile refid="demapper_8h">demapper.h</innerfile>
+    <innerfile refid="mer_8h">mer.h</innerfile>
+    <innerfile refid="phase__jitter_8h">phase_jitter.h</innerfile>
+    <innerfile refid="probe__ai__cf_8h">probe_ai_cf.h</innerfile>
+    <innerfile refid="probe__all__meassurements__cf_8h">probe_all_meassurements_cf.h</innerfile>
+    <innerfile refid="probe__cs__cf_8h">probe_cs_cf.h</innerfile>
+    <innerfile refid="probe__mer__c_8h">probe_mer_c.h</innerfile>
+    <innerfile refid="probe__pj__cf_8h">probe_pj_cf.h</innerfile>
+    <innerfile refid="probe__qe__cf_8h">probe_qe_cf.h</innerfile>
+    <innerfile refid="probe__ste__cf_8h">probe_ste_cf.h</innerfile>
+    <innerfile refid="quadrature__error_8h">quadrature_error.h</innerfile>
+    <innerfile refid="ste_8h">ste.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/"/>
+  </compounddef>
+</doxygen>

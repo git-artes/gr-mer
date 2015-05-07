@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<block>
+  <name>probe modulation error ratio</name>
+  <key>mer_probe_mer_c</key>
+  <category>mer</category>
+  <import>import mer</import>
+  <make>mer.probe_mer_c($symbol_table,$alpha)</make>
+  <param>
+	<name>Symbol Table</name>
+	<key>symbol_table</key>
+	<type>complex_vector</type>
+  </param>
+  <param>
+	<name>Alpha</name>
+	<key>alpha</key>
+	<type>float</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>mer</name>
+    <type>float</type>
+  </source>
+
+  <source>
+    <name>mer_msg</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+  
+</block>
