@@ -1,6 +1,7 @@
 /* -*- c++ -*- */
 /* 
- * Copyright 2015 <+YOU OR YOUR COMPANY+>.
+ * Copyright 2015 <ARTES Group, Universidad de la República, Uruguay>.
+ * http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3
  * 
  * This is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

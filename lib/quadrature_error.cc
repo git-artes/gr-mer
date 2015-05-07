@@ -1,6 +1,7 @@
 /* -*- c++ -*- */
 /* 
- * Copyright 2015 <+YOU OR YOUR COMPANY+>.
+ * Copyright 2015 <ARTES Group, Universidad de la República, Uruguay>.
+ * http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3
  * 
  * This is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,6 +19,24 @@
  * Boston, MA 02110-1301, USA.
  */
 
+
+/* QUADRATURE IMBALANCE ERROR FOR QAM
+ * We estimate the quadrature imbalance error qe finding the horizontal and vertical angle of the constellation displacement. 
+ * We assume that the displacement of the cosntellation points has the following axes symmetry.
+ * If the constellation has for example these two points: x+jy and -x+jy, a vertical quadrature error moves the points to x+j(y+u) and -x+j(y-u) 
+ * In order to estimate the qe error we use the following outer constellation points: right up point,right down point, left up point.
+ * With the first and the second ones we estimate the vertical angle and with the first and the third ones we estimate the horizontal angle. 
+ * We give the angles in radians.
+ * The estimation of the qe error uses the di vector (see ste.cc). 
+ * This vector has the distance between the theoretical symbol point and the corresponding mean point of the cloud of this symbol point. 
+ * If there are other linear distorsions (carrier suppression and amplitude imbalance) do not influence the calculation of qe errors.  
+ * update_qe returns void but the angles are passed by reference to the function.
+ * quadrature error object is called  to update qe with each sample received. This class uses the demapper class to find the four outer constellation points
+ */
+
+
+
+
 #ifdef HAVE_CONFIG_H
 #include "config.h"
 #endif
@@ -25,13 +44,14 @@
 #include <gnuradio/io_signature.h>
 #include <mer/quadrature_error.h>
 
+
+
+
 namespace gr {
   namespace mer {
 
-    quadrature_error::quadrature_error(int dim_constellation, double alpha, demapper *demap)
+    quadrature_error::quadrature_error( demapper *demap)
     {
-	d_alpha = alpha;
-	d_dim_constellation = dim_constellation;
 	d_demapper = demap;
 	d_demapper->right_down_contellation(d_decimal_right_down);
 	d_point_right_up= d_demapper->right_up_contellation(d_decimal_right_up);
@@ -46,6 +66,7 @@ namespace gr {
     quadrature_error::update_qe(double tx_power, gr_complex *di, double &angleh, double &anglev)
     {
 	gr_complex qe_aux=0;
+	// angles estimation
 	real(qe_aux)= (real(di[d_decimal_right_up])-real(di[d_decimal_right_down]))/2;
 	imag(qe_aux)= (imag(di[d_decimal_right_up])-imag(di[d_decimal_left_up]))/2;
 	angleh = atan(imag(qe_aux)/real(d_point_right_up));	

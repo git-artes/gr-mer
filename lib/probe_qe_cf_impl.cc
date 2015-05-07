@@ -55,7 +55,7 @@ namespace gr {
       	d_dim_constellation = symbol_table.size();
       	d_demapper = new demapper(symbol_table);
         d_ste = new ste(d_dim_constellation,d_alpha);
-	d_qe = new quadrature_error(d_dim_constellation,d_alpha,d_demapper);
+	d_qe = new quadrature_error(d_demapper);
 	d_mer = new mer(d_alpha);
     }
 

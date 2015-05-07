@@ -166,7 +166,7 @@ Params: (symbol_table, alpha)"
 
 %feature("docstring") gr::mer::quadrature_error::quadrature_error "
 
-Params: (dim_constellation, alpha, demap)"
+Params: (demap)"
 
 %feature("docstring") gr::mer::quadrature_error::~quadrature_error "
 

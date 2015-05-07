@@ -89,7 +89,7 @@ $(document).ready(function(){initNavTree('quadrature__error_8h_source.html','');
 <div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classgr_1_1mer_1_1quadrature__error.html">   34</a></span>&#160;    <span class="keyword">class </span><a class="code" href="api_8h.html#ab46d21c9baaecdff26fdb50bd0e64f14">MER_API</a> <a class="code" href="classgr_1_1mer_1_1quadrature__error.html">quadrature_error</a></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    {</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;      <a class="code" href="classgr_1_1mer_1_1quadrature__error.html">quadrature_error</a>(<span class="keywordtype">int</span> dim_constellation, <span class="keywordtype">double</span> alpha, <a class="code" href="classgr_1_1mer_1_1demapper.html">demapper</a> *demap);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;      <a class="code" href="classgr_1_1mer_1_1quadrature__error.html">quadrature_error</a>(<a class="code" href="classgr_1_1mer_1_1demapper.html">demapper</a> *demap);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;      ~<a class="code" href="classgr_1_1mer_1_1quadrature__error.html">quadrature_error</a>();</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;      <span class="keywordtype">void</span> update_qe(<span class="keywordtype">double</span> tx_power, gr_complex *di, <span class="keywordtype">double</span> &amp;angleh, <span class="keywordtype">double</span> &amp;anglev);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">private</span>:</div>
@@ -99,15 +99,13 @@ $(document).ready(function(){initNavTree('quadrature__error_8h_source.html','');
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordtype">int</span> d_decimal_left_up;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        gr_complex d_point_right_up;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="classgr_1_1mer_1_1demapper.html">demapper</a> * d_demapper;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordtype">double</span> d_alpha;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordtype">int</span> d_dim_constellation;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    };</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  } <span class="comment">// namespace mer</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;} <span class="comment">// namespace gr</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* INCLUDED_MER_QUADRATURE_ERROR_H */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    };</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  } <span class="comment">// namespace mer</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;} <span class="comment">// namespace gr</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* INCLUDED_MER_QUADRATURE_ERROR_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor"></span></div>
 <div class="ttc" id="api_8h_html"><div class="ttname"><a href="api_8h.html">api.h</a></div></div>
 <div class="ttc" id="demapper_8h_html"><div class="ttname"><a href="demapper_8h.html">demapper.h</a></div></div>
 <div class="ttc" id="api_8h_html_ab46d21c9baaecdff26fdb50bd0e64f14"><div class="ttname"><a href="api_8h.html#ab46d21c9baaecdff26fdb50bd0e64f14">MER_API</a></div><div class="ttdeci">#define MER_API</div><div class="ttdef"><b>Definition:</b> api.h:30</div></div>
@@ -119,7 +117,7 @@ $(document).ready(function(){initNavTree('quadrature__error_8h_source.html','');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_69317002f80de1b29bc99e600bf3a879.html">mer</a></li><li class="navelem"><a class="el" href="quadrature__error_8h.html">quadrature_error.h</a></li>
-    <li class="footer">Generated on Tue May 5 2015 15:01:07 for GNU Radio&#39;s MER Package by
+    <li class="footer">Generated on Thu May 7 2015 12:41:03 for GNU Radio&#39;s MER Package by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

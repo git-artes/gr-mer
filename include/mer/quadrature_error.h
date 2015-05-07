@@ -34,7 +34,7 @@ namespace gr {
     class MER_API quadrature_error
     {
     public:
-      quadrature_error(int dim_constellation, double alpha, demapper *demap);
+      quadrature_error(demapper *demap);
       ~quadrature_error();
       void update_qe(double tx_power, gr_complex *di, double &angleh, double &anglev);
     private:
@@ -44,8 +44,6 @@ namespace gr {
 	int d_decimal_left_up;
 	gr_complex d_point_right_up;
 	demapper * d_demapper;
-	double d_alpha;
-	int d_dim_constellation;
     };
 
   } // namespace mer

@@ -45,6 +45,7 @@ namespace gr {
 
     amplitude_imbalance::amplitude_imbalance(demapper *demap)
     {
+	//with the demapper object we find the outer constellation points
 	d_demapper = demap;
 	d_demapper->right_down_contellation(decimal_right_down);
 	point_right_up = d_demapper->right_up_contellation(decimal_right_up);
@@ -56,6 +57,7 @@ namespace gr {
     amplitude_imbalance::~amplitude_imbalance()
     {
     }
+
     gr_complex
     amplitude_imbalance::update_ai(double tx_power, gr_complex *di)
     {

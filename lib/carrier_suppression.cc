@@ -21,6 +21,8 @@
 
 /* CARRIER SUPPRESSION ERROR
  * We estimate the carrier suppression error finding the DC offset of the samples. The constellation is systematically translated  by a fixed vector.
+ * We assume that the displacement of the cosntellation points has the following axes symmetry.
+ * If the constellation has for example these two points: x+jy and -x+jy, a carrier suppression error on the real axe moves the points to x+u+jy and -x+u+jy 
  * In order to estimate the cs error we use the four outer constellation points. We estimates the average translation vector of these four points. We average this translation over the four outer points.
  * The estimation of the translation of the constellation uses the di vector (see ste.cc) that has the distance between the theoretical symbol point and the corresponding mean point of the cloud of this
  * symbol point. As we sum the translation vector of the four outer points the other linear distorsions 

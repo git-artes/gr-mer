@@ -38,10 +38,11 @@ namespace gr {
       ~quadrature_error();
       void update_qe(double tx_power, gr_complex *di, double &angleh, double &anglev);
     private:
-	int decimal_right_down;
-	int decimal_right_up;
-	int decimal_left_down;
-	int decimal_left_up;
+	int d_decimal_right_down;
+	int d_decimal_right_up;
+	int d_decimal_left_down;
+	int d_decimal_left_up;
+	gr_complex d_point_right_up;
 	demapper * d_demapper;
 	double d_alpha;
 	int d_dim_constellation;

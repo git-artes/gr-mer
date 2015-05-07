@@ -1896,9 +1896,9 @@ class quadrature_error(object):
     __repr__ = _swig_repr
     def __init__(self, *args, **kwargs): 
         """
-        __init__(gr::mer::quadrature_error self, int dim_constellation, double alpha, demapper demap) -> quadrature_error
+        __init__(gr::mer::quadrature_error self, demapper demap) -> quadrature_error
 
-        Params: (dim_constellation, alpha, demap)
+        Params: (demap)
         """
         this = _mer_swig.new_quadrature_error(*args, **kwargs)
         try: self.this.append(this)

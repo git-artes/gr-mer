@@ -82,47 +82,13 @@
         </inbodydescription>
         <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="46" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" bodystart="46" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classgr_1_1mer_1_1quadrature__error_1aadc1a3076308d0138e8c20703d122d2c" prot="private" static="no" mutable="no">
-        <type>double</type>
-        <definition>double gr::mer::quadrature_error::d_alpha</definition>
-        <argsstring></argsstring>
-        <name>d_alpha</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="47" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" bodystart="47" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classgr_1_1mer_1_1quadrature__error_1ad1d030ee8fa7dc2d6bbb2742268da21c" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int gr::mer::quadrature_error::d_dim_constellation</definition>
-        <argsstring></argsstring>
-        <name>d_dim_constellation</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="48" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" bodystart="48" bodyend="-1"/>
-      </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="classgr_1_1mer_1_1quadrature__error_1ac2a60b71d8bd71a9b1ae00c91ce5a52d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classgr_1_1mer_1_1quadrature__error_1a40f2516366790acd919ef24d6214f484" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>gr::mer::quadrature_error::quadrature_error</definition>
-        <argsstring>(int dim_constellation, double alpha, demapper *demap)</argsstring>
+        <argsstring>(demapper *demap)</argsstring>
         <name>quadrature_error</name>
-        <param>
-          <type>int</type>
-          <declname>dim_constellation</declname>
-        </param>
-        <param>
-          <type>double</type>
-          <declname>alpha</declname>
-        </param>
         <param>
           <type><ref refid="classgr_1_1mer_1_1demapper" kindref="compound">demapper</ref> *</type>
           <declname>demap</declname>
@@ -182,17 +148,15 @@
 <para>&lt;+description+&gt; </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="35" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" bodystart="34" bodyend="49"/>
+    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="35" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" bodystart="34" bodyend="47"/>
     <listofallmembers>
-      <member refid="classgr_1_1mer_1_1quadrature__error_1aadc1a3076308d0138e8c20703d122d2c" prot="private" virt="non-virtual"><scope>gr::mer::quadrature_error</scope><name>d_alpha</name></member>
       <member refid="classgr_1_1mer_1_1quadrature__error_1a38ff75cdfa073d2a29ab16bdbdff0cd0" prot="private" virt="non-virtual"><scope>gr::mer::quadrature_error</scope><name>d_decimal_left_down</name></member>
       <member refid="classgr_1_1mer_1_1quadrature__error_1a17e3eff0350bfaca5159d5911910e17c" prot="private" virt="non-virtual"><scope>gr::mer::quadrature_error</scope><name>d_decimal_left_up</name></member>
       <member refid="classgr_1_1mer_1_1quadrature__error_1af083ea3f719f88f79efa32e315bc6d82" prot="private" virt="non-virtual"><scope>gr::mer::quadrature_error</scope><name>d_decimal_right_down</name></member>
       <member refid="classgr_1_1mer_1_1quadrature__error_1a6d298d4b21740d813e8dbb7ae712bcf8" prot="private" virt="non-virtual"><scope>gr::mer::quadrature_error</scope><name>d_decimal_right_up</name></member>
       <member refid="classgr_1_1mer_1_1quadrature__error_1aae230c4278880c36ba686dcfee0e176c" prot="private" virt="non-virtual"><scope>gr::mer::quadrature_error</scope><name>d_demapper</name></member>
-      <member refid="classgr_1_1mer_1_1quadrature__error_1ad1d030ee8fa7dc2d6bbb2742268da21c" prot="private" virt="non-virtual"><scope>gr::mer::quadrature_error</scope><name>d_dim_constellation</name></member>
       <member refid="classgr_1_1mer_1_1quadrature__error_1a4c66539918c1cf4c7f9efc78bfe4745f" prot="private" virt="non-virtual"><scope>gr::mer::quadrature_error</scope><name>d_point_right_up</name></member>
-      <member refid="classgr_1_1mer_1_1quadrature__error_1ac2a60b71d8bd71a9b1ae00c91ce5a52d" prot="public" virt="non-virtual"><scope>gr::mer::quadrature_error</scope><name>quadrature_error</name></member>
+      <member refid="classgr_1_1mer_1_1quadrature__error_1a40f2516366790acd919ef24d6214f484" prot="public" virt="non-virtual"><scope>gr::mer::quadrature_error</scope><name>quadrature_error</name></member>
       <member refid="classgr_1_1mer_1_1quadrature__error_1a355fd84aefa83de339ac22f0a2843e2b" prot="public" virt="non-virtual"><scope>gr::mer::quadrature_error</scope><name>update_qe</name></member>
       <member refid="classgr_1_1mer_1_1quadrature__error_1ab8befa3f500fcbc1760100343b0c72cd" prot="public" virt="non-virtual"><scope>gr::mer::quadrature_error</scope><name>~quadrature_error</name></member>
     </listofallmembers>

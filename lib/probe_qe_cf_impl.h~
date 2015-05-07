@@ -34,7 +34,7 @@ namespace gr {
       demapper *d_demapper;
       ste *d_ste;
       mer *d_mer;
-      carrier_suppression *d_cs; 
+      quadrature_error *d_qe; 
       int d_dim_constellation;
       // Message port name
       pmt::pmt_t d_angleh_port;

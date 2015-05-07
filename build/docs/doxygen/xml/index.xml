@@ -208,9 +208,7 @@
     <member refid="classgr_1_1mer_1_1quadrature__error_1a17e3eff0350bfaca5159d5911910e17c" kind="variable"><name>d_decimal_left_up</name></member>
     <member refid="classgr_1_1mer_1_1quadrature__error_1a4c66539918c1cf4c7f9efc78bfe4745f" kind="variable"><name>d_point_right_up</name></member>
     <member refid="classgr_1_1mer_1_1quadrature__error_1aae230c4278880c36ba686dcfee0e176c" kind="variable"><name>d_demapper</name></member>
-    <member refid="classgr_1_1mer_1_1quadrature__error_1aadc1a3076308d0138e8c20703d122d2c" kind="variable"><name>d_alpha</name></member>
-    <member refid="classgr_1_1mer_1_1quadrature__error_1ad1d030ee8fa7dc2d6bbb2742268da21c" kind="variable"><name>d_dim_constellation</name></member>
-    <member refid="classgr_1_1mer_1_1quadrature__error_1ac2a60b71d8bd71a9b1ae00c91ce5a52d" kind="function"><name>quadrature_error</name></member>
+    <member refid="classgr_1_1mer_1_1quadrature__error_1a40f2516366790acd919ef24d6214f484" kind="function"><name>quadrature_error</name></member>
     <member refid="classgr_1_1mer_1_1quadrature__error_1ab8befa3f500fcbc1760100343b0c72cd" kind="function"><name>~quadrature_error</name></member>
     <member refid="classgr_1_1mer_1_1quadrature__error_1a355fd84aefa83de339ac22f0a2843e2b" kind="function"><name>update_qe</name></member>
   </compound>

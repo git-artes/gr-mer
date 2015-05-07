@@ -56,7 +56,7 @@ namespace gr {
       	d_demapper = new demapper(symbol_table);
 	d_pj = new phase_jitter(d_dim_constellation,d_alpha,d_demapper);
 	d_ai = new amplitude_imbalance(d_demapper);
-	d_qe = new quadrature_error(d_dim_constellation,d_alpha,d_demapper);
+	d_qe = new quadrature_error(d_demapper);
 	d_cs = new carrier_suppression(d_demapper);
 	d_mer = new mer(d_alpha);
 	d_ste = new ste(d_dim_constellation,d_alpha);

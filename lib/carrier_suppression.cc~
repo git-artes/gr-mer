@@ -47,7 +47,7 @@ namespace gr {
 	d_demapper->right_up_contellation(decimal_right_up);
 	d_demapper->left_down_contellation(decimal_left_down);
 	d_demapper->left_up_contellation(decimal_left_up);
-	// we storage the carrier suppression error as a complex number in a public variable
+	// we store the carrier suppression error as a complex number in a public variable
 	d_cs =0;
     }
 

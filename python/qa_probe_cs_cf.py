@@ -21,7 +21,7 @@
 # 
 
 #
-# CARRIER SUPPRESSION ERROR
+# CARRIER SUPPRESSION ERROR TEST
 # We estimate the carrier suppression error finding the DC offset of the samples. The constellation is systematically translated  by a fixed vector.
 # We estimates the average translation vector.The cs value is the residual carrier power normalized to the tx average power.
 # # This test analize a global traslation of the constellation.

@@ -34,7 +34,7 @@ namespace gr {
     class MER_API amplitude_imbalance
     {
     public:
-      amplitude_imbalance(int dim_constellation, double alpha, demapper *demap);
+      amplitude_imbalance(demapper *demap);
       ~amplitude_imbalance();
        gr_complex update_ai(double tx_power, gr_complex *di);
     private:
@@ -44,8 +44,6 @@ namespace gr {
 	int decimal_left_up;
 	gr_complex point_right_up;
 	demapper * d_demapper;
-	double d_alpha;
-	int d_dim_constellation;
     };
 
   } // namespace mer
