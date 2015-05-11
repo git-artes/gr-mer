@@ -31,8 +31,8 @@ namespace gr {
      private:
       int d_nsamples, d_count;
       double d_alpha;
-      //demapper *d_demapper;
-      //mer *d_mer;
+      demapper *d_demapper;
+      mer *d_mer;
       int d_dim_constellation;
       // Message port name
       pmt::pmt_t d_mer_port;

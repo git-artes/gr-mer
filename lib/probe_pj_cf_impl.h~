@@ -41,8 +41,8 @@ namespace gr {
 
       int d_dim_constellation;
       // Message port name
-      pmt::pmt_t d_angleh_port;
-      pmt::pmt_t d_anglev_port;
+      pmt::pmt_t d_pj_port;
+      pmt::pmt_t d_snr_port;
 
      public:
       probe_pj_cf_impl(const std::vector<gr_complex> &symbol_table, double alpha);

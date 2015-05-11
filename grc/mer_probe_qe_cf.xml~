@@ -1,38 +1,58 @@
 <?xml version="1.0"?>
 <block>
-  <name>probe_qe_cf</name>
+  <name>Probe Quadrature Imbalance Error</name>
   <key>mer_probe_qe_cf</key>
   <category>mer</category>
   <import>import mer</import>
-  <make>mer.probe_qe_cf($&symbol_table, $alpha)</make>
-  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
-       Sub-nodes:
-       * name
-       * key (makes the value accessible as $keyname, e.g. in the make node)
-       * type -->
-  <param>
-    <name>...</name>
-    <key>...</key>
-    <type>...</type>
+  <make>mer.probe_qe_cf($symbol_table, $alpha)</make>
+ <param>
+	<name>Symbol Table</name>
+	<key>symbol_table</key>
+	<type>complex_vector</type>
   </param>
-
-  <!-- Make one 'sink' node per input. Sub-nodes:
-       * name (an identifier for the GUI)
-       * type
-       * vlen
-       * optional (set to 1 for optional inputs) -->
+  <param>
+	<name>Alpha</name>
+	<key>alpha</key>
+	<type>float</type>
+  </param>
   <sink>
     <name>in</name>
-    <type><!-- e.g. int, float, complex, byte, short, xxx_vector, ...--></type>
+    <type>complex</type>
   </sink>
-
-  <!-- Make one 'source' node per output. Sub-nodes:
-       * name (an identifier for the GUI)
-       * type
-       * vlen
-       * optional (set to 1 for optional inputs) -->
   <source>
-    <name>out</name>
-    <type><!-- e.g. int, float, complex, byte, short, xxx_vector, ...--></type>
+    <name>horizontal angle</name>
+    <type>float</type>
   </source>
+  <source>
+    <name>Vertical Angle</name>
+    <type>float</type>
+  </source>
+  <source>
+    <name>angleh_msg</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+
+  <source>
+    <name>anglev_msg</name>
+    <type>message</type>
+    <optional>3</optional>
+  </source>
+  <doc>
+	Recieves the symbol table and the filter parameter alpha.
+    	QUADRATURE IMBALANCE ERROR FOR QAM
+ 	We estimate the quadrature imbalance error qe finding the horizontal and vertical angle of the constellation displacement. 
+ 	We assume that the displacement of the cosntellation points has the following axes symmetry.
+ 	If the constellation has for example these two points: x+jy and -x+jy, a vertical quadrature error moves the points to x+j(y+u) and -x+j(y-u) 
+ 	In order to estimate the qe error we use the following outer constellation points: right up point,right down point, left up point.
+ 	With the first and the second ones we estimate the vertical angle and with the first and the third ones we estimate the horizontal angle. 
+ 	We give the angles in radians.
+ 	The estimation of the qe error uses the di vector (see ste.cc). 
+ 	This vector has the distance between the theoretical symbol point and the corresponding mean point of the cloud of this symbol point. 
+ 	If there are other linear distorsions (carrier suppression and amplitude imbalance) do not influence the calculation of qe errors.  
+ 	update_qe returns void but the angles are passed by reference to the function.
+ 	quadrature error object is called  to update qe with each sample received. This class uses the demapper class to find the four outer constellation points
+  </doc>
+
+
 </block>

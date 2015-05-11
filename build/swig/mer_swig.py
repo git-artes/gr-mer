@@ -2240,9 +2240,9 @@ class phase_jitter(object):
     __repr__ = _swig_repr
     def __init__(self, *args, **kwargs): 
         """
-        __init__(gr::mer::phase_jitter self, int dim_constellation, double alpha, demapper demap) -> phase_jitter
+        __init__(gr::mer::phase_jitter self, int dim_constellation, demapper demap) -> phase_jitter
 
-        Params: (dim_constellation, alpha, demap)
+        Params: (dim_constellation, demap)
         """
         this = _mer_swig.new_phase_jitter(*args, **kwargs)
         try: self.this.append(this)

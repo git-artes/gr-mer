@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_all_meassurements_cf.h" line="46" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/probe_all_meassurements_cf.h" bodystart="46" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_all_meassurements_cf.h" line="51" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/probe_all_meassurements_cf.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -40,7 +40,7 @@
 <para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1mer_1_1probe__all__meassurements__cf" kindref="compound">mer::probe_all_meassurements_cf</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1mer_1_1probe__all__meassurements__cf_1ac94bae7a627a377278b7d6bf5cbaff74" kindref="member">mer::probe_all_meassurements_cf::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_all_meassurements_cf.h" line="56" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_all_meassurements_cf.h" line="61" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -75,7 +75,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_all_meassurements_cf.h" line="44" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/probe_all_meassurements_cf.h" bodystart="43" bodyend="57"/>
+    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_all_meassurements_cf.h" line="49" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/probe_all_meassurements_cf.h" bodystart="48" bodyend="62"/>
     <listofallmembers>
       <member refid="classgr_1_1mer_1_1probe__all__meassurements__cf_1ac94bae7a627a377278b7d6bf5cbaff74" prot="public" virt="non-virtual"><scope>gr::mer::probe_all_meassurements_cf</scope><name>make</name></member>
       <member refid="classgr_1_1mer_1_1probe__all__meassurements__cf_1a6c4cae9edc9d5167082c644aa293dce8" prot="public" virt="non-virtual"><scope>gr::mer::probe_all_meassurements_cf</scope><name>sptr</name></member>

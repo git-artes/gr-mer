@@ -1,6 +1,11 @@
 /* -*- c++ -*- */
 /* 
- * Copyright 2015 <+YOU OR YOUR COMPANY+>.
+ * Copyright 2015
+ * Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Pablo Flores Guridi, Federico Larroca. 
+ * ARTES Group
+ * http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3
+ * Instituto de Ingenieria Electrica, Facultad de Ingenieria,
+ * Universidad de la Republica, Uruguay.
  * 
  * This is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -34,7 +39,7 @@ namespace gr {
     class MER_API phase_jitter
     {
     public:
-      phase_jitter(int dim_constellation, double alpha, demapper *demap);
+      phase_jitter(int dim_constellation, demapper *demap);
       ~phase_jitter();
       double update_pj(gr_complex iq,gr_complex cs,gr_complex ai,gr_complex qe,double tx_power, double & snr);
 
@@ -45,7 +50,6 @@ namespace gr {
 	int d_decimal_left_up;
 	gr_complex d_point_right_up;
 	demapper * d_demapper;
-	double d_alpha;
 	int d_dim_constellation;
 	double d_var_cloud;
 	gr_complex d_mean_cloud;

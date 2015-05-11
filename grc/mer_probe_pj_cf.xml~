@@ -1,38 +1,53 @@
 <?xml version="1.0"?>
 <block>
-  <name>probe_pj_cf</name>
+  <name>Probe Phase Jitter Error</name>
   <key>mer_probe_pj_cf</key>
   <category>mer</category>
   <import>import mer</import>
-  <make>mer.probe_pj_cf($&symbol_table, $alpha)</make>
-  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
-       Sub-nodes:
-       * name
-       * key (makes the value accessible as $keyname, e.g. in the make node)
-       * type -->
+  <make>mer.probe_pj_cf($symbol_table, $alpha)</make>
   <param>
-    <name>...</name>
-    <key>...</key>
-    <type>...</type>
+	<name>Symbol Table</name>
+	<key>symbol_table</key>
+	<type>complex_vector</type>
   </param>
-
-  <!-- Make one 'sink' node per input. Sub-nodes:
-       * name (an identifier for the GUI)
-       * type
-       * vlen
-       * optional (set to 1 for optional inputs) -->
+  <param>
+	<name>Alpha</name>
+	<key>alpha</key>
+	<type>float</type>
+  </param>
   <sink>
     <name>in</name>
-    <type><!-- e.g. int, float, complex, byte, short, xxx_vector, ...--></type>
+    <type>complex</type>
   </sink>
-
-  <!-- Make one 'source' node per output. Sub-nodes:
-       * name (an identifier for the GUI)
-       * type
-       * vlen
-       * optional (set to 1 for optional inputs) -->
   <source>
-    <name>out</name>
-    <type><!-- e.g. int, float, complex, byte, short, xxx_vector, ...--></type>
+    <name>phase_jitter</name>
+    <type>float</type>
   </source>
+  <source>
+    <name>snr</name>
+    <type>float</type>
+  </source>
+  <source>
+    <name>pj_msg</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+
+  <source>
+    <name>snr_msg</name>
+    <type>message</type>
+    <optional>3</optional>
+  </source>
+
+  <doc>
+        Recieves the symbol table and the filter parameter alpha.
+	PHASE JITTER ERROR:
+ 	We estimate the phase jitter error using the outer right up constelation cloud.The model is that if x is a transmitted symbol the phase jitter plus additive noise is modeled as: y = x exp(j \phi) + n, 
+ 	where phi and n are gaussian random variables. If we define E{error^2}=(y-x)*(y-x)^*.
+ 	It can be proved that E{error^2} is approx. equal to N_0+\sigma_{\phi}^2 E_s where N_0 is the variance of the additive gaussian noise, sigma_{\phi}^2 is the variance of the jitter noise and E_s is the 	 energy of the symbol.
+	This class estimates \sigma_{\phi}^2 and the snr after the constellation points are corrected of the other linear impairments (cs,ai,qe).
+ 	This block outputs  \sigma_{\phi}^2  and the snr as a flow of floats and as periodic messages.
+  </doc>
+
 </block>
+

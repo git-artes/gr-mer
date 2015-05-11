@@ -1,7 +1,11 @@
 /* -*- c++ -*- */
 /* 
- * Copyright 2015 <ARTES Group, Universidad de la República, Uruguay>.
+ * Copyright 2015
+ * Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Federico Larroca. 
+ * ARTES Group
  * http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3
+ * Instituto de Ingenieria Electrica, Facultad de Ingenieria,
+ * Universidad de la Republica, Uruguay.
  * 
  * This is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,7 +27,7 @@
 /* SYSTEM TARGET ERROR - STE
  * For each of the dim_constellation symbol points calculate the distance d_di between
  * the theoretical symbol point and the corresponding mean point of the cloud of this
- * symbol point. d_di is called Target Error Vector (TEV).
+ * symbol point. d_di is called Target Error Vector (TEV).This vector indicates the presence of distortions like Carrier Suppression, Amplitude Imbalance, Quadrature Error and may be other non-linear distortions.
  * We define the STE as the average of abs(d_di) over the constellation points : sum_{i=0}^{dim_constellation-1}(abs(d_di[i]))/d_dim_constellation
  * We define the System Target Error Mean STEM as the STE normalized to the average Tx power STE/tx_power
  * We define the System Target Error Deviation as the standard deviation over the constellation points: STED = sqrt(sum_{i=0}^{dim_constellation-1}abs(d_di[i])/d_dim_constellation/tx_power^2- STEM^2) 

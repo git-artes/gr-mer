@@ -1,6 +1,7 @@
 /* -*- c++ -*- */
 /* 
- * Copyright 2015 <+ARTES group,Universidad de la República, Uruguay+>.
+ * Copyright 2015 <ARTES Group, Universidad de la República, Uruguay>.
+ * http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3
  * 
  * This is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,6 +18,7 @@
  * the Free Software Foundation, Inc., 51 Franklin Street,
  * Boston, MA 02110-1301, USA.
  */
+
 
 /* This block uses mer.cc to calculate the Modulation Error Rate
  * With each new sample updates MER and outs its value.

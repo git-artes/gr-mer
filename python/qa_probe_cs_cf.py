@@ -1,8 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # 
-# Copyright 2015 <ARTES Group, Universidad de la República, Uruguay>.
+# Copyright 2015
+# Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Pablo Flores Guridi, Federico Larroca. 
+# ARTES Group
 # http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3
+# Instituto de Ingenieria Electrica, Facultad de Ingenieria,
+# Universidad de la Republica, Uruguay.
 # 
 # This is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by

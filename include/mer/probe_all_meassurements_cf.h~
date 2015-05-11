@@ -24,6 +24,13 @@
 
 #include <mer/api.h>
 #include <gnuradio/sync_block.h>
+#include <mer/demapper.h>
+#include <mer/ste.h>
+#include <mer/mer.h>
+#include <mer/quadrature_error.h>
+#include <mer/phase_jitter.h>
+#include <mer/amplitude_imbalance.h>
+#include <mer/carrier_suppression.h>
 
 namespace gr {
   namespace mer {

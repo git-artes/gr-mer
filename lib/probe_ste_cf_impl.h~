@@ -37,7 +37,8 @@ namespace gr {
       int d_dim_constellation;
       // Message port name
       pmt::pmt_t d_ste_port;
-     
+      pmt::pmt_t d_stem_port;
+      pmt::pmt_t d_sted_port;
      public:
       probe_ste_cf_impl(const std::vector<gr_complex> &symbol_table, double alpha);
       ~probe_ste_cf_impl();

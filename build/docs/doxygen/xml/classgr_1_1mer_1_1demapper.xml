@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="36" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="36" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="39" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1demapper_1a0e235fd22c9e7c705d908e041c606216" prot="protected" static="yes" mutable="no">
         <type>const gr_complex</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="37" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="37" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="40" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1demapper_1a7421399b06828279fa136fbab977e544" prot="protected" static="yes" mutable="no">
         <type>const gr_complex</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="38" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="38" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="41" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-attrib">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="39" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="42" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1demapper_1a67ea69ef3934d5d7f82ab39a4e0c9a24" prot="protected" static="no" mutable="no">
         <type>double</type>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="40" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="40" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="43" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1demapper_1a32ff0b4695d819b6b350738f3dae5d41" prot="protected" static="no" mutable="no">
         <type>double</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="41" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="41" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="44" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1demapper_1a7b16d36605e10ed5f107fc84978d694f" prot="protected" static="no" mutable="no">
         <type>double</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="42" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="42" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="45" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1demapper_1ae2c20b57ec9a0c9ab54fac5e59521ff8" prot="protected" static="no" mutable="no">
         <type>double</type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="43" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="43" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="46" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="46" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="54" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="54" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="57" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="57" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="44" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="47" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -157,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="49" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="52" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1mer_1_1demapper_1a8d66c0d68a593a4928a9c0e29f0d385c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -170,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="50" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="53" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1mer_1_1demapper_1ada81e5b41ef5a49b5180d87e1b06ea90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -187,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="52" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="55" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1mer_1_1demapper_1a1d5cec41e24c62976ebb77bed04438bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>gr_complex</type>
@@ -208,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="53" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="56" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1mer_1_1demapper_1a3384b64c947343d96be04864b3e74ad8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>gr_complex</type>
@@ -225,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="55" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="58" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1mer_1_1demapper_1afdeff7ea25d7ac77e11907aa470c17e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>gr_complex</type>
@@ -242,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="56" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="59" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1mer_1_1demapper_1a78d606bb8da326eec56e1015f2512083" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>gr_complex</type>
@@ -259,7 +259,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="57" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="60" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1mer_1_1demapper_1a6879eb19aea1a29dab953aae1d521d3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>gr_complex</type>
@@ -276,7 +276,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="58" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="61" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -295,7 +295,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="34" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="33" bodyend="60"/>
+    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" line="37" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/demapper.h" bodystart="36" bodyend="63"/>
     <listofallmembers>
       <member refid="classgr_1_1mer_1_1demapper_1a32f9525547b11b4cf4cade6e820f082b" prot="protected" virt="non-virtual"><scope>gr::mer::demapper</scope><name>d_const_size</name></member>
       <member refid="classgr_1_1mer_1_1demapper_1a827ae5519bc620c4c380b92024e012b7" prot="public" virt="non-virtual"><scope>gr::mer::demapper</scope><name>d_constellation</name></member>

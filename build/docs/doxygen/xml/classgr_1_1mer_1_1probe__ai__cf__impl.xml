@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="32" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="32" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="37" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1probe__ai__cf__impl_1a128ecf66658bd1654328d5a48f705208" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="32" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="32" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="37" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1probe__ai__cf__impl_1ae1ecc28e8c6efefd29e8b41e98766d76" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="33" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="33" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="38" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1probe__ai__cf__impl_1a97bfe86d921320d2a964f9c4d9cf2f58" prot="private" static="no" mutable="no">
         <type><ref refid="classgr_1_1mer_1_1demapper" kindref="compound">demapper</ref> *</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="34" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="34" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="39" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1probe__ai__cf__impl_1a1697ceca88618f3bf4a0cce5fd30674b" prot="private" static="no" mutable="no">
         <type><ref refid="classgr_1_1mer_1_1ste" kindref="compound">ste</ref> *</type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="35" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="35" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="40" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1probe__ai__cf__impl_1aa113ac45ab8b761f2f9957983675eb0f" prot="private" static="no" mutable="no">
         <type><ref refid="classgr_1_1mer_1_1mer" kindref="compound">mer</ref> *</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="36" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="36" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="41" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1probe__ai__cf__impl_1ac39a72a9f243387dc0d6c9eca4897571" prot="private" static="no" mutable="no">
         <type><ref refid="classgr_1_1mer_1_1amplitude__imbalance" kindref="compound">amplitude_imbalance</ref> *</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="37" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="37" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="42" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1probe__ai__cf__impl_1abab14dc571420968a22ee1621cc255c4" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="38" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="38" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="43" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1probe__ai__cf__impl_1a1b07bdcfda8b4cceee94b4a6cbb2a6b6" prot="private" static="no" mutable="no">
         <type>pmt::pmt_t</type>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="40" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="40" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="45" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="43" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="48" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1mer_1_1probe__ai__cf__impl_1a3dc7e3512d277f7fb46aff9fa67e54c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="44" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="49" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1mer_1_1probe__ai__cf__impl_1adf83b1dea6cdc09a40557f1752bfbdf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -181,7 +181,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="47" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="52" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -222,7 +222,7 @@
         <label>sync_block</label>
       </node>
     </collaborationgraph>
-    <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="30" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="29" bodyend="50"/>
+    <location file="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" line="35" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/lib/probe_ai_cf_impl.h" bodystart="34" bodyend="55"/>
     <listofallmembers>
       <member refid="classgr_1_1mer_1_1probe__ai__cf__impl_1ac39a72a9f243387dc0d6c9eca4897571" prot="private" virt="non-virtual"><scope>gr::mer::probe_ai_cf_impl</scope><name>d_ai</name></member>
       <member refid="classgr_1_1mer_1_1probe__ai__cf__impl_1a1b07bdcfda8b4cceee94b4a6cbb2a6b6" prot="private" virt="non-virtual"><scope>gr::mer::probe_ai_cf_impl</scope><name>d_ai_port</name></member>

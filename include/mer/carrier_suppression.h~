@@ -37,6 +37,7 @@ namespace gr {
       carrier_suppression(demapper *demap);
       ~carrier_suppression();
       double update_cs(double tx_power, gr_complex *di);
+      gr_complex d_cs;
     private:
 	int decimal_right_down;
 	int decimal_right_up;

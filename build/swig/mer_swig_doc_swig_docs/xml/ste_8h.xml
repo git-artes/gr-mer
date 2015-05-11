@@ -78,54 +78,59 @@
     <programlisting>
 <codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*<sp/></highlight></codeline>
-<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2015<sp/>&lt;+YOU<sp/>OR<sp/>YOUR<sp/>COMPANY+&gt;.</highlight></codeline>
-<codeline lineno="4"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
-<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
-<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
-<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
-<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2015</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Pablo<sp/>Belzarena<sp/>&lt;belza@fing.edu.uy&gt;,<sp/>Gabriel<sp/>Gomez,<sp/><sp/>Victor<sp/>Gonzalez-Barbone,<sp/>Pablo<sp/>Flores<sp/>Guridi,<sp/>Federico<sp/>Larroca.<sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>ARTES<sp/>Group</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Instituto<sp/>de<sp/>Ingenieria<sp/>Electrica,<sp/>Facultad<sp/>de<sp/>Ingenieria,</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Universidad<sp/>de<sp/>la<sp/>Republica,<sp/>Uruguay.</highlight></codeline>
 <codeline lineno="9"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
-<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
-<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
-<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
-<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>This<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>any<sp/>later<sp/>version.</highlight></codeline>
 <codeline lineno="14"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
-<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
-<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>software;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight></codeline>
-<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight></codeline>
-<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight></codeline>
-<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_MER_STE_H</highlight></codeline>
-<codeline lineno="23"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_MER_STE_H</highlight></codeline>
-<codeline lineno="24"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="api_8h" kindref="compound">mer/api.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>software;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">gr<sp/>{</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">mer<sp/>{</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="classgr_1_1mer_1_1ste" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="api_8h_1ab46d21c9baaecdff26fdb50bd0e64f14" kindref="member">MER_API</ref><sp/><ref refid="classgr_1_1mer_1_1ste" kindref="compound">ste</ref></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgr_1_1mer_1_1ste" kindref="compound">ste</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dim_constellation,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>alpha);</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>~<ref refid="classgr_1_1mer_1_1ste" kindref="compound">ste</ref>();</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>update_ste(gr_complex<sp/>iq,gr_complex<sp/>iq_true,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>constellation_value);</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>update_stem(gr_complex<sp/>iq,gr_complex<sp/>iq_true,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>constellation_value,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tx_power);</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>update_sted(gr_complex<sp/>iq,gr_complex<sp/>iq_true,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>constellation_value,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tx_power);</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gr_complex<sp/>*<sp/>update_di(gr_complex<sp/>iq,gr_complex<sp/>iq_true,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>constellation_value);</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>d_alpha;</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>di<sp/>is<sp/>a<sp/>vector<sp/>with<sp/>the<sp/>average<sp/>distance<sp/>of<sp/>each<sp/>cloud<sp/>center<sp/>to<sp/>the<sp/>corresponding<sp/>constellation<sp/>point<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gr_complex<sp/>*d_di;</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>d_dim_constellation;</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>mer</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>gr</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_MER_STE_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
-<codeline lineno="54"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_MER_STE_H</highlight></codeline>
+<codeline lineno="28"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_MER_STE_H</highlight></codeline>
+<codeline lineno="29"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="api_8h" kindref="compound">mer/api.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">gr<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">mer<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="classgr_1_1mer_1_1ste" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="api_8h_1ab46d21c9baaecdff26fdb50bd0e64f14" kindref="member">MER_API</ref><sp/><ref refid="classgr_1_1mer_1_1ste" kindref="compound">ste</ref></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgr_1_1mer_1_1ste" kindref="compound">ste</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dim_constellation,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>alpha);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>~<ref refid="classgr_1_1mer_1_1ste" kindref="compound">ste</ref>();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>update_ste(gr_complex<sp/>iq,gr_complex<sp/>iq_true,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>constellation_value);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>update_stem(gr_complex<sp/>iq,gr_complex<sp/>iq_true,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>constellation_value,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tx_power);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>update_sted(gr_complex<sp/>iq,gr_complex<sp/>iq_true,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>constellation_value,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tx_power);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gr_complex<sp/>*<sp/>update_di(gr_complex<sp/>iq,gr_complex<sp/>iq_true,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>constellation_value);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>d_alpha;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>di<sp/>is<sp/>a<sp/>vector<sp/>with<sp/>the<sp/>average<sp/>distance<sp/>of<sp/>each<sp/>cloud<sp/>center<sp/>to<sp/>the<sp/>corresponding<sp/>constellation<sp/>point<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gr_complex<sp/>*d_di;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>d_dim_constellation;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>mer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>gr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_MER_STE_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="59"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/belza/Dropbox/software/gr-mer/include/mer/ste.h"/>
   </compounddef>

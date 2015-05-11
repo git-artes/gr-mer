@@ -20,7 +20,7 @@
 # Boston, MA 02110-1301, USA.
 # 
 
-#
+# MODULATION ERROR RATE TEST
 # Lets I[i],Q[i] the sample i received and I_{true}[i] and Q_{true}[i] the corresponding constellation point
 # MER is defined as: lets  txsignal_power[i] = I^2_{true][i] + Q^2_{true}[i] and error_power[i]= (I_{true][i]-I[i])^2 + (Q_{true}[i]- Q[i])^2
 # and lets d_avgtxsignal_power = average{txsignal_power[i]} and d_avgerror_power = average{error_power[i]}

@@ -1,8 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # 
-# Copyright 2015 <ARTES Group, Universidad de la República, Uruguay>.
+# Copyright 2015
+# Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Federico Larroca. 
+# ARTES Group
 # http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3
+# Instituto de Ingenieria Electrica, Facultad de Ingenieria,
+# Universidad de la Republica, Uruguay.
 # 
 # This is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -21,7 +25,7 @@
 # 
 
 #
-# CARRIER SUPPRESSION ERROR
+# CARRIER SUPPRESSION ERROR TEST
 # We estimate the carrier suppression error finding the DC offset of the samples. The constellation is systematically translated  by a fixed vector.
 # We estimates the average translation vector.The cs value is the residual carrier power normalized to the tx average power.
 # # This test analize a global traslation of the constellation.

@@ -1,7 +1,11 @@
 /* -*- c++ -*- */
 /* 
- * Copyright 2015 <ARTES Group, Universidad de la República, Uruguay>.
+ * Copyright 2015
+ * Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Pablo Flores Guridi, Federico Larroca. 
+ * ARTES Group
  * http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3
+ * Instituto de Ingenieria Electrica, Facultad de Ingenieria,
+ * Universidad de la Republica, Uruguay.
  * 
  * This is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -26,7 +30,7 @@
  * Please read first ste.cc and amplitude_imbalance.cc files.
  * With each new sample updates di,tx power and the ai error in the real  and imaginary axes and outs its values. This block has two outputs the ai error over the real and imaginary axes.
  * AI is the real part and the imaginary part of the expansion or contraction vector applied to the constellation.
- * Each  d_nsamples send a message with the last ai estimations for the corresponding message port.
+ * Each  d_nsamples sends a message with the last ai estimations for the corresponding message port.
  * This class uses demapper.cc class to clasify to the constellation points of the received samples.
  */
 

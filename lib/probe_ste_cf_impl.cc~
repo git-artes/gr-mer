@@ -1,8 +1,12 @@
 /* -*- c++ -*- */
 /* 
- * Copyright 2015 <ARTES Group, Universidad de la República, Uruguay>.
+ * Copyright 2015
+ * Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Federico Larroca. 
+ * ARTES Group
  * http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3
- * 
+ * Instituto de Ingenieria Electrica, Facultad de Ingenieria,
+ * Universidad de la Republica, Uruguay.
+ *
  * This is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 3, or (at your option)
@@ -20,8 +24,8 @@
  */
 
 
-/* 
- * This block uses mer.cc to calculate the average tx_power, uses the ste.cc to update d_di vector and to calculate the ste, stem and sted as defined in ste.cc. Please read before ste.cc file.
+/* SYSTEM TARGET ERROR
+ * This block uses mer.cc to calculate the average tx_power, uses the ste.cc to update d_di vector and to calculate the ste, stem and sted as defined in ste.cc. Please read first ste.cc file.
  * With each new sample updates STE,STEM,STED and outs its values, the block has one input float and three output flows.
  * Each  d_nsamples send a message with the last STE,STEM,STED estimations for the corresponding messages ports.
  * This class uses demapper.cc class to clasify to the constellation points of the received samples.

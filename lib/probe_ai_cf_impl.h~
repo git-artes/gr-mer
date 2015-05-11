@@ -1,6 +1,11 @@
 /* -*- c++ -*- */
 /* 
- * Copyright 2015 <+YOU OR YOUR COMPANY+>.
+ * Copyright 2015
+ * Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Pablo Flores Guridi, Federico Larroca. 
+ * ARTES Group
+ * http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3
+ * Instituto de Ingenieria Electrica, Facultad de Ingenieria,
+ * Universidad de la Republica, Uruguay.
  * 
  * This is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -29,7 +34,15 @@ namespace gr {
     class probe_ai_cf_impl : public probe_ai_cf
     {
      private:
-      // Nothing to declare in this block.
+      int d_nsamples, d_count;
+      double d_alpha;
+      demapper *d_demapper;
+      ste *d_ste;
+      mer *d_mer;
+      amplitude_imbalance *d_ai; 
+      int d_dim_constellation;
+      // Message port name
+      pmt::pmt_t d_ai_port;
 
      public:
       probe_ai_cf_impl(const std::vector<gr_complex> &symbol_table, double alpha);

@@ -120,89 +120,6 @@
     </param>
   </block>
   <block>
-    <key>wxgui_scopesink2</key>
-    <param>
-      <key>id</key>
-      <value>wxgui_scopesink2_0_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>complex</value>
-    </param>
-    <param>
-      <key>title</key>
-      <value>Constellation</value>
-    </param>
-    <param>
-      <key>samp_rate</key>
-      <value>sym_rate</value>
-    </param>
-    <param>
-      <key>v_scale</key>
-      <value>0.5</value>
-    </param>
-    <param>
-      <key>v_offset</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>t_scale</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>ac_couple</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>xy_mode</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>num_inputs</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>win_size</key>
-      <value></value>
-    </param>
-    <param>
-      <key>grid_pos</key>
-      <value>0,0,1,1</value>
-    </param>
-    <param>
-      <key>notebook</key>
-      <value>n_0,0</value>
-    </param>
-    <param>
-      <key>trig_mode</key>
-      <value>wxgui.TRIG_MODE_AUTO</value>
-    </param>
-    <param>
-      <key>y_axis_label</key>
-      <value>Counts</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(1014, 148)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
     <key>variable_slider</key>
     <param>
       <key>id</key>
@@ -376,144 +293,6 @@
     </param>
   </block>
   <block>
-    <key>notebook</key>
-    <param>
-      <key>id</key>
-      <value>n_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>style</key>
-      <value>wx.NB_TOP</value>
-    </param>
-    <param>
-      <key>labels</key>
-      <value>['Constellation', 'Meassures', 'FFT']</value>
-    </param>
-    <param>
-      <key>grid_pos</key>
-      <value></value>
-    </param>
-    <param>
-      <key>notebook</key>
-      <value></value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(179, 7)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>wxgui_fftsink2</key>
-    <param>
-      <key>id</key>
-      <value>wxgui_fftsink2_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>complex</value>
-    </param>
-    <param>
-      <key>title</key>
-      <value>FFT Plot</value>
-    </param>
-    <param>
-      <key>samp_rate</key>
-      <value>samp_rate</value>
-    </param>
-    <param>
-      <key>baseband_freq</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>y_per_div</key>
-      <value>10</value>
-    </param>
-    <param>
-      <key>y_divs</key>
-      <value>10</value>
-    </param>
-    <param>
-      <key>ref_level</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>ref_scale</key>
-      <value>2.0</value>
-    </param>
-    <param>
-      <key>fft_size</key>
-      <value>2048</value>
-    </param>
-    <param>
-      <key>fft_rate</key>
-      <value>15</value>
-    </param>
-    <param>
-      <key>peak_hold</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>average</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>avg_alpha</key>
-      <value>0.01</value>
-    </param>
-    <param>
-      <key>win</key>
-      <value>None</value>
-    </param>
-    <param>
-      <key>win_size</key>
-      <value></value>
-    </param>
-    <param>
-      <key>grid_pos</key>
-      <value>0,1,1,1</value>
-    </param>
-    <param>
-      <key>notebook</key>
-      <value>n_0,2</value>
-    </param>
-    <param>
-      <key>freqvar</key>
-      <value>None</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(1013, 315)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
     <key>variable_slider</key>
     <param>
       <key>id</key>
@@ -632,49 +411,6 @@
     </param>
   </block>
   <block>
-    <key>mer_probe_mer_c</key>
-    <param>
-      <key>id</key>
-      <value>mer_probe_mer_c_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>symbol_table</key>
-      <value>0.9487+0.9487j,0.9487+0.3162j, 0.3162+0.9487j, 0.3162 +0.3162j,0.9487-0.9487j,0.9487- 0.3162j, 0.3162-0.9487j, 0.3162- 0.3162j,-0.9487+0.9487j,-0.9487+ 0.3162j,- 0.3162+0.9487j,- 0.3162+ 0.3162j,-0.9487-0.9487j,-0.9487- 0.3162j,-0.3162-0.9487j,-0.3162- 0.3162j</value>
-    </param>
-    <param>
-      <key>alpha</key>
-      <value>0.05</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(376, 400)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
     <key>variable_slider</key>
     <param>
       <key>id</key>
@@ -727,547 +463,6 @@
     <param>
       <key>_coordinate</key>
       <value>(2, 548)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>wxgui_numbersink2</key>
-    <param>
-      <key>id</key>
-      <value>wxgui_numbersink2_1_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>float</value>
-    </param>
-    <param>
-      <key>title</key>
-      <value>STE</value>
-    </param>
-    <param>
-      <key>units</key>
-      <value>voltage</value>
-    </param>
-    <param>
-      <key>samp_rate</key>
-      <value>samp_rate</value>
-    </param>
-    <param>
-      <key>min_value</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>max_value</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>factor</key>
-      <value>1.0</value>
-    </param>
-    <param>
-      <key>decimal_places</key>
-      <value>3</value>
-    </param>
-    <param>
-      <key>ref_level</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>number_rate</key>
-      <value>15</value>
-    </param>
-    <param>
-      <key>peak_hold</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>average</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>avg_alpha</key>
-      <value>0.03</value>
-    </param>
-    <param>
-      <key>show_gauge</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>win_size</key>
-      <value></value>
-    </param>
-    <param>
-      <key>grid_pos</key>
-      <value>0,1,1,1</value>
-    </param>
-    <param>
-      <key>notebook</key>
-      <value>n_0,1</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(840, 283)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>wxgui_numbersink2</key>
-    <param>
-      <key>id</key>
-      <value>wxgui_numbersink2_1_0_1</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>float</value>
-    </param>
-    <param>
-      <key>title</key>
-      <value>STE average </value>
-    </param>
-    <param>
-      <key>units</key>
-      <value>normalized to tx power</value>
-    </param>
-    <param>
-      <key>samp_rate</key>
-      <value>samp_rate</value>
-    </param>
-    <param>
-      <key>min_value</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>max_value</key>
-      <value>10</value>
-    </param>
-    <param>
-      <key>factor</key>
-      <value>1.0</value>
-    </param>
-    <param>
-      <key>decimal_places</key>
-      <value>3</value>
-    </param>
-    <param>
-      <key>ref_level</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>number_rate</key>
-      <value>15</value>
-    </param>
-    <param>
-      <key>peak_hold</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>average</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>avg_alpha</key>
-      <value>0.03</value>
-    </param>
-    <param>
-      <key>show_gauge</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>win_size</key>
-      <value></value>
-    </param>
-    <param>
-      <key>grid_pos</key>
-      <value>0,2,1,1</value>
-    </param>
-    <param>
-      <key>notebook</key>
-      <value>n_0,1</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(840, 347)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>wxgui_numbersink2</key>
-    <param>
-      <key>id</key>
-      <value>wxgui_numbersink2_1_0_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>float</value>
-    </param>
-    <param>
-      <key>title</key>
-      <value>STE desviation</value>
-    </param>
-    <param>
-      <key>units</key>
-      <value>normalized to tx power</value>
-    </param>
-    <param>
-      <key>samp_rate</key>
-      <value>samp_rate</value>
-    </param>
-    <param>
-      <key>min_value</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>max_value</key>
-      <value>10</value>
-    </param>
-    <param>
-      <key>factor</key>
-      <value>1.0</value>
-    </param>
-    <param>
-      <key>decimal_places</key>
-      <value>3</value>
-    </param>
-    <param>
-      <key>ref_level</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>number_rate</key>
-      <value>15</value>
-    </param>
-    <param>
-      <key>peak_hold</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>average</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>avg_alpha</key>
-      <value>0.03</value>
-    </param>
-    <param>
-      <key>show_gauge</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>win_size</key>
-      <value></value>
-    </param>
-    <param>
-      <key>grid_pos</key>
-      <value>0,3,1,1</value>
-    </param>
-    <param>
-      <key>notebook</key>
-      <value>n_0,1</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(840, 483)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>wxgui_numbersink2</key>
-    <param>
-      <key>id</key>
-      <value>wxgui_numbersink2_1</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>float</value>
-    </param>
-    <param>
-      <key>title</key>
-      <value>MER</value>
-    </param>
-    <param>
-      <key>units</key>
-      <value>db</value>
-    </param>
-    <param>
-      <key>samp_rate</key>
-      <value>samp_rate</value>
-    </param>
-    <param>
-      <key>min_value</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>max_value</key>
-      <value>100</value>
-    </param>
-    <param>
-      <key>factor</key>
-      <value>1.0</value>
-    </param>
-    <param>
-      <key>decimal_places</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>ref_level</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>number_rate</key>
-      <value>15</value>
-    </param>
-    <param>
-      <key>peak_hold</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>average</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>avg_alpha</key>
-      <value>0.03</value>
-    </param>
-    <param>
-      <key>show_gauge</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>win_size</key>
-      <value></value>
-    </param>
-    <param>
-      <key>grid_pos</key>
-      <value>0,0,1,1</value>
-    </param>
-    <param>
-      <key>notebook</key>
-      <value>n_0,1</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(672, 379)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>analog_random_source_x</key>
-    <param>
-      <key>id</key>
-      <value>analog_random_source_x_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>byte</value>
-    </param>
-    <param>
-      <key>min</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>max</key>
-      <value>16</value>
-    </param>
-    <param>
-      <key>num_samps</key>
-      <value>1000</value>
-    </param>
-    <param>
-      <key>repeat</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(160, 224)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>blocks_throttle</key>
-    <param>
-      <key>id</key>
-      <value>blocks_throttle_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>byte</value>
-    </param>
-    <param>
-      <key>samples_per_second</key>
-      <value>sym_rate</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>ignoretag</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(179, 156)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>digital_chunks_to_symbols_xx</key>
-    <param>
-      <key>id</key>
-      <value>digital_chunks_to_symbols_xx_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>in_type</key>
-      <value>byte</value>
-    </param>
-    <param>
-      <key>out_type</key>
-      <value>complex</value>
-    </param>
-    <param>
-      <key>symbol_table</key>
-      <value>0.9487+0.9487j,0.9487+0.3162j, 0.3162+0.9487j, 0.3162 +0.3162j,0.9487-0.9487j,0.9487- 0.3162j, 0.3162-0.9487j, 0.3162- 0.3162j,-0.9487+0.9487j,-0.9487+ 0.3162j,- 0.3162+0.9487j,- 0.3162+ 0.3162j,-0.9487-0.9487j,-0.9487- 0.3162j,-0.3162-0.9487j,-0.3162- 0.3162j</value>
-    </param>
-    <param>
-      <key>dimension</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>num_ports</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(232, 87)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1334,7 +529,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(399, 1)</value>
+      <value>(536, 3)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1342,22 +537,34 @@
     </param>
   </block>
   <block>
-    <key>mer_probe_ste_cf</key>
+    <key>digital_chunks_to_symbols_xx</key>
     <param>
       <key>id</key>
-      <value>mer_probe_ste_cf_0</value>
+      <value>digital_chunks_to_symbols_xx_0</value>
     </param>
     <param>
       <key>_enabled</key>
       <value>True</value>
     </param>
     <param>
+      <key>in_type</key>
+      <value>byte</value>
+    </param>
+    <param>
+      <key>out_type</key>
+      <value>complex</value>
+    </param>
+    <param>
       <key>symbol_table</key>
       <value>0.9487+0.9487j,0.9487+0.3162j, 0.3162+0.9487j, 0.3162 +0.3162j,0.9487-0.9487j,0.9487- 0.3162j, 0.3162-0.9487j, 0.3162- 0.3162j,-0.9487+0.9487j,-0.9487+ 0.3162j,- 0.3162+0.9487j,- 0.3162+ 0.3162j,-0.9487-0.9487j,-0.9487- 0.3162j,-0.3162-0.9487j,-0.3162- 0.3162j</value>
     </param>
     <param>
-      <key>alpha</key>
-      <value>0.05</value>
+      <key>dimension</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>num_ports</key>
+      <value>1</value>
     </param>
     <param>
       <key>alias</key>
@@ -1377,7 +584,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(376, 360)</value>
+      <value>(360, 27)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1385,22 +592,69 @@
     </param>
   </block>
   <block>
-    <key>mer_probe_cs_cf</key>
+    <key>notebook</key>
     <param>
       <key>id</key>
-      <value>mer_probe_cs_cf_0</value>
+      <value>n_0</value>
     </param>
     <param>
       <key>_enabled</key>
       <value>True</value>
     </param>
     <param>
-      <key>symbol_table</key>
-      <value>0.9487+0.9487j,0.9487+0.3162j, 0.3162+0.9487j, 0.3162 +0.3162j,0.9487-0.9487j,0.9487- 0.3162j, 0.3162-0.9487j, 0.3162- 0.3162j,-0.9487+0.9487j,-0.9487+ 0.3162j,- 0.3162+0.9487j,- 0.3162+ 0.3162j,-0.9487-0.9487j,-0.9487- 0.3162j,-0.3162-0.9487j,-0.3162- 0.3162j</value>
+      <key>style</key>
+      <value>wx.NB_TOP</value>
     </param>
     <param>
-      <key>alpha</key>
-      <value>0.05</value>
+      <key>labels</key>
+      <value>['Constellation', 'Meassures', 'FFT']</value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value></value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value></value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(-8, 811)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>blocks_throttle</key>
+    <param>
+      <key>id</key>
+      <value>blocks_throttle_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>byte</value>
+    </param>
+    <param>
+      <key>samples_per_second</key>
+      <value>sym_rate</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>ignoretag</key>
+      <value>True</value>
     </param>
     <param>
       <key>alias</key>
@@ -1420,7 +674,62 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(368, 488)</value>
+      <value>(216, 3)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>analog_random_source_x</key>
+    <param>
+      <key>id</key>
+      <value>analog_random_source_x_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>byte</value>
+    </param>
+    <param>
+      <key>min</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>max</key>
+      <value>16</value>
+    </param>
+    <param>
+      <key>num_samps</key>
+      <value>1000</value>
+    </param>
+    <param>
+      <key>repeat</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(192, 59)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1463,7 +772,50 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(368, 528)</value>
+      <value>(344, 440)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>mer_probe_cs_cf</key>
+    <param>
+      <key>id</key>
+      <value>mer_probe_cs_cf_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>symbol_table</key>
+      <value>0.9487+0.9487j,0.9487+0.3162j, 0.3162+0.9487j, 0.3162 +0.3162j,0.9487-0.9487j,0.9487- 0.3162j, 0.3162-0.9487j, 0.3162- 0.3162j,-0.9487+0.9487j,-0.9487+ 0.3162j,- 0.3162+0.9487j,- 0.3162+ 0.3162j,-0.9487-0.9487j,-0.9487- 0.3162j,-0.3162-0.9487j,-0.3162- 0.3162j</value>
+    </param>
+    <param>
+      <key>alpha</key>
+      <value>0.05</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(344, 384)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1522,7 +874,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(568, 18)</value>
+      <value>(728, 19)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1565,197 +917,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(232, 872)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>wxgui_numbersink2</key>
-    <param>
-      <key>id</key>
-      <value>wxgui_numbersink2_1_1_0_1_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>float</value>
-    </param>
-    <param>
-      <key>title</key>
-      <value>Phase Jitter Variance</value>
-    </param>
-    <param>
-      <key>units</key>
-      <value></value>
-    </param>
-    <param>
-      <key>samp_rate</key>
-      <value>samp_rate</value>
-    </param>
-    <param>
-      <key>min_value</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>max_value</key>
-      <value>0.1</value>
-    </param>
-    <param>
-      <key>factor</key>
-      <value>1.0</value>
-    </param>
-    <param>
-      <key>decimal_places</key>
-      <value>5</value>
-    </param>
-    <param>
-      <key>ref_level</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>number_rate</key>
-      <value>15</value>
-    </param>
-    <param>
-      <key>peak_hold</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>average</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>avg_alpha</key>
-      <value>0.03</value>
-    </param>
-    <param>
-      <key>show_gauge</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>win_size</key>
-      <value></value>
-    </param>
-    <param>
-      <key>grid_pos</key>
-      <value>3,0,1,1</value>
-    </param>
-    <param>
-      <key>notebook</key>
-      <value>n_0,1</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(184, 483)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>wxgui_numbersink2</key>
-    <param>
-      <key>id</key>
-      <value>wxgui_numbersink2_1_1_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>float</value>
-    </param>
-    <param>
-      <key>title</key>
-      <value>Amplitude Imbalance Vertical</value>
-    </param>
-    <param>
-      <key>units</key>
-      <value>volts</value>
-    </param>
-    <param>
-      <key>samp_rate</key>
-      <value>samp_rate</value>
-    </param>
-    <param>
-      <key>min_value</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>max_value</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>factor</key>
-      <value>1.0</value>
-    </param>
-    <param>
-      <key>decimal_places</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>ref_level</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>number_rate</key>
-      <value>15</value>
-    </param>
-    <param>
-      <key>peak_hold</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>average</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>avg_alpha</key>
-      <value>0.03</value>
-    </param>
-    <param>
-      <key>show_gauge</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>win_size</key>
-      <value></value>
-    </param>
-    <param>
-      <key>grid_pos</key>
-      <value>1,2,1,1</value>
-    </param>
-    <param>
-      <key>notebook</key>
-      <value>n_0,1</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(480, 683)</value>
+      <value>(344, 616)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1798,7 +960,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(664, 848)</value>
+      <value>(344, 520)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1806,10 +968,10 @@
     </param>
   </block>
   <block>
-    <key>wxgui_numbersink2</key>
+    <key>wxgui_fftsink2</key>
     <param>
       <key>id</key>
-      <value>wxgui_numbersink2_1_1_1</value>
+      <value>wxgui_fftsink2_0</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -1817,42 +979,42 @@
     </param>
     <param>
       <key>type</key>
-      <value>float</value>
+      <value>complex</value>
     </param>
     <param>
       <key>title</key>
-      <value>Amplitude Imbalance horizontal</value>
-    </param>
-    <param>
-      <key>units</key>
-      <value></value>
+      <value>FFT Plot</value>
     </param>
     <param>
       <key>samp_rate</key>
       <value>samp_rate</value>
     </param>
     <param>
-      <key>min_value</key>
+      <key>baseband_freq</key>
       <value>0</value>
     </param>
     <param>
-      <key>max_value</key>
-      <value>1</value>
+      <key>y_per_div</key>
+      <value>10</value>
     </param>
     <param>
-      <key>factor</key>
-      <value>1.0</value>
-    </param>
-    <param>
-      <key>decimal_places</key>
-      <value>1</value>
+      <key>y_divs</key>
+      <value>10</value>
     </param>
     <param>
       <key>ref_level</key>
       <value>0</value>
     </param>
     <param>
-      <key>number_rate</key>
+      <key>ref_scale</key>
+      <value>2.0</value>
+    </param>
+    <param>
+      <key>fft_size</key>
+      <value>2048</value>
+    </param>
+    <param>
+      <key>fft_rate</key>
       <value>15</value>
     </param>
     <param>
@@ -1861,15 +1023,15 @@
     </param>
     <param>
       <key>average</key>
-      <value>False</value>
+      <value>True</value>
     </param>
     <param>
       <key>avg_alpha</key>
-      <value>0.03</value>
+      <value>0.01</value>
     </param>
     <param>
-      <key>show_gauge</key>
-      <value>True</value>
+      <key>win</key>
+      <value>None</value>
     </param>
     <param>
       <key>win_size</key>
@@ -1877,11 +1039,15 @@
     </param>
     <param>
       <key>grid_pos</key>
-      <value>1,1,1,1</value>
+      <value>0,1,1,1</value>
     </param>
     <param>
       <key>notebook</key>
-      <value>n_0,1</value>
+      <value>n_0,2</value>
+    </param>
+    <param>
+      <key>freqvar</key>
+      <value>None</value>
     </param>
     <param>
       <key>alias</key>
@@ -1893,7 +1059,90 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(664, 499)</value>
+      <value>(1128, 3)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>wxgui_scopesink2</key>
+    <param>
+      <key>id</key>
+      <value>wxgui_scopesink2_0_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>complex</value>
+    </param>
+    <param>
+      <key>title</key>
+      <value>Constellation</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>sym_rate</value>
+    </param>
+    <param>
+      <key>v_scale</key>
+      <value>0.5</value>
+    </param>
+    <param>
+      <key>v_offset</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>t_scale</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>ac_couple</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>xy_mode</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>num_inputs</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>win_size</key>
+      <value></value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value>0,0,1,1</value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value>n_0,0</value>
+    </param>
+    <param>
+      <key>trig_mode</key>
+      <value>wxgui.TRIG_MODE_AUTO</value>
+    </param>
+    <param>
+      <key>y_axis_label</key>
+      <value>Counts</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(976, 11)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1988,7 +1237,188 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(224, 539)</value>
+      <value>(1072, 243)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>mer_probe_ste_cf</key>
+    <param>
+      <key>id</key>
+      <value>mer_probe_ste_cf_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>symbol_table</key>
+      <value>0.9487+0.9487j,0.9487+0.3162j, 0.3162+0.9487j, 0.3162 +0.3162j,0.9487-0.9487j,0.9487- 0.3162j, 0.3162-0.9487j, 0.3162- 0.3162j,-0.9487+0.9487j,-0.9487+ 0.3162j,- 0.3162+0.9487j,- 0.3162+ 0.3162j,-0.9487-0.9487j,-0.9487- 0.3162j,-0.3162-0.9487j,-0.3162- 0.3162j</value>
+    </param>
+    <param>
+      <key>alpha</key>
+      <value>0.05</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(344, 160)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>mer_probe_mer_c</key>
+    <param>
+      <key>id</key>
+      <value>mer_probe_mer_c_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>symbol_table</key>
+      <value>0.9487+0.9487j,0.9487+0.3162j, 0.3162+0.9487j, 0.3162 +0.3162j,0.9487-0.9487j,0.9487- 0.3162j, 0.3162-0.9487j, 0.3162- 0.3162j,-0.9487+0.9487j,-0.9487+ 0.3162j,- 0.3162+0.9487j,- 0.3162+ 0.3162j,-0.9487-0.9487j,-0.9487- 0.3162j,-0.3162-0.9487j,-0.3162- 0.3162j</value>
+    </param>
+    <param>
+      <key>alpha</key>
+      <value>0.05</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(344, 320)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>wxgui_numbersink2</key>
+    <param>
+      <key>id</key>
+      <value>wxgui_numbersink2_1_1_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>float</value>
+    </param>
+    <param>
+      <key>title</key>
+      <value>Amplitude Imbalance Vertical</value>
+    </param>
+    <param>
+      <key>units</key>
+      <value>volts</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>samp_rate</value>
+    </param>
+    <param>
+      <key>min_value</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>max_value</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>factor</key>
+      <value>1.0</value>
+    </param>
+    <param>
+      <key>decimal_places</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>ref_level</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>number_rate</key>
+      <value>15</value>
+    </param>
+    <param>
+      <key>peak_hold</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>average</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>avg_alpha</key>
+      <value>0.03</value>
+    </param>
+    <param>
+      <key>show_gauge</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>win_size</key>
+      <value></value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value>1,2,1,1</value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value>n_0,1</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(896, 219)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2083,7 +1513,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(896, 651)</value>
+      <value>(896, 595)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2178,7 +1608,102 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(896, 819)</value>
+      <value>(896, 651)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>wxgui_numbersink2</key>
+    <param>
+      <key>id</key>
+      <value>wxgui_numbersink2_1_1_0_1_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>float</value>
+    </param>
+    <param>
+      <key>title</key>
+      <value>Phase Jitter Variance</value>
+    </param>
+    <param>
+      <key>units</key>
+      <value></value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>samp_rate</value>
+    </param>
+    <param>
+      <key>min_value</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>max_value</key>
+      <value>0.1</value>
+    </param>
+    <param>
+      <key>factor</key>
+      <value>1.0</value>
+    </param>
+    <param>
+      <key>decimal_places</key>
+      <value>5</value>
+    </param>
+    <param>
+      <key>ref_level</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>number_rate</key>
+      <value>15</value>
+    </param>
+    <param>
+      <key>peak_hold</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>average</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>avg_alpha</key>
+      <value>0.03</value>
+    </param>
+    <param>
+      <key>show_gauge</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>win_size</key>
+      <value></value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value>3,0,1,1</value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value>n_0,1</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1072, 315)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2273,7 +1798,482 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(664, 427)</value>
+      <value>(1072, 547)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>wxgui_numbersink2</key>
+    <param>
+      <key>id</key>
+      <value>wxgui_numbersink2_1_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>float</value>
+    </param>
+    <param>
+      <key>title</key>
+      <value>STE</value>
+    </param>
+    <param>
+      <key>units</key>
+      <value>voltage</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>samp_rate</value>
+    </param>
+    <param>
+      <key>min_value</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>max_value</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>factor</key>
+      <value>1.0</value>
+    </param>
+    <param>
+      <key>decimal_places</key>
+      <value>3</value>
+    </param>
+    <param>
+      <key>ref_level</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>number_rate</key>
+      <value>15</value>
+    </param>
+    <param>
+      <key>peak_hold</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>average</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>avg_alpha</key>
+      <value>0.03</value>
+    </param>
+    <param>
+      <key>show_gauge</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>win_size</key>
+      <value></value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value>0,1,1,1</value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value>n_0,1</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(712, 419)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>wxgui_numbersink2</key>
+    <param>
+      <key>id</key>
+      <value>wxgui_numbersink2_1_0_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>float</value>
+    </param>
+    <param>
+      <key>title</key>
+      <value>STE desviation</value>
+    </param>
+    <param>
+      <key>units</key>
+      <value>normalized to tx power</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>samp_rate</value>
+    </param>
+    <param>
+      <key>min_value</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>max_value</key>
+      <value>10</value>
+    </param>
+    <param>
+      <key>factor</key>
+      <value>1.0</value>
+    </param>
+    <param>
+      <key>decimal_places</key>
+      <value>3</value>
+    </param>
+    <param>
+      <key>ref_level</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>number_rate</key>
+      <value>15</value>
+    </param>
+    <param>
+      <key>peak_hold</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>average</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>avg_alpha</key>
+      <value>0.03</value>
+    </param>
+    <param>
+      <key>show_gauge</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>win_size</key>
+      <value></value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value>2,2,1,1</value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value>n_0,1</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(712, 475)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>wxgui_numbersink2</key>
+    <param>
+      <key>id</key>
+      <value>wxgui_numbersink2_1</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>float</value>
+    </param>
+    <param>
+      <key>title</key>
+      <value>MER</value>
+    </param>
+    <param>
+      <key>units</key>
+      <value>db</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>samp_rate</value>
+    </param>
+    <param>
+      <key>min_value</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>max_value</key>
+      <value>100</value>
+    </param>
+    <param>
+      <key>factor</key>
+      <value>1.0</value>
+    </param>
+    <param>
+      <key>decimal_places</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>ref_level</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>number_rate</key>
+      <value>15</value>
+    </param>
+    <param>
+      <key>peak_hold</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>average</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>avg_alpha</key>
+      <value>0.03</value>
+    </param>
+    <param>
+      <key>show_gauge</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>win_size</key>
+      <value></value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value>0,0,1,1</value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value>n_0,1</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(712, 171)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>wxgui_numbersink2</key>
+    <param>
+      <key>id</key>
+      <value>wxgui_numbersink2_1_1_1</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>float</value>
+    </param>
+    <param>
+      <key>title</key>
+      <value>Amplitude Imbalance horizontal</value>
+    </param>
+    <param>
+      <key>units</key>
+      <value></value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>samp_rate</value>
+    </param>
+    <param>
+      <key>min_value</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>max_value</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>factor</key>
+      <value>1.0</value>
+    </param>
+    <param>
+      <key>decimal_places</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>ref_level</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>number_rate</key>
+      <value>15</value>
+    </param>
+    <param>
+      <key>peak_hold</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>average</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>avg_alpha</key>
+      <value>0.03</value>
+    </param>
+    <param>
+      <key>show_gauge</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>win_size</key>
+      <value></value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value>1,1,1,1</value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value>n_0,1</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(896, 355)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>wxgui_numbersink2</key>
+    <param>
+      <key>id</key>
+      <value>wxgui_numbersink2_1_0_1</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>float</value>
+    </param>
+    <param>
+      <key>title</key>
+      <value>STE average </value>
+    </param>
+    <param>
+      <key>units</key>
+      <value>normalized to tx power</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>samp_rate</value>
+    </param>
+    <param>
+      <key>min_value</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>max_value</key>
+      <value>10</value>
+    </param>
+    <param>
+      <key>factor</key>
+      <value>1.0</value>
+    </param>
+    <param>
+      <key>decimal_places</key>
+      <value>3</value>
+    </param>
+    <param>
+      <key>ref_level</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>number_rate</key>
+      <value>15</value>
+    </param>
+    <param>
+      <key>peak_hold</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>average</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>avg_alpha</key>
+      <value>0.03</value>
+    </param>
+    <param>
+      <key>show_gauge</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>win_size</key>
+      <value></value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value>0,2,1,1</value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value>n_0,1</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(712, 531)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2353,12 +2353,6 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>mer_probe_cs_cf_0</source_block_id>
-    <sink_block_id>wxgui_numbersink2_1_1</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
     <source_block_id>channels_channel_model_0</source_block_id>
     <sink_block_id>mer_probe_cs_cf_0</sink_block_id>
     <source_key>0</source_key>
@@ -2383,26 +2377,26 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>channels_channel_model_0</source_block_id>
-    <sink_block_id>mer_probe_qe_cf_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
     <source_block_id>mer_probe_qe_cf_0</source_block_id>
     <sink_block_id>wxgui_numbersink2_1_1_0_0</sink_block_id>
     <source_key>1</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>mer_probe_qe_cf_0</source_block_id>
-    <sink_block_id>wxgui_numbersink2_1_1_0_1</sink_block_id>
+    <source_block_id>channels_channel_model_0</source_block_id>
+    <sink_block_id>mer_probe_pj_cf_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
     <source_block_id>channels_channel_model_0</source_block_id>
-    <sink_block_id>mer_probe_pj_cf_0</sink_block_id>
+    <sink_block_id>mer_probe_qe_cf_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>mer_probe_cs_cf_0</source_block_id>
+    <sink_block_id>wxgui_numbersink2_1_1</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
@@ -2416,6 +2410,12 @@
     <source_block_id>mer_probe_pj_cf_0</source_block_id>
     <sink_block_id>wxgui_numbersink2_1_1_0_1_0_0</sink_block_id>
     <source_key>1</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>mer_probe_qe_cf_0</source_block_id>
+    <sink_block_id>wxgui_numbersink2_1_1_0_1</sink_block_id>
+    <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
 </flow_graph>

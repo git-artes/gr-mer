@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" line="43" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" bodystart="43" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" line="48" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1mer_1ad9a066add38ea655c7e00c750d359893" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" line="44" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" bodystart="44" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" line="49" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1mer_1a503c4580e69ee7dc3a63e73554ed62dd" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" line="45" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" bodystart="45" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" line="50" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" bodystart="50" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" line="37" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" line="42" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1mer_1_1mer_1ab55c4b5b62b63554384ddb84d199a775" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" line="38" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" line="43" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1mer_1_1mer_1ad46eeded410239cbe87c1d7862c275f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" line="39" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" line="44" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1mer_1_1mer_1a507caa5aef597e7eabbc3b5a7fc0d47b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" line="40" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" line="45" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1mer_1_1mer_1a34ee6cb90d90269211e011180acc65b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -132,14 +132,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" line="41" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" line="46" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>&lt;+description+&gt; </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" line="35" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" bodystart="34" bodyend="46"/>
+    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" line="40" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/mer.h" bodystart="39" bodyend="51"/>
     <listofallmembers>
       <member refid="classgr_1_1mer_1_1mer_1a063052cc746348257044fbd2b65a4888" prot="private" virt="non-virtual"><scope>gr::mer::mer</scope><name>d_alpha</name></member>
       <member refid="classgr_1_1mer_1_1mer_1a503c4580e69ee7dc3a63e73554ed62dd" prot="private" virt="non-virtual"><scope>gr::mer::mer</scope><name>d_avgerror_power</name></member>

@@ -96,7 +96,7 @@ Params: (iq, iq_true)"
 
 %feature("docstring") gr::mer::phase_jitter::phase_jitter "
 
-Params: (dim_constellation, alpha, demap)"
+Params: (dim_constellation, demap)"
 
 %feature("docstring") gr::mer::phase_jitter::~phase_jitter "
 

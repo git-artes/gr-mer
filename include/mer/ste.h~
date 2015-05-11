@@ -36,7 +36,9 @@ namespace gr {
     public:
     	ste(int dim_constellation,double alpha);
     	~ste();
-	double update(gr_complex iq,gr_complex iq_true,int constellation_value);
+	double update_ste(gr_complex iq,gr_complex iq_true,int constellation_value);
+	double update_stem(gr_complex iq,gr_complex iq_true,int constellation_value,double tx_power);
+	double update_sted(gr_complex iq,gr_complex iq_true,int constellation_value,double tx_power);
 	gr_complex * update_di(gr_complex iq,gr_complex iq_true,int constellation_value);
     private:
 	double d_alpha;

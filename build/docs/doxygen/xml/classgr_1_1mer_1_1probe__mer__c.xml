@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_mer_c.h" line="40" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/probe_mer_c.h" bodystart="40" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_mer_c.h" line="45" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/probe_mer_c.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -40,7 +40,7 @@
 <para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1mer_1_1probe__mer__c" kindref="compound">mer::probe_mer_c</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1mer_1_1probe__mer__c_1ac8eed9e9897c01b1bc18d02d7405b834" kindref="member">mer::probe_mer_c::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_mer_c.h" line="50" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_mer_c.h" line="55" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -75,7 +75,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_mer_c.h" line="38" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/probe_mer_c.h" bodystart="37" bodyend="51"/>
+    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_mer_c.h" line="43" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/probe_mer_c.h" bodystart="42" bodyend="56"/>
     <listofallmembers>
       <member refid="classgr_1_1mer_1_1probe__mer__c_1ac8eed9e9897c01b1bc18d02d7405b834" prot="public" virt="non-virtual"><scope>gr::mer::probe_mer_c</scope><name>make</name></member>
       <member refid="classgr_1_1mer_1_1probe__mer__c_1a833abe0888fbdf978b8921edb5b528fd" prot="public" virt="non-virtual"><scope>gr::mer::probe_mer_c</scope><name>sptr</name></member>

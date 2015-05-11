@@ -1,6 +1,11 @@
 /* -*- c++ -*- */
 /* 
- * Copyright 2015 <+YOU OR YOUR COMPANY+>.
+ * Copyright 2015
+ * Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Pablo Flores Guridi, Federico Larroca. 
+ * ARTES Group
+ * http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3
+ * Instituto de Ingenieria Electrica, Facultad de Ingenieria,
+ * Universidad de la Republica, Uruguay.
  * 
  * This is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -29,7 +34,6 @@ namespace gr {
     class probe_all_meassurements_cf_impl : public probe_all_meassurements_cf
     {
     private:
-      int d_nsamples, d_count;
       double d_alpha;
       demapper *d_demapper;
       ste *d_ste;
@@ -38,7 +42,6 @@ namespace gr {
       amplitude_imbalance *d_ai; 
       carrier_suppression *d_cs;  		
       phase_jitter *d_pj; 
-
       int d_dim_constellation;
 
      public:

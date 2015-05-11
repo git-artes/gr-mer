@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="41" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" bodystart="41" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="46" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1quadrature__error_1a6d298d4b21740d813e8dbb7ae712bcf8" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="42" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" bodystart="42" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="47" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1quadrature__error_1a38ff75cdfa073d2a29ab16bdbdff0cd0" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="43" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" bodystart="43" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="48" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1quadrature__error_1a17e3eff0350bfaca5159d5911910e17c" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="44" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" bodystart="44" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="49" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1quadrature__error_1a4c66539918c1cf4c7f9efc78bfe4745f" prot="private" static="no" mutable="no">
         <type>gr_complex</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="45" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" bodystart="45" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="50" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1quadrature__error_1aae230c4278880c36ba686dcfee0e176c" prot="private" static="no" mutable="no">
         <type><ref refid="classgr_1_1mer_1_1demapper" kindref="compound">demapper</ref> *</type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="46" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" bodystart="46" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="51" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="37" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="42" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1mer_1_1quadrature__error_1ab8befa3f500fcbc1760100343b0c72cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -112,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="38" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="43" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1mer_1_1quadrature__error_1a355fd84aefa83de339ac22f0a2843e2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -141,14 +141,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="39" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="44" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>&lt;+description+&gt; </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="35" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" bodystart="34" bodyend="47"/>
+    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" line="40" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/quadrature_error.h" bodystart="39" bodyend="52"/>
     <listofallmembers>
       <member refid="classgr_1_1mer_1_1quadrature__error_1a38ff75cdfa073d2a29ab16bdbdff0cd0" prot="private" virt="non-virtual"><scope>gr::mer::quadrature_error</scope><name>d_decimal_left_down</name></member>
       <member refid="classgr_1_1mer_1_1quadrature__error_1a17e3eff0350bfaca5159d5911910e17c" prot="private" virt="non-virtual"><scope>gr::mer::quadrature_error</scope><name>d_decimal_left_up</name></member>

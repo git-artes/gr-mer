@@ -38,6 +38,7 @@ namespace gr {
     	~mer();
         double update_mer(gr_complex iq,gr_complex iq_true);
 	double update_avg_tx_power(gr_complex iq_true);
+	double update_avg_error_power(gr_complex iq,gr_complex iq_true);
     private:
 	double d_alpha;	
       	double d_avgtxsignal_power;

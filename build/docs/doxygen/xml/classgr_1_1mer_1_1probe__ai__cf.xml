@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_ai_cf.h" line="42" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/probe_ai_cf.h" bodystart="42" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_ai_cf.h" line="47" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/probe_ai_cf.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -40,7 +40,7 @@
 <para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1mer_1_1probe__ai__cf" kindref="compound">mer::probe_ai_cf</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1mer_1_1probe__ai__cf_1a6a0374efa51a005ffe0c985684ac09f9" kindref="member">mer::probe_ai_cf::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_ai_cf.h" line="52" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_ai_cf.h" line="57" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -75,7 +75,7 @@
         <label>sync_block</label>
       </node>
     </collaborationgraph>
-    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_ai_cf.h" line="40" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/probe_ai_cf.h" bodystart="39" bodyend="53"/>
+    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_ai_cf.h" line="45" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/probe_ai_cf.h" bodystart="44" bodyend="58"/>
     <listofallmembers>
       <member refid="classgr_1_1mer_1_1probe__ai__cf_1a6a0374efa51a005ffe0c985684ac09f9" prot="public" virt="non-virtual"><scope>gr::mer::probe_ai_cf</scope><name>make</name></member>
       <member refid="classgr_1_1mer_1_1probe__ai__cf_1a0412a5f360a82d7f26dc35320a60b637" prot="public" virt="non-virtual"><scope>gr::mer::probe_ai_cf</scope><name>sptr</name></member>

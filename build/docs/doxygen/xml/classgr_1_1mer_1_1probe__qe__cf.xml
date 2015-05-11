@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_qe_cf.h" line="42" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/probe_qe_cf.h" bodystart="42" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_qe_cf.h" line="47" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/probe_qe_cf.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -40,7 +40,7 @@
 <para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1mer_1_1probe__qe__cf" kindref="compound">mer::probe_qe_cf</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1mer_1_1probe__qe__cf_1af4f5c18d8dc1faf9be88e7bcfe667d6a" kindref="member">mer::probe_qe_cf::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_qe_cf.h" line="52" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_qe_cf.h" line="57" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -75,7 +75,7 @@
         <label>sync_block</label>
       </node>
     </collaborationgraph>
-    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_qe_cf.h" line="40" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/probe_qe_cf.h" bodystart="39" bodyend="53"/>
+    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/probe_qe_cf.h" line="45" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/probe_qe_cf.h" bodystart="44" bodyend="58"/>
     <listofallmembers>
       <member refid="classgr_1_1mer_1_1probe__qe__cf_1af4f5c18d8dc1faf9be88e7bcfe667d6a" prot="public" virt="non-virtual"><scope>gr::mer::probe_qe_cf</scope><name>make</name></member>
       <member refid="classgr_1_1mer_1_1probe__qe__cf_1a1e481b4913ca73518c01ecf8e021e68c" prot="public" virt="non-virtual"><scope>gr::mer::probe_qe_cf</scope><name>sptr</name></member>

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <block>
-  <name>Probe Quadrature Error</name>
+  <name>Probe Quadrature Imbalance Error</name>
   <key>mer_probe_qe_cf</key>
   <category>mer</category>
   <import>import mer</import>
@@ -38,4 +38,17 @@
     <type>message</type>
     <optional>3</optional>
   </source>
+  <doc>
+	Recieves the symbol table and the filter parameter alpha.
+    	QUADRATURE IMBALANCE ERROR FOR QAM
+ 	We estimate the quadrature imbalance error qe finding the horizontal and vertical angle of the constellation displacement. 
+ 	We assume that the displacement of the cosntellation points has the following axes symmetry.
+ 	If the constellation has for example these two points: x+jy and -x+jy, a vertical quadrature error moves the points to x+j(y+u) and -x+j(y-u) 
+ 	In order to estimate the qe error we use the following outer constellation points: right up point,right down point, left up point.
+ 	With the first and the second ones we estimate the vertical angle and with the first and the third ones we estimate the horizontal angle. 
+ 	The block gives the angles in radians.
+ 	If there are other linear distorsions (carrier suppression and amplitude imbalance) do not influence the calculation of qe errors.  
+  </doc>
+
+
 </block>

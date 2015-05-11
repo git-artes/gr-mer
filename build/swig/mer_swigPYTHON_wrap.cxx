@@ -25697,41 +25697,32 @@ SWIGINTERN PyObject *probe_pj_cf_sptr_swigregister(PyObject *SWIGUNUSEDPARM(self
 SWIGINTERN PyObject *_wrap_new_phase_jitter(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   int arg1 ;
-  double arg2 ;
-  gr::mer::demapper *arg3 = (gr::mer::demapper *) 0 ;
+  gr::mer::demapper *arg2 = (gr::mer::demapper *) 0 ;
   int val1 ;
   int ecode1 = 0 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
   char *  kwnames[] = {
-    (char *) "dim_constellation",(char *) "alpha",(char *) "demap", NULL 
+    (char *) "dim_constellation",(char *) "demap", NULL 
   };
   gr::mer::phase_jitter *result = 0 ;
   
-  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:new_phase_jitter",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:new_phase_jitter",kwnames,&obj0,&obj1)) SWIG_fail;
   ecode1 = SWIG_AsVal_int(obj0, &val1);
   if (!SWIG_IsOK(ecode1)) {
     SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_phase_jitter" "', argument " "1"" of type '" "int""'");
   } 
   arg1 = static_cast< int >(val1);
-  ecode2 = SWIG_AsVal_double(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_phase_jitter" "', argument " "2"" of type '" "double""'");
-  } 
-  arg2 = static_cast< double >(val2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3,SWIGTYPE_p_gr__mer__demapper, 0 |  0 );
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "new_phase_jitter" "', argument " "3"" of type '" "gr::mer::demapper *""'"); 
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_gr__mer__demapper, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "new_phase_jitter" "', argument " "2"" of type '" "gr::mer::demapper *""'"); 
   }
-  arg3 = reinterpret_cast< gr::mer::demapper * >(argp3);
+  arg2 = reinterpret_cast< gr::mer::demapper * >(argp2);
   {
     try {
-      result = (gr::mer::phase_jitter *)new gr::mer::phase_jitter(arg1,arg2,arg3);
+      result = (gr::mer::phase_jitter *)new gr::mer::phase_jitter(arg1,arg2);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -29872,9 +29863,9 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"probe_pj_cf_sptr_message_subscribers", (PyCFunction) _wrap_probe_pj_cf_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"probe_pj_cf_sptr_message_subscribers(probe_pj_cf_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
 	 { (char *)"probe_pj_cf_sptr_swigregister", probe_pj_cf_sptr_swigregister, METH_VARARGS, NULL},
 	 { (char *)"new_phase_jitter", (PyCFunction) _wrap_new_phase_jitter, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
-		"new_phase_jitter(int dim_constellation, double alpha, demapper demap) -> phase_jitter\n"
+		"new_phase_jitter(int dim_constellation, demapper demap) -> phase_jitter\n"
 		"\n"
-		"Params: (dim_constellation, alpha, demap)\n"
+		"Params: (dim_constellation, demap)\n"
 		""},
 	 { (char *)"delete_phase_jitter", _wrap_delete_phase_jitter, METH_VARARGS, (char *)"\n"
 		"delete_phase_jitter(phase_jitter self)\n"

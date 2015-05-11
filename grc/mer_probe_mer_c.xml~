@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <block>
-  <name>probe modulation error ratio</name>
+  <name>Probe Modulation Error Ratio</name>
   <key>mer_probe_mer_c</key>
   <category>mer</category>
   <import>import mer</import>

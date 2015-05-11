@@ -24,8 +24,8 @@
 
 #include <mer/api.h>
 #include <gnuradio/sync_block.h>
-//#include <mer/demapper.h>
-//#include <mer/mer.h>
+#include <mer/demapper.h>
+#include <mer/mer.h>
 namespace gr {
   namespace mer {
 

@@ -1,6 +1,11 @@
 /* -*- c++ -*- */
 /* 
- * Copyright 2015 <+YOU OR YOUR COMPANY+>.
+ * Copyright 2015
+ * Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Pablo Flores Guridi, Federico Larroca. 
+ * ARTES Group
+ * http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3
+ * Instituto de Ingenieria Electrica, Facultad de Ingenieria,
+ * Universidad de la Republica, Uruguay.
  * 
  * This is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,6 +21,17 @@
  * along with this software; see the file COPYING.  If not, write to
  * the Free Software Foundation, Inc., 51 Franklin Street,
  * Boston, MA 02110-1301, USA.
+ */
+
+
+/* PHASE JITTER ERROR
+ * This block uses mer.cc to calculate the average tx_power, uses the ste.cc to update d_di vector, uses quadrature_error.cc to calculate the qe error, 
+ * uses the carrier_suppression.cc to calculate the cs error,  uses the amplitude_imbalance.cc to calculate the ai error and the phase_jitter.cc to calculate the pj error and the snr. 
+ * Please read first ste.cc, quadrature_error.cc, amplitude_imbalance.cc and carrier_suppression.cc  files.
+ * With each new sample updates di,tx power,ai,cs,qe and the pj and snr values. This block has two outputs the pj error and the snr.
+ * PJ is the the phase noise. 
+ * Each  d_nsamples sends a message with the last pj and snr estimations for the corresponding message port.
+ * This class uses demapper.cc class to clasify to the constellation points of the received samples.
  */
 
 #ifdef HAVE_CONFIG_H
@@ -35,9 +51,12 @@ namespace gr {
         (new probe_pj_cf_impl(symbol_table, alpha));
     }
 
-    /*
-     * The private constructor
-     */
+   /*
+    * The private constructor
+    * Receives the symbol table and the averaging parameter alpha
+    * The symbol table is used by the demapper.cc class 
+    * The parameter alpha is used by ste.cc class to average d_di vector and mer class to average the tx power 
+    */
     probe_pj_cf_impl::probe_pj_cf_impl(const std::vector<gr_complex> &symbol_table, double alpha)
       : gr::sync_block("probe_pj_cf",
               gr::io_signature::make(1, 1, sizeof(gr_complex)),
@@ -45,16 +64,16 @@ namespace gr {
     {
         d_nsamples = 1000;// number of samples to send a message with MER value
         d_count = 0;// sample's counter
-
 	d_alpha = alpha;
+	// creates the message ports
       	d_pj_port = pmt::string_to_symbol("pj_msg");
       	message_port_register_out(d_pj_port);
       	d_snr_port = pmt::string_to_symbol("snr_msg");
       	message_port_register_out(d_snr_port);
+	// creates the objects
       	d_dim_constellation = symbol_table.size();
-
       	d_demapper = new demapper(symbol_table);
-	d_pj = new phase_jitter(d_dim_constellation,d_alpha,d_demapper);
+	d_pj = new phase_jitter(d_dim_constellation,d_demapper);
 	d_ai = new amplitude_imbalance(d_demapper);
 	d_qe = new quadrature_error(d_demapper);
 	d_cs = new carrier_suppression(d_demapper);
@@ -80,14 +99,14 @@ namespace gr {
         snr_out = (float *) output_items[1];
 	double tx_power;
      	gr_complex iq_true,ai,qe,cs,*di;
+	// constellation value is the constellation point decimal value
       	int constellation_value=0;
 	for(int j=0; j < noutput_items; j++) {
 	      	iq_true = d_demapper->demap(in[j],constellation_value);
 		tx_power = d_mer->update_avg_tx_power(iq_true);
 		
 		di = d_ste->update_di(in[j],iq_true,constellation_value);
-
-		// in order to estimate th pj it is necessesary to eliminate the ai,cs and qe
+		// in order to estimate pj it is necessesary to eliminate the ai,cs and qe
 		// we calculate these values before call the pj estimation
 		ai = d_ai->update_ai(tx_power,di);
 		double angle1, angle2;
@@ -97,12 +116,11 @@ namespace gr {
 		cs = d_cs->d_cs;
 		// as we use the right up constellation cloud to estimate the pj, it is not necessary to interpolate the angle neither the ai
 		double snr;
-
 		pj_out[j] = d_pj->update_pj(in[j],cs,ai,qe,tx_power,snr);
 		snr_out[j] = 10.0*log10(snr);
 		d_count ++;
 		if(d_count > d_nsamples) {
-			// Post a message with the latest MER value
+			// Post a message with the latest pj and snr values
 			message_port_pub(d_pj_port, pmt::from_double(pj_out[j]));
 			message_port_pub(d_snr_port, pmt::from_double(snr_out[j]));
 			d_count =0;	

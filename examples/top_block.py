@@ -2,7 +2,7 @@
 ##################################################
 # Gnuradio Python Flow Graph
 # Title: Top Block
-# Generated: Tue May  5 14:05:11 2015
+# Generated: Mon May 11 16:53:30 2015
 ##################################################
 
 from gnuradio import blocks
@@ -298,40 +298,6 @@ class top_block(grc_wxgui.top_block_gui):
         	show_gauge=True,
         )
         self.n_0.GetPage(1).GridAdd(self.wxgui_numbersink2_1_1.win, 1, 0, 1, 1)
-        self.wxgui_numbersink2_1_0_1 = numbersink2.number_sink_f(
-        	self.n_0.GetPage(1).GetWin(),
-        	unit="normalized to tx power",
-        	minval=0,
-        	maxval=10,
-        	factor=1.0,
-        	decimal_places=3,
-        	ref_level=0,
-        	sample_rate=samp_rate,
-        	number_rate=15,
-        	average=True,
-        	avg_alpha=0.03,
-        	label="STE average ",
-        	peak_hold=True,
-        	show_gauge=True,
-        )
-        self.n_0.GetPage(1).GridAdd(self.wxgui_numbersink2_1_0_1.win, 0, 2, 1, 1)
-        self.wxgui_numbersink2_1_0_0 = numbersink2.number_sink_f(
-        	self.n_0.GetPage(1).GetWin(),
-        	unit="normalized to tx power",
-        	minval=0,
-        	maxval=10,
-        	factor=1.0,
-        	decimal_places=3,
-        	ref_level=0,
-        	sample_rate=samp_rate,
-        	number_rate=15,
-        	average=True,
-        	avg_alpha=0.03,
-        	label="STE desviation",
-        	peak_hold=True,
-        	show_gauge=True,
-        )
-        self.n_0.GetPage(1).GridAdd(self.wxgui_numbersink2_1_0_0.win, 0, 3, 1, 1)
         self.wxgui_numbersink2_1_0 = numbersink2.number_sink_f(
         	self.n_0.GetPage(1).GetWin(),
         	unit="voltage",
@@ -382,12 +348,7 @@ class top_block(grc_wxgui.top_block_gui):
         	peak_hold=False,
         )
         self.n_0.GetPage(2).GridAdd(self.wxgui_fftsink2_0.win, 0, 1, 1, 1)
-        self.mer_probe_ste_cf_0 = mer.probe_ste_cf((0.9487+0.9487j,0.9487+0.3162j, 0.3162+0.9487j, 0.3162 +0.3162j,0.9487-0.9487j,0.9487- 0.3162j, 0.3162-0.9487j, 0.3162- 0.3162j,-0.9487+0.9487j,-0.9487+ 0.3162j,- 0.3162+0.9487j,- 0.3162+ 0.3162j,-0.9487-0.9487j,-0.9487- 0.3162j,-0.3162-0.9487j,-0.3162- 0.3162j), 0.05)
-        self.mer_probe_qe_cf_0 = mer.probe_qe_cf((0.9487+0.9487j,0.9487+0.3162j, 0.3162+0.9487j, 0.3162 +0.3162j,0.9487-0.9487j,0.9487- 0.3162j, 0.3162-0.9487j, 0.3162- 0.3162j,-0.9487+0.9487j,-0.9487+ 0.3162j,- 0.3162+0.9487j,- 0.3162+ 0.3162j,-0.9487-0.9487j,-0.9487- 0.3162j,-0.3162-0.9487j,-0.3162- 0.3162j), 0.05)
-        self.mer_probe_pj_cf_0 = mer.probe_pj_cf((0.9487+0.9487j,0.9487+0.3162j, 0.3162+0.9487j, 0.3162 +0.3162j,0.9487-0.9487j,0.9487- 0.3162j, 0.3162-0.9487j, 0.3162- 0.3162j,-0.9487+0.9487j,-0.9487+ 0.3162j,- 0.3162+0.9487j,- 0.3162+ 0.3162j,-0.9487-0.9487j,-0.9487- 0.3162j,-0.3162-0.9487j,-0.3162- 0.3162j), 0.05)
-        self.mer_probe_mer_c_0 = mer.probe_mer_c((0.9487+0.9487j,0.9487+0.3162j, 0.3162+0.9487j, 0.3162 +0.3162j,0.9487-0.9487j,0.9487- 0.3162j, 0.3162-0.9487j, 0.3162- 0.3162j,-0.9487+0.9487j,-0.9487+ 0.3162j,- 0.3162+0.9487j,- 0.3162+ 0.3162j,-0.9487-0.9487j,-0.9487- 0.3162j,-0.3162-0.9487j,-0.3162- 0.3162j),0.05)
-        self.mer_probe_cs_cf_0 = mer.probe_cs_cf((0.9487+0.9487j,0.9487+0.3162j, 0.3162+0.9487j, 0.3162 +0.3162j,0.9487-0.9487j,0.9487- 0.3162j, 0.3162-0.9487j, 0.3162- 0.3162j,-0.9487+0.9487j,-0.9487+ 0.3162j,- 0.3162+0.9487j,- 0.3162+ 0.3162j,-0.9487-0.9487j,-0.9487- 0.3162j,-0.3162-0.9487j,-0.3162- 0.3162j), 0.05)
-        self.mer_probe_ai_cf_0 = mer.probe_ai_cf((0.9487+0.9487j,0.9487+0.3162j, 0.3162+0.9487j, 0.3162 +0.3162j,0.9487-0.9487j,0.9487- 0.3162j, 0.3162-0.9487j, 0.3162- 0.3162j,-0.9487+0.9487j,-0.9487+ 0.3162j,- 0.3162+0.9487j,- 0.3162+ 0.3162j,-0.9487-0.9487j,-0.9487- 0.3162j,-0.3162-0.9487j,-0.3162- 0.3162j), 0.05)
+        self.mer_probe_all_meassurements_cf_0 = mer.probe_all_meassurements_cf((0.9487+0.9487j,0.9487+0.3162j, 0.3162+0.9487j, 0.3162 +0.3162j,0.9487-0.9487j,0.9487- 0.3162j, 0.3162-0.9487j, 0.3162- 0.3162j,-0.9487+0.9487j,-0.9487+ 0.3162j,- 0.3162+0.9487j,- 0.3162+ 0.3162j,-0.9487-0.9487j,-0.9487- 0.3162j,-0.3162-0.9487j,-0.3162- 0.3162j), 0.05)
         self.digital_chunks_to_symbols_xx_0 = digital.chunks_to_symbols_bc((0.9487+0.9487j,0.9487+0.3162j, 0.3162+0.9487j, 0.3162 +0.3162j,0.9487-0.9487j,0.9487- 0.3162j, 0.3162-0.9487j, 0.3162- 0.3162j,-0.9487+0.9487j,-0.9487+ 0.3162j,- 0.3162+0.9487j,- 0.3162+ 0.3162j,-0.9487-0.9487j,-0.9487- 0.3162j,-0.3162-0.9487j,-0.3162- 0.3162j), 1)
         self.channels_impairments_0 = channels.impairments(pj, ai, qe, cs, 0, 0, 0, 0)
         self.channels_channel_model_0 = channels.channel_model(
@@ -406,27 +367,20 @@ class top_block(grc_wxgui.top_block_gui):
         ##################################################
         self.connect((self.analog_random_source_x_0, 0), (self.blocks_throttle_0, 0))    
         self.connect((self.blocks_throttle_0, 0), (self.digital_chunks_to_symbols_xx_0, 0))    
-        self.connect((self.channels_channel_model_0, 0), (self.mer_probe_ai_cf_0, 0))    
-        self.connect((self.channels_channel_model_0, 0), (self.mer_probe_cs_cf_0, 0))    
-        self.connect((self.channels_channel_model_0, 0), (self.mer_probe_mer_c_0, 0))    
-        self.connect((self.channels_channel_model_0, 0), (self.mer_probe_pj_cf_0, 0))    
-        self.connect((self.channels_channel_model_0, 0), (self.mer_probe_qe_cf_0, 0))    
-        self.connect((self.channels_channel_model_0, 0), (self.mer_probe_ste_cf_0, 0))    
+        self.connect((self.channels_channel_model_0, 0), (self.mer_probe_all_meassurements_cf_0, 0))    
         self.connect((self.channels_channel_model_0, 0), (self.wxgui_fftsink2_0, 0))    
         self.connect((self.channels_channel_model_0, 0), (self.wxgui_scopesink2_0_0, 0))    
         self.connect((self.channels_impairments_0, 0), (self.channels_channel_model_0, 0))    
         self.connect((self.digital_chunks_to_symbols_xx_0, 0), (self.channels_impairments_0, 0))    
-        self.connect((self.mer_probe_ai_cf_0, 1), (self.wxgui_numbersink2_1_1_0, 0))    
-        self.connect((self.mer_probe_ai_cf_0, 0), (self.wxgui_numbersink2_1_1_1, 0))    
-        self.connect((self.mer_probe_cs_cf_0, 0), (self.wxgui_numbersink2_1_1, 0))    
-        self.connect((self.mer_probe_mer_c_0, 0), (self.wxgui_numbersink2_1, 0))    
-        self.connect((self.mer_probe_pj_cf_0, 0), (self.wxgui_numbersink2_1_1_0_1_0, 0))    
-        self.connect((self.mer_probe_pj_cf_0, 1), (self.wxgui_numbersink2_1_1_0_1_0_0, 0))    
-        self.connect((self.mer_probe_qe_cf_0, 1), (self.wxgui_numbersink2_1_1_0_0, 0))    
-        self.connect((self.mer_probe_qe_cf_0, 0), (self.wxgui_numbersink2_1_1_0_1, 0))    
-        self.connect((self.mer_probe_ste_cf_0, 0), (self.wxgui_numbersink2_1_0, 0))    
-        self.connect((self.mer_probe_ste_cf_0, 2), (self.wxgui_numbersink2_1_0_0, 0))    
-        self.connect((self.mer_probe_ste_cf_0, 1), (self.wxgui_numbersink2_1_0_1, 0))    
+        self.connect((self.mer_probe_all_meassurements_cf_0, 0), (self.wxgui_numbersink2_1, 0))    
+        self.connect((self.mer_probe_all_meassurements_cf_0, 1), (self.wxgui_numbersink2_1_0, 0))    
+        self.connect((self.mer_probe_all_meassurements_cf_0, 2), (self.wxgui_numbersink2_1_1, 0))    
+        self.connect((self.mer_probe_all_meassurements_cf_0, 3), (self.wxgui_numbersink2_1_1_0, 0))    
+        self.connect((self.mer_probe_all_meassurements_cf_0, 6), (self.wxgui_numbersink2_1_1_0_0, 0))    
+        self.connect((self.mer_probe_all_meassurements_cf_0, 5), (self.wxgui_numbersink2_1_1_0_1, 0))    
+        self.connect((self.mer_probe_all_meassurements_cf_0, 7), (self.wxgui_numbersink2_1_1_0_1_0, 0))    
+        self.connect((self.mer_probe_all_meassurements_cf_0, 8), (self.wxgui_numbersink2_1_1_0_1_0_0, 0))    
+        self.connect((self.mer_probe_all_meassurements_cf_0, 4), (self.wxgui_numbersink2_1_1_1, 0))    
 
 
     def get_sym_rate(self):
@@ -434,8 +388,8 @@ class top_block(grc_wxgui.top_block_gui):
 
     def set_sym_rate(self, sym_rate):
         self.sym_rate = sym_rate
-        self.wxgui_scopesink2_0_0.set_sample_rate(self.sym_rate)
         self.blocks_throttle_0.set_sample_rate(self.sym_rate)
+        self.wxgui_scopesink2_0_0.set_sample_rate(self.sym_rate)
 
     def get_samp_rate(self):
         return self.samp_rate

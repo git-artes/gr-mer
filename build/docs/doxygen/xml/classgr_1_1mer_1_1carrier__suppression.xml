@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="40" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" bodystart="40" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="45" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="42" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" bodystart="42" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="47" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1carrier__suppression_1a3599163706d793cbf8d844bf827390dc" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="43" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" bodystart="43" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="48" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1carrier__suppression_1a72859360ce93e97a1dba5ec791e64f54" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="44" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" bodystart="44" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="49" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1carrier__suppression_1a3c494a8cd9983a81bcccf0020a420f1b" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="45" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" bodystart="45" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="50" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1mer_1_1carrier__suppression_1a0dc6efe8524c603dd07ce26bebc587a1" prot="private" static="no" mutable="no">
         <type><ref refid="classgr_1_1mer_1_1demapper" kindref="compound">demapper</ref> *</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="46" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" bodystart="46" bodyend="-1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="51" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="37" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="42" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1mer_1_1carrier__suppression_1ac8fad85c5a0e0fdd67d7f7206853c601" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="38" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="43" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1mer_1_1carrier__suppression_1a415cf52821dd34dbb5608080c3b82cdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -135,14 +135,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="39" column="1"/>
+        <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="44" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>&lt;+description+&gt; </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="35" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" bodystart="34" bodyend="47"/>
+    <location file="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" line="40" column="1" bodyfile="/home/belza/Dropbox/software/gr-mer/include/mer/carrier_suppression.h" bodystart="39" bodyend="52"/>
     <listofallmembers>
       <member refid="classgr_1_1mer_1_1carrier__suppression_1a7bbf417001b312805ccb091c35ec5482" prot="public" virt="non-virtual"><scope>gr::mer::carrier_suppression</scope><name>carrier_suppression</name></member>
       <member refid="classgr_1_1mer_1_1carrier__suppression_1a47b050f8e79f5f80b796017be12ad6c4" prot="public" virt="non-virtual"><scope>gr::mer::carrier_suppression</scope><name>d_cs</name></member>

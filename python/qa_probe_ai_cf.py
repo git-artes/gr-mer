@@ -1,8 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # 
-# Copyright 2015 <ARTES Group, Universidad de la República, Uruguay>.
+# Copyright 2015
+# Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Pablo Flores Guridi, Federico Larroca. 
+# ARTES Group
 # http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3
+# Instituto de Ingenieria Electrica, Facultad de Ingenieria,
+# Universidad de la Republica, Uruguay.
 # 
 # This is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -48,7 +52,7 @@ class qa_probe_ai_cf (gr_unittest.TestCase):
 	#constant multiplicative distorsion factor for real and imaginary part
 	distorsion_real = 1.122
 	distorsion_imag = 0.95
-	# call the probe_mer constructor with the symbol table and alpha value for averaging
+	# call the probe_ai constructor with the symbol table and alpha value for averaging
  	self.mer_probe_ai_cf_0 = mer.probe_ai_cf((0.9487+0.9487j,0.9487+0.3162j, 0.3162+0.9487j, 0.3162 +0.3162j,0.9487-0.9487j,0.9487- 0.3162j, 0.3162-0.9487j, 0.3162- 0.3162j,-0.9487+0.9487j,-0.9487+ 0.3162j,- 0.3162+0.9487j,- 0.3162+ 0.3162j,-0.9487-0.9487j,-0.9487- 0.3162j,-0.3162-0.9487j,-0.3162- 0.3162j),0.005)
         #source data to test is a vector of the cosntellation table * number_of_vectors
         src_const = (0.9487+0.9487j,0.9487+0.3162j, 0.3162+0.9487j, 0.3162 +0.3162j,0.9487-0.9487j,0.9487- 0.3162j, 0.3162-0.9487j, 0.3162- 0.3162j,-0.9487+0.9487j,-0.9487+ 0.3162j,- 0.3162+0.9487j,- 0.3162+ 0.3162j,-0.9487-0.9487j,-0.9487- 0.3162j,-0.3162-0.9487j,-0.3162- 0.3162j)*number_of_vectors
