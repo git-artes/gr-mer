@@ -1,0 +1,13 @@
+build/
+draft
+viejos
+old
+logs
+*.log
+*.pyc
+*.bin
+*.hex
+*.py~
+*.txt~
+*.sh~
+*~
