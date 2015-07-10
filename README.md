@@ -11,12 +11,12 @@ Measurement guidelines for DVB systems, ETSI, May 1997, pages 27-33.  </p>
 
 <p><strong>Notes and examples</strong></p>
 
-<p>We have implemented  one gnuradio block for each measure: MER, STE,CS, AI, QE and PJ,  and one block whose output are  all main measures.
+<p>We have implemented  one GNU Radio block for each measure: MER, STE,CS, AI, QE and PJ,  and one block whose output are  all main measures.
 The input to each block are the complex samples before the constellation demapping at the receiver and the output is an update of the corresponding measure for each new sample. </p>
 
 <ul>
 <li><strong>Examples.</strong>  </li>
-In the directory gr-mer/examples/ there are to examples mer.grc and mer_all.grc. In both examples we use the hardware impairments  block of gnuradio in order to introduce different errors and test the measure probes.
+In the directory gr-mer/examples/ there are to examples mer.grc and mer_all.grc. In both examples we use the hardware impairments  block of GNU Radio in order to introduce different errors and test the measure probes.
 In the first example we use one probe block for each measure and in the second one we use the block with all main measures.
 </ul>
 
