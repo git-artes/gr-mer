@@ -33,11 +33,11 @@ If installed for the first time:
 
     sudo ldconfig
 
-IIE Instituto de Ingeniería Eléctrica 
-Facultad de Ingeniería 
-Universidad de la República 
-Montevideo, Uruguay 
-http://iie.fing.edu.uy/investigacion/grupos/artes/ 
+IIE Instituto de Ingeniería Eléctrica  
+Facultad de Ingeniería  
+Universidad de la República  
+Montevideo, Uruguay  
+http://iie.fing.edu.uy/investigacion/grupos/artes/  
 
 Please refer to the LICENSE file for contact information and further credits.
 
