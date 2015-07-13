@@ -30,6 +30,7 @@ In the first example we use one probe block for each measurement and in the seco
 
 
 If installed for the first time:   
+
     sudo ldconfig  
 
 IIE Instituto de Ingeniería Eléctrica  
