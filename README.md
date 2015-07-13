@@ -1,12 +1,12 @@
 ### GR-MER, QAM Modulation error measurements
 
-** An open source implementation of QAM Modulation error measurements in GNU Radio** 
+**An open source implementation of QAM Modulation error measurements in GNU Radio** 
 
 In particular, we implement a set of probes for measurement the Modulation Error Rate (MER) and other measurements that impacts on MER like: system target error (STE), carrier suppression error (CS), amplitude imbalance error (AI), quadrature error (QE) and phase jitter error (PJ). 
 
 This set of measurements is based on the definitions of the following document:
 
-Digital Video Broadcasting (DVB); Measurement guidelines for DVB systems, ETSI, May 1997, pages 27-33.
+- Digital Video Broadcasting (DVB); Measurement guidelines for DVB systems, ETSI, May 1997, pages 27-33.
 
 While the previous document is specific for DTV, the set of measurements proposed in this document are general for any digital modulation system. Considering the estimation procedures implemented in this software, the set of probes can be used on any QAM system. 
 
@@ -30,13 +30,14 @@ In the first example we use one probe block for each measurement and in the seco
 
 
 If installed for the first time:
+
     sudo ldconfig
 
-IIE Instituto de Ingeniería Eléctrica
-Facultad de Ingeniería
-Universidad de la República
-Montevideo, Uruguay
-http://iie.fing.edu.uy/investigacion/grupos/artes/
+IIE Instituto de Ingeniería Eléctrica 
+Facultad de Ingeniería 
+Universidad de la República 
+Montevideo, Uruguay 
+http://iie.fing.edu.uy/investigacion/grupos/artes/ 
 
 Please refer to the LICENSE file for contact information and further credits.
 
