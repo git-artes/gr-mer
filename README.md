@@ -29,9 +29,8 @@ In the first example we use one probe block for each measurement and in the seco
     make && sudo make install  
 
 
-If installed for the first time:
-
-    sudo ldconfig
+If installed for the first time:   
+    sudo ldconfig  
 
 IIE Instituto de Ingeniería Eléctrica  
 Facultad de Ingeniería  
