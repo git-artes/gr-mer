@@ -16,7 +16,7 @@ We have implemented  one GNU Radio block for each measurement: MER, STE,CS, AI, 
 The input to each block are the complex samples before the constellation demapping at the receiver and the output is an update of the corresponding measurement for each new sample. 
 
 - **Examples**
-In the directory gr-mer/examples/ there are to examples mer.grc and mer_all.grc. In both examples we use the hardware impairments block of GNU Radio in order to introduce different errors and test the measurement probes.
+In the directory gr-mer/examples/ there are two examples mer.grc and mer_all.grc. In both examples we use the hardware impairments block of GNU Radio in order to introduce different errors and test the measurement probes.
 In the first example we use one probe block for each measurement and in the second one we use the block with all main measurements.
 
 **Build instructions**
