@@ -91,12 +91,12 @@ namespace gr {
       	double i,q,i_true,q_true;
 	for(int j=0; j < noutput_items; j++) {
 	      	iq_true = d_demapper->demap(in[j],constellation_value);
-		mer_out[j]=d_mer->update_mer(in[j],iq_true);
-		d_count ++;
-		if(d_count > d_nsamples) {
-			// Post a message with the latest MER value
-			message_port_pub(d_mer_port, pmt::from_double(mer_out[j]));
-			d_count =0;	
+			mer_out[j]=d_mer->update_mer(in[j],iq_true);
+			d_count ++;
+			if(d_count > d_nsamples) {
+				// Post a message with the latest MER value
+				message_port_pub(d_mer_port, pmt::from_double(mer_out[j]));
+				d_count =0;	
         	}
 	}
         // Tell runtime system how many output items we produced.

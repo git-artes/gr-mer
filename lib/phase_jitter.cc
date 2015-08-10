@@ -68,6 +68,11 @@ namespace gr {
     double
     phase_jitter::update_pj(gr_complex iq,gr_complex cs,gr_complex ai,gr_complex qe,double tx_power, double & snr)
     {
+
+		//Check if iq is not a number
+		//If something went wrong just return
+		if (iq!=iq) return 0;
+
 	double aux_mean=0;
 	double aux=0;
 	// the phase jitter modify the cloud in the (-1,1) and (1,-1) direction and the additive noise is not affected in the (1,1) direction

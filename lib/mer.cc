@@ -42,6 +42,7 @@
 
 #include <gnuradio/io_signature.h>
 #include <mer/mer.h>
+#include <stdio.h>
 
 namespace gr {
   namespace mer {
@@ -73,8 +74,10 @@ namespace gr {
     mer::update_avg_error_power(gr_complex iq,gr_complex iq_true)
     {
         double error_power;
-	error_power=norm(iq-iq_true);
-	d_avgerror_power = error_power *d_alpha + d_avgerror_power*(1-d_alpha); 
+	
+		 error_power=norm(iq-iq_true);
+
+	d_avgerror_power = error_power*d_alpha + d_avgerror_power*(1-d_alpha); 
 	return d_avgerror_power;  
     }
 
@@ -82,7 +85,8 @@ namespace gr {
     mer::update_mer(gr_complex iq,gr_complex iq_true)
     {
   	update_avg_tx_power(iq_true);
-	update_avg_error_power(iq,iq_true);
+	if (iq == iq) update_avg_error_power(iq,iq_true);
+
 	//to divide by numbers no so close to zero	
 	if ( d_avgerror_power > 0.0000000001){ 	    
   	      return 10.0*log10(d_avgtxsignal_power/d_avgerror_power);
