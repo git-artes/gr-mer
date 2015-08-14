@@ -41,7 +41,7 @@ namespace gr {
   namespace mer {
 
     /*!
-     * \brief <+description of block+>
+     * \brief Phase Jitter Error.
      * \ingroup mer
      *
      */
@@ -51,12 +51,14 @@ namespace gr {
       typedef boost::shared_ptr<probe_pj_cf> sptr;
 
       /*!
-       * \brief Return a shared_ptr to a new instance of mer::probe_pj_cf.
+       * \brief Receives the symbol table and the filter parameter alpha.
        *
-       * To avoid accidental use of raw pointers, mer::probe_pj_cf's
-       * constructor is in a private implementation
-       * class. mer::probe_pj_cf::make is the public interface for
-       * creating new instances.
+       * PHASE JITTER ERROR.
+       * We estimate the phase jitter error using the outer right up constellation cloud.The model is that if x is a transmitted symbol the phase jitter plus additive noise is modeled as: y = x exp(j \phi) + n, 
+       * where phi and n are gaussian random variables. If we define E{error^2}=(y-x)*(y-x)^*.
+       * It can be proved that E{error^2} is approx equal to N_0+\sigma_{\phi}^2 E_s where N_0 is the variance of the additive gaussian noise, sigma_{\phi}^2 is the variance of the jitter noise and E_s is the energy of the symbol.
+       * This class estimates \sigma_{\phi}^2 and the snr after the constellation points are corrected of the other linear impairments (cs,ai,qe).
+       * This block outputs  \sigma_{\phi}^2  and the snr as a flow of floats and as periodic messages.
        */
       static sptr make(const std::vector<gr_complex> &symbol_table, double alpha);
     };

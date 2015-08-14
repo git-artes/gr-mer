@@ -41,7 +41,7 @@ namespace gr {
   namespace mer {
 
     /*!
-     * \brief <+description of block+>
+     * \brief Probe Digital Modulation measurements.
      * \ingroup mer
      *
      */
@@ -51,12 +51,10 @@ namespace gr {
       typedef boost::shared_ptr<probe_all_meassurements_cf> sptr;
 
       /*!
-       * \brief Return a shared_ptr to a new instance of mer::probe_all_meassurements_cf.
-       *
-       * To avoid accidental use of raw pointers, mer::probe_all_meassurements_cf's
-       * constructor is in a private implementation
-       * class. mer::probe_all_meassurements_cf::make is the public interface for
-       * creating new instances.
+       * \brief Receives the symbol table and the averaging parameter alpha.
+       * 
+       * The symbol table is used by the demapper.cc class.  
+       * The parameter alpha is used by ste.cc class to average d_di vector and mer class to average the tx power.
        */
       static sptr make(const std::vector<gr_complex> &symbol_table, double alpha);
     };

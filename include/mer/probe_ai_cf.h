@@ -37,7 +37,7 @@ namespace gr {
   namespace mer {
 
     /*!
-     * \brief <+description of block+>
+     * \brief Amplitude imabalance error.
      * \ingroup mer
      *
      */
@@ -47,12 +47,14 @@ namespace gr {
       typedef boost::shared_ptr<probe_ai_cf> sptr;
 
       /*!
-       * \brief Return a shared_ptr to a new instance of mer::probe_ai_cf.
-       *
-       * To avoid accidental use of raw pointers, mer::probe_ai_cf's
-       * constructor is in a private implementation
-       * class. mer::probe_ai_cf::make is the public interface for
-       * creating new instances.
+       * \brief Receives the symbol table and the filter parameter alpha.
+
+	   * AMPLITUDE IMBALANCE ERROR. 
+ 	   * We estimate the amplitude imbalance error finding the  contraction or expansion vector of the constellation. 
+ 	   * We assume that the displacement of the cosntellation points has the following axes symmetry.
+ 	   * If the constellation has for example these two points: x+jy and -x+jy, an amplitud imabalance error on the real axe moves the points to x+u+jy and -x-u+jy. 
+ 	   * In order to estimate the ai error we use the four outer constellation points. 
+ 	   * We estimates the average expansion (contraction) of these four points. We average this contraction (expansion) over the four outer points.
        */
       static sptr make(const std::vector<gr_complex> &symbol_table, double alpha);
     };

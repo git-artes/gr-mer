@@ -33,14 +33,6 @@
     <optional>1</optional>
   </source>
 
-  <doc>
-	Recieves the symbol table and the filter parameter alpha.
-	AMPLITUDE IMBALANCE ERROR
- 	We estimate the amplitude imbalance error finding the  contraction or expansion vector of the constellation. 
- 	We assume that the displacement of the cosntellation points has the following axes symmetry.
- 	If the constellation has for example these two points: x+jy and -x+jy, an amplitud imabalance error on the real axe moves the points to x+u+jy and -x-u+jy. 
- 	In order to estimate the ai error we use the four outer constellation points. 
- 	We estimates the average expansion (contraction) of these four points. We average this contraction (expansion) over the four outer points.
-   </doc>
+  <doc></doc>
 
 </block>
