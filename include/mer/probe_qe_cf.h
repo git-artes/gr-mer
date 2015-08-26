@@ -37,10 +37,20 @@ namespace gr {
   namespace mer {
 
     /*!
-     * \brief Quadrature Imbalance Error for QAM.
+     * \brief Quadrature Imbalance Error for QAM. 
      * \ingroup mer
      *
-     */
+     * AMPLITUDE IMBALANCE ERROR. 
+     *
+     * This block uses mer.cc to calculate the average tx_power, uses the ste.cc to update d_di vector, uses quadrature_error.cc to calculate the qe error. 
+     * Please read first ste.cc and quadrature_error.cc files. 
+     *
+     * With each new sample updates di,tx power and the qe error in the real  and imaginary axes and outs its values. This block has two outputs the qe error over the real and imaginary axes. 
+     * QE is the angular displacement of the constellation on the real and the imaginary axes. 
+     * Each  d_nsamples sends a message with the last qe estimations for the corresponding message port. 
+     *
+     * This class uses demapper.cc class to clasify to the constellation points of the received samples. 
+*/
     class MER_API probe_qe_cf : virtual public gr::sync_block
     {
      public:
@@ -49,13 +59,16 @@ namespace gr {
       /*!
        * \brief Receives the symbol table and the filter parameter alpha.
        * 
-       * QUADRATURE IMBALANCE ERROR FOR QAM.
+       * QUADRATURE IMBALANCE ERROR FOR QAM. 
+       *
        * We estimate the quadrature imbalance error qe finding the horizontal and vertical angle of the constellation displacement. 
-       * We assume that the displacement of the cosntellation points has the following axes symmetry.
-       * If the constellation has for example these two points: x+jy and -x+jy, a vertical quadrature error moves the points to x+j(y+u) and -x+j(y-u) 
-       * In order to estimate the qe error we use the following outer constellation points: right up point,right down point, left up point.
+       * We assume that the displacement of the cosntellation points has the following axes symmetry. 
+       * If the constellation has for example these two points: x+jy and -x+jy, a vertical quadrature error moves the points to x+j(y+u) and -x+j(y-u). 
+       *
+       * In order to estimate the qe error we use the following outer constellation points: right up point,right down point, left up point. 
        * With the first and the second ones we estimate the vertical angle and with the first and the third ones we estimate the horizontal angle. 
-       * The block gives the angles in radians.
+       *
+       * The block gives the angles in radians. 
        * If there are other linear distorsions (carrier suppression and amplitude imbalance) do not influence the calculation of qe errors.  
        */
       static sptr make(const std::vector<gr_complex> &symbol_table, double alpha);

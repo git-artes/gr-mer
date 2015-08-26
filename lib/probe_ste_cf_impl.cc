@@ -24,14 +24,6 @@
  */
 
 
-/* SYSTEM TARGET ERROR
- * This block uses mer.cc to calculate the average tx_power, uses the ste.cc to update d_di vector and to calculate the ste, stem and sted as defined in ste.cc. Please read first ste.cc file.
- * With each new sample updates STE,STEM,STED and outs its values, the block has one input float and three output flows.
- * Each  d_nsamples send a message with the last STE,STEM,STED estimations for the corresponding messages ports.
- * This class uses demapper.cc class to clasify to the constellation points of the received samples.
- */
-
-
 #ifdef HAVE_CONFIG_H
 #include "config.h"
 #endif
@@ -49,12 +41,7 @@ namespace gr {
         (new probe_ste_cf_impl(symbol_table, alpha));
     }
 
-   /*
-    * The private constructor
-    * Receives the symbol table and the averaging parameter alpha
-    * The symbol table is used by the demapper.cc class 
-    * The parameter alpha is used by ste.cc class to average d_di vector  
-    */
+
     probe_ste_cf_impl::probe_ste_cf_impl(const std::vector<gr_complex> &symbol_table, double alpha)
       : gr::sync_block("probe_ste_cf",
               gr::io_signature::make(1, 1, sizeof(gr_complex)),
@@ -78,9 +65,6 @@ namespace gr {
 	d_mer = new mer(d_alpha);
     }
 
-    /*
-     * Our virtual destructor.
-     */
     probe_ste_cf_impl::~probe_ste_cf_impl()
     {
     }

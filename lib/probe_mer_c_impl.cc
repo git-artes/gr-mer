@@ -47,12 +47,7 @@ namespace gr {
         (new probe_mer_c_impl(symbol_table, alpha));
     }
 
-    /*
-     * The private constructor
-     * Receives the symbol table and the averaging parameter alpha
-     * The symbol table is used by the demapper.cc class 
-     * The parameter alpha is used by mer.cc class to average MER  
-     */
+
     probe_mer_c_impl::probe_mer_c_impl(const std::vector<gr_complex> &symbol_table, double alpha)
       : gr::sync_block("probe_mer_c",
           io_signature::make(1, 1, sizeof(gr_complex)),
@@ -70,9 +65,7 @@ namespace gr {
         d_mer = new mer(d_alpha);
     }
 
-    /*
-     * Our virtual destructor.
-     */
+
     probe_mer_c_impl::~probe_mer_c_impl()
     {
     }

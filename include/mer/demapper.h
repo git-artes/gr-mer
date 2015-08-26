@@ -33,6 +33,13 @@
 
 namespace gr {
   namespace mer {
+  
+      /*!
+     * \brief Probe Digital Modulation measurements.
+     * \ingroup mer
+     *
+     * MER API demapper.
+     */
 	class  MER_API demapper
 	{
 	protected:

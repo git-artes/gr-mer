@@ -33,8 +33,19 @@ namespace gr {
   namespace mer {
 
     /*!
-     * \brief <+description+>
+     * \brief System Target Error - STE. 
      *
+     * SYSTEM TARGET ERROR - STE. 
+     *
+     * For each of the dim_constellation symbol points calculate the distance d_di between the theoretical symbol point and the corresponding mean point of the cloud of this symbol point. d_di is called Target Error Vector (TEV).This vector indicates the presence of distortions like Carrier Suppression, Amplitude Imbalance, Quadrature Error and may be other non-linear distortions. 
+     *
+     * We define the STE as the average of abs(d_di) over the constellation points : sum_{i=0}^{dim_constellation-1}(abs(d_di[i]))/d_dim_constellation. 
+     * We define the System Target Error Mean STEM as the STE normalized to the average Tx power STE/tx_power. 
+     * We define the System Target Error Deviation as the standard deviation over the constellation points: STED = sqrt(sum_{i=0}^{dim_constellation-1}abs(d_di[i])/d_dim_constellation/tx_power^2- STEM^2). 
+     *
+     * Averaging of the d_di vector is implemented with a first order IIR filter with parameter d_alpha. 
+     *
+     * An ste object is called by different probes to update d_di vector for each sample received. An ste object is called by probe_ste to update ste, stem and sted with each sample. 
      */
     class MER_API ste
     {

@@ -23,14 +23,6 @@
  * Boston, MA 02110-1301, USA.
  */
 
-/* CARRIER SUPPRESSION ERROR
- * This block uses mer.cc to calculate the average tx_power, uses the ste.cc to update d_di vector, uses carrier_suppression.cc to calculate the cs error. 
- * Please read first ste.cc and carrier_suppression.cc files.
- * With each new sample updates di,tx power and cs and outs its values. CS is the power of the carrier suppression error normalized to the avergae tx power.
- * Each  d_nsamples send a message with the last cs estimations for the corresponding message port.
- * This class uses demapper.cc class to clasify to the constellation points of the received samples.
- */
-
 
 #ifdef HAVE_CONFIG_H
 #include "config.h"
@@ -49,12 +41,7 @@ namespace gr {
         (new probe_cs_cf_impl(symbol_table, alpha));
     }
 
-    /*
-    * The private constructor
-    * Receives the symbol table and the averaging parameter alpha
-    * The symbol table is used by the demapper.cc class 
-    * The parameter alpha is used by ste.cc class to average d_di vector and mer class to average the tx power 
-    */
+
     probe_cs_cf_impl::probe_cs_cf_impl(const std::vector<gr_complex> &symbol_table, double alpha)
       : gr::sync_block("probe_cs_cf",
               gr::io_signature::make(1, 1, sizeof(gr_complex)),
@@ -74,9 +61,8 @@ namespace gr {
 	d_cs = new carrier_suppression(d_demapper);
 	d_mer = new mer(d_alpha);
     }
-    /*
-     * Our virtual destructor.
-     */
+
+
     probe_cs_cf_impl::~probe_cs_cf_impl()
     {
     }

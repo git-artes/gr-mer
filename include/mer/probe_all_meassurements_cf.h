@@ -41,9 +41,17 @@ namespace gr {
   namespace mer {
 
     /*!
-     * \brief Probe Digital Modulation measurements.
+     * \brief Probe Digital Modulation measurements. 
      * \ingroup mer
+     * 
+     * This block estimates the Modulation Error Ratio, System Target Error, Carrier Suppression error, Amplitud Imbalance error, Quadrature Eerror and Phase Jitter error.
      *
+     * This block uses mer.cc to calculate the MER and average tx_power, uses the ste.cc to update d_di vector and to estimate the STE value, uses quadrature_error.cc to calculate the qe error, uses the carrier_suppression.cc to calculate the cs error,  uses the amplitude_imbalance.cc to calculate the ai error and the phase_jitter.cc to calculate the pj error and the snr. 
+     * Please read first mer.cc, ste.cc, quadrature_error.cc, amplitude_imbalance.cc, carrier_suppression.cc and phase_jitter.cc  files.
+     *
+     * With each new sample updates di, tx power, ai, cs, qe and the pj and snr values. This block has nine outputs. 
+     *
+     * This class uses demapper.cc class to clasify to the constellation points of the received samples.
      */
     class MER_API probe_all_meassurements_cf : virtual public gr::sync_block
     {

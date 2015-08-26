@@ -23,6 +23,7 @@
  * Boston, MA 02110-1301, USA.
  */
 
+
 #ifndef INCLUDED_MER_PROBE_CS_CF_IMPL_H
 #define INCLUDED_MER_PROBE_CS_CF_IMPL_H
 
@@ -46,6 +47,13 @@ namespace gr {
 
 
      public:
+      /*!
+       * \brief The private constructor. 
+       *
+       * Receives the symbol table and the averaging parameter alpha. 
+       * The symbol table is used by the demapper.cc class. 
+       * The parameter alpha is used by ste.cc class to average d_di vector and mer class to average the tx power. 
+       */
       probe_cs_cf_impl(const std::vector<gr_complex> &symbol_table, double alpha);
       ~probe_cs_cf_impl();
 

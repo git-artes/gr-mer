@@ -33,8 +33,17 @@ namespace gr {
   namespace mer {
 
     /*!
-     * \brief <+description+>
+     * \brief Phase Jitter Error. 
+     * \ingroup mer
      *
+     * We estimate the phase jitter error using the outer right up constellation cloud. The model is that if x is a transmitted symbol the phase jitter plus noise is modeled as: y = x exp(j \phi) + n, where phi and n are gaussian random variables. If we define E{error^2}=(y-x)*(y-x)^*. 
+     *
+     * It can be proved that E{error^2} is approx. equal to N_0+\sigma_{\phi}^2 E_s where N_0 is the variance of the additive gaussian noise, sigma_{\phi}^2 is the variance of the jitter noise and E_s is the energy of the symbol. 
+     * This class estimates \sigma_{\phi}^2 and the snr after the constellation points are corrected of the other linear impairments (cs,ai,qe). 
+     *
+     * update_pj returns  \sigma_{\phi}^2  and the snr is passed by reference. 
+     *
+     * A phase_jitter object is called to update pj with each sample received.  This class uses the demapper class to find the four outer constellation points.
      */
     class MER_API phase_jitter
     {

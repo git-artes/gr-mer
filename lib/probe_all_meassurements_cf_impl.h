@@ -45,6 +45,13 @@ namespace gr {
       int d_dim_constellation;
 
      public:
+     /*!
+      * \brief The private constructor.
+      *
+      * Receives the symbol table and the averaging parameter alpha. 
+      * The symbol table is used by the demapper.cc class. 
+      * The parameter alpha is used by ste.cc class to average d_di vector and mer class to average the tx power. 
+      */
       probe_all_meassurements_cf_impl(const std::vector<gr_complex> &symbol_table, double alpha);
       ~probe_all_meassurements_cf_impl();
 

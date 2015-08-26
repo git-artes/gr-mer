@@ -33,8 +33,22 @@ namespace gr {
   namespace mer {
 
     /*!
-     * \brief <+description+>
+     * \brief Amplitude Imbalance Error. 
+     * \ingroup mer
      *
+     * We estimate the amplitude imbalance error finding the  contraction or expansion vector of the constellation. 
+     * 
+     * We assume that the displacement of the cosntellation points has the following axes symmetry. 
+     *
+     * If the constellation has for example these two points: x+jy and -x+jy, an amplitude imabalance error on the real axe moves the points to x+u+jy and -x-u+jy. 
+     *
+     * In order to estimate the ai error we use the four outer constellation points we estimate the average expansion (contraction) of these four points. We average this contraction (expansion) over the four outer points. 
+     * The estimation of the contraction (expansion) of the constellation uses the di vector (see ste.cc). 
+     *
+     * This vector has the distance between the theoretical symbol point and the corresponding mean point of the cloud of this symbol point. 
+     * As we add the di vector of the four outer points but changing the sign of opposite points the other linear distorsions (Carrier suppression and the quadrature error)  are eliminated. 
+     *  Function update_ai returns a complex number that has the real and imaginary expansion (contraction) values. 
+     * An amplitude_imbalance object is called to update ai with each sample received. This class uses the demapper class to find the four outer constellation points. 
      */
     class MER_API amplitude_imbalance
     {

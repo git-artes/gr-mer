@@ -45,6 +45,13 @@ namespace gr {
       pmt::pmt_t d_stem_port;
       pmt::pmt_t d_sted_port;
      public:
+     /*!
+      * \brief The private constructor. 
+      *
+      * Receives the symbol table and the averaging parameter alpha. 
+      * The symbol table is used by the demapper.cc class. 
+      * The parameter alpha is used by ste.cc class to average d_di vector. 
+      */
       probe_ste_cf_impl(const std::vector<gr_complex> &symbol_table, double alpha);
       ~probe_ste_cf_impl();
 

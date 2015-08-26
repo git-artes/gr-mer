@@ -38,9 +38,16 @@ namespace gr {
   namespace mer {
 
     /*!
-     * \brief Carrier suppression error.
+     * \brief Carrier suppression error.  
      * \ingroup mer
      *
+     * This block uses mer.cc to calculate the average tx_power, uses the ste.cc to update d_di vector, uses carrier_suppression.cc to calculate the cs error. 
+     * Please read first ste.cc and carrier_suppression.cc files. 
+     *
+     * With each new sample updates di, tx power, and cs, and outputs their values. CS is the power of the carrier suppression error normalized to the avergae tx power. 
+     * Each  d_nsamples send a message with the last cs estimations for the corresponding message port. 
+     *
+     * This class uses demapper.cc class to classify the constellation points of the received samples. 
      */
     class MER_API probe_cs_cf : virtual public gr::sync_block
     {
@@ -50,11 +57,13 @@ namespace gr {
       /*!
        * \brief Receives the symbol table and the filter parameter alpha.
 
-       * CARRIER SUPPRESSION ERROR.
-       * We estimate the carrier suppression error finding the DC offset of the samples. The constellation is systematically translated  by a fixed vector.
-       * We assume that the displacement of the cosntellation points has the following axes symmetry.
-       * If the constellation has for example these two points: x+jy and -x+jy, a carrier suppression error on the real axe moves the points to x+u+jy and -x+u+jy 
-       * In order to estimate the cs error we use the four outer constellation points. We estimates the average translation vector of these four points. We average this translation over the four outer points.
+       * CARRIER SUPPRESSION ERROR. 
+       *
+       * We estimate the carrier suppression error finding the DC offset of the samples. The constellation is systematically translated  by a fixed vector. 
+       * We assume that the displacement of the cosntellation points has the following axes symmetry. 
+       * If the constellation has for example these two points: x+jy and -x+jy, a carrier suppression error on the real axe moves the points to x+u+jy and -x+u+jy. 
+       * 
+       * In order to estimate the cs error we use the four outer constellation points. We estimate the average translation vector of these four points. We average this translation over the four outer points. 
        */
       static sptr make(const std::vector<gr_complex> &symbol_table, double alpha);
     };

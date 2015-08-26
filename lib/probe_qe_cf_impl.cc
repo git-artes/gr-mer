@@ -24,15 +24,6 @@
  */
 
 
-/* AMPLITUDE IMBALANCE ERROR
- * This block uses mer.cc to calculate the average tx_power, uses the ste.cc to update d_di vector, uses quadrature_error.cc to calculate the qe error. 
- * Please read first ste.cc and quadrature_error.cc files.
- * With each new sample updates di,tx power and the qe error in the real  and imaginary axes and outs its values. This block has two outputs the qe error over the real and imaginary axes.
- * QE is the angular displacement of the constellation on the real and the imaginary axes. 
- * Each  d_nsamples sends a message with the last qe estimations for the corresponding message port.
- * This class uses demapper.cc class to clasify to the constellation points of the received samples.
- */
-
 #ifdef HAVE_CONFIG_H
 #include "config.h"
 #endif
@@ -51,12 +42,6 @@ namespace gr {
         (new probe_qe_cf_impl(symbol_table, alpha));
     }
 
-   /*
-    * The private constructor
-    * Receives the symbol table and the averaging parameter alpha
-    * The symbol table is used by the demapper.cc class 
-    * The parameter alpha is used by ste.cc class to average d_di vector and mer class to average the tx power 
-    */
     probe_qe_cf_impl::probe_qe_cf_impl(const std::vector<gr_complex> &symbol_table, double alpha)
       : gr::sync_block("probe_qe_cf",
               gr::io_signature::make(1, 1, sizeof(gr_complex)),
@@ -79,9 +64,6 @@ namespace gr {
 	d_mer = new mer(d_alpha);
     }
 
-    /*
-     * Our virtual destructor.
-     */
     probe_qe_cf_impl::~probe_qe_cf_impl()
     {
     }

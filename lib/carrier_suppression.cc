@@ -23,18 +23,6 @@
  * Boston, MA 02110-1301, USA.
  */
 
-/* CARRIER SUPPRESSION ERROR
- * We estimate the carrier suppression error finding the DC offset of the samples. The constellation is systematically translated  by a fixed vector.
- * We assume that the displacement of the cosntellation points has the following axes symmetry.
- * If the constellation has for example these two points: x+jy and -x+jy, a carrier suppression error on the real axe moves the points to x+u+jy and -x+u+jy 
- * In order to estimate the cs error we use the four outer constellation points. We estimates the average translation vector of these four points. We average this translation over the four outer points.
- * The estimation of the translation of the constellation uses the di vector (see ste.cc) that has the distance between the theoretical symbol point and the corresponding mean point of the cloud of this
- * symbol point. As we sum the translation vector of the four outer points the other linear distorsions 
- * (Amplitud Imbalance that is an expansion or contraction of the constellation and the quadrature error)  are eliminated because they have
- * the same magnitud but different sign in the outer points. 
- * The class has the vector d_cs that can be accessed and the update_cs returns the residual carrier power normalized to the tx average power.
- * carrier_suppression object is called  to update cs with each sample received. This class uses the demapper class to find the four outer constellation points
- */
 
 #ifdef HAVE_CONFIG_H
 #include "config.h"
@@ -47,7 +35,7 @@ namespace gr {
   namespace mer {
     carrier_suppression::carrier_suppression(demapper *demap)
     {
-	//with the demapper object we find the outer constellation points
+	// with the demapper object we find the outer constellation points
 	d_demapper = demap;
 	d_demapper->right_down_contellation(decimal_right_down);
 	d_demapper->right_up_contellation(decimal_right_up);
@@ -64,14 +52,14 @@ namespace gr {
     double
     carrier_suppression::update_cs(double tx_power, gr_complex *di)
     {
-	// di vector has the that has the distance between the theoretical symbol point and the corresponding mean point of the cloud of this symbol point.
-	//In order to estimate the cs error we use the four outer constellation points. We estimates the average translation vector of these four outer points. 
+	// di vector has the distance between the theoretical symbol point and the corresponding mean point of the cloud of this symbol point.
+	// In order to estimate the cs error we use the four outer constellation points. We estimate the average translation vector of these four outer points. 
 	real(d_cs)= real(di[decimal_right_up]) + real(di[decimal_right_down])+real(di[decimal_left_down])+real(di[decimal_left_up]) ;
         imag(d_cs)= imag(di[decimal_right_up]) + imag(di[decimal_right_down])+imag(di[decimal_left_down])+imag(di[decimal_left_up]) ;
 	//We average this translation over the four outer points.
 	real(d_cs)= real(d_cs)/4;
 	imag(d_cs)= imag(d_cs)/4;
-	//returns the residual carrier power normalized to the tx average power.
+	// returns the residual carrier power normalized to the tx average power.
         return (real(d_cs)*real(d_cs)+imag(d_cs)*imag(d_cs))/tx_power;
     }
   } /* namespace mer */

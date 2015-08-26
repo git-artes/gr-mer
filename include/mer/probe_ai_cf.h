@@ -37,9 +37,17 @@ namespace gr {
   namespace mer {
 
     /*!
-     * \brief Amplitude imabalance error.
+     * \brief Amplitude imabalance error. 
      * \ingroup mer
      *
+     * This block uses mer.cc to calculate the average tx_power, uses the ste.cc to update d_di vector, uses amplitude_imbalance.cc to calculate the ai error. 
+     * Please read first ste.cc and amplitude_imbalance.cc files. 
+     *
+     * With each new sample updates di,tx power and the ai error in the real  and imaginary axes and outs its values. This block has two outputs the ai error over the real and imaginary axes. 
+     * AI is the real part and the imaginary part of the expansion or contraction vector applied to the constellation. 
+     * Each  d_nsamples sends a message with the last ai estimations for the corresponding message port. 
+     *
+     * This class uses demapper.cc class to clasify to the constellation points of the received samples.
      */
     class MER_API probe_ai_cf : virtual public gr::sync_block
     {
@@ -48,13 +56,14 @@ namespace gr {
 
       /*!
        * \brief Receives the symbol table and the filter parameter alpha.
-
+       *
 	   * AMPLITUDE IMBALANCE ERROR. 
+	   *
  	   * We estimate the amplitude imbalance error finding the  contraction or expansion vector of the constellation. 
- 	   * We assume that the displacement of the cosntellation points has the following axes symmetry.
+ 	   * We assume that the displacement of the cosntellation points has the following axes symmetry. 
  	   * If the constellation has for example these two points: x+jy and -x+jy, an amplitud imabalance error on the real axe moves the points to x+u+jy and -x-u+jy. 
  	   * In order to estimate the ai error we use the four outer constellation points. 
- 	   * We estimates the average expansion (contraction) of these four points. We average this contraction (expansion) over the four outer points.
+ 	   * We estimate the average expansion (contraction) of these four points. We average this contraction (expansion) over the four outer points.
        */
       static sptr make(const std::vector<gr_complex> &symbol_table, double alpha);
     };

@@ -24,16 +24,6 @@
  */
 
 
-/* PHASE JITTER ERROR
- * We estimate the phase jitter error using the outer right up constellation cloud.The model is that if x is a transmitted symbol the phase jitter plus noise is modeled as: y = x exp(j \phi) + n, 
- * where phi and n are gaussian random variables. If we define E{error^2}=(y-x)*(y-x)^*.
- * It can be proved that E{error^2} is approx. equal to N_0+\sigma_{\phi}^2 E_s where N_0 is the variance of the additive gaussian noise, sigma_{\phi}^2 is the variance of the jitter noise and E_s is the energy of the symbol.
- * This class estimates \sigma_{\phi}^2 and the snr after the constellation points are corrected of the other linear impairments (cs,ai,qe).
- * update_pj returns  \sigma_{\phi}^2  and the snr is passed by reference.
- * phase_jitter object is called  to update pj with each sample received. This class uses the demapper class to find the four outer constellation points
- */
-
-
 #ifdef HAVE_CONFIG_H
 #include "config.h"
 #endif
@@ -69,14 +59,14 @@ namespace gr {
     phase_jitter::update_pj(gr_complex iq,gr_complex cs,gr_complex ai,gr_complex qe,double tx_power, double & snr)
     {
 
-		//Check if iq is not a number
-		//If something went wrong just return
+		// check if iq is not a number
+		// if something went wrong just return
 		if (iq!=iq) return 0;
 
 	double aux_mean=0;
 	double aux=0;
 	// the phase jitter modify the cloud in the (-1,1) and (1,-1) direction and the additive noise is not affected in the (1,1) direction
-	// In order to estimate the noise we use the (1,1) direction using and epsilon-band on that direction
+	// in order to estimate the noise we use the (1,1) direction using and epsilon-band on that direction
 	double epsilon = real(d_point_right_up)/sqrt(d_dim_constellation)/40.0;
 	double decimal_point = d_demapper->demap(iq);
 	// estimate the phase jitter and snr using the outer right up constelation cloud
@@ -95,7 +85,7 @@ namespace gr {
 			d_mean_noise = d_mean_noise *(1-0.001) + aux * 0.001;
 			d_var_noise = d_var_noise*(1-0.001)+ (abs(pj_aux) -d_mean_noise)* (abs(pj_aux) -d_mean_noise)*0.001;		
 		} 
-		//estimate the variance of the error of the cloud
+		// estimate the variance of the error of the cloud
 		real(d_mean_cloud) = real(d_mean_cloud) *(1-0.001) + real(pj_aux) * 0.001;	
 		imag(d_mean_cloud) = imag(d_mean_cloud) *(1-0.001) + imag(pj_aux) * 0.001;	
 		d_var_cloud = d_var_cloud*(1-0.001)+ norm(pj_aux-d_mean_cloud)*0.001; 

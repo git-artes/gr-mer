@@ -35,9 +35,8 @@ namespace gr {
   namespace mer {
 
     /*!
-     * \brief Moudlation Error Rate - MER.
+     * \brief Moudlation Error Rate - MER. 
      * \ingroup mer
-     *
      */
     class MER_API probe_mer_c : virtual public gr::sync_block
     {
@@ -45,16 +44,19 @@ namespace gr {
       typedef boost::shared_ptr<probe_mer_c> sptr;
 
       /*!
-       * \brief Receives the symbol table and the filter parameter alpha.
+       * \brief Receives the symbol table and the filter parameter alpha. 
        *
-       * MODULATION ERROR RATE - MER
-       * Lets I[i],Q[i] the sample i received and I_{true}[i] and Q_{true}[i] the corresponding constellation point
-       * MER is defined as: 
-       * lets txsignal_power[i] = I^2_{true][i] + Q^2_{true}[i] and error_power[i]= (I_{true][i]-I[i])^2 + (Q_{true}[i]- Q[i])^2 
-       * and lets d_avgtxsignal_power = average{txsignal_power[i]} 
-       * and d_avgerror_power = average{error_power[i]}
+       * MODULATION ERROR RATE - MER. 
+       * 
+       * Lets I[i],Q[i] the sample i received and I_{true}[i] and Q_{true}[i] the corresponding constellation point. MER is defined as: 
+       * 
+       * lets txsignal_power[i] = I^2_{true][i] + Q^2_{true}[i] and error_power[i]= (I_{true][i]-I[i])^2 + (Q_{true}[i]- Q[i])^2, 
+       * and lets d_avgtxsignal_power = average{txsignal_power[i]}, 
+       * and d_avgerror_power = average{error_power[i]},   
+       * 
  	   * MER = 10*log10(d_avgtxsignal_power/ d_avgerror_power) in dbs. 
- 	   * Averaging is implemented with a first order IIR filter with parameter d_alpha.
+ 	   * 
+ 	   * Averaging is implemented with a first order IIR filter with parameter d_alpha. 
        */
       static sptr make(const std::vector<gr_complex> &symbol_table, double alpha);
     };

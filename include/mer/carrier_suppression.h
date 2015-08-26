@@ -33,8 +33,21 @@ namespace gr {
   namespace mer {
 
     /*!
-     * \brief <+description+>
+     * \brief Carrier Suppression Error.
+     * \ingroup mer
      *
+     * We estimate the carrier suppression error finding the DC offset of the samples. The constellation is systematically translated  by a fixed vector. 
+     * We assume that the displacement of the cosntellation points has the following axes symmetry. 
+     *
+     * If the constellation has for example these two points: x+jy and -x+jy, a carrier suppression error on the real axe moves the points to x+u+jy and -x+u+jy. 
+     *
+     * In order to estimate the cs error we use the four outer constellation points. We estimates the average translation vector of these four points. We average this translation over the four outer points. 
+     * The estimation of the translation of the constellation uses the di vector (see ste.cc) that has the distance between the theoretical symbol point and the corresponding mean point of the cloud of this symbol point. 
+     * As we sum the translation vector of the four outer points the other linear distorsions (Amplitud Imbalance that is an expansion or contraction of the constellation and the quadrature error)  are eliminated because they have the same magnitud but different sign in the outer points. 
+     *
+     * The class has the vector d_cs that can be accessed and the update_cs returns the residual carrier power normalized to the tx average power. 
+     *
+     * A carrier_suppression object is called to update cs with each sample received. This class uses the demapper class to find the four outer constellation points. 
      */
     class MER_API carrier_suppression
     {
