@@ -86,8 +86,8 @@ namespace gr {
 			d_var_noise = d_var_noise*(1-0.001)+ (abs(pj_aux) -d_mean_noise)* (abs(pj_aux) -d_mean_noise)*0.001;		
 		} 
 		// estimate the variance of the error of the cloud
-		real(d_mean_cloud) = real(d_mean_cloud) *(1-0.001) + real(pj_aux) * 0.001;	
-		imag(d_mean_cloud) = imag(d_mean_cloud) *(1-0.001) + imag(pj_aux) * 0.001;	
+		d_mean_cloud.real( real(d_mean_cloud) *(1-0.001) + real(pj_aux) * 0.001 );	
+		d_mean_cloud.imag( imag(d_mean_cloud) *(1-0.001) + imag(pj_aux) * 0.001 );	
 		d_var_cloud = d_var_cloud*(1-0.001)+ norm(pj_aux-d_mean_cloud)*0.001; 
 			
 	}
