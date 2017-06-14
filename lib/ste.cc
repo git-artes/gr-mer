@@ -54,9 +54,12 @@ namespace gr {
     ste::update_di(gr_complex iq,gr_complex iq_true,int constellation_value)
     {
 		double d=0;
+        float aux = 0; 
 		if (iq==iq){
-			real(d_di[constellation_value]) = real(iq-iq_true)*d_alpha +(1-d_alpha)* real(d_di[constellation_value]);
-			imag(d_di[constellation_value]) = imag(iq-iq_true)*d_alpha +(1-d_alpha)* imag(d_di[constellation_value]);
+            aux = real(iq-iq_true)*d_alpha +(1-d_alpha)* real(d_di[constellation_value]);
+			d_di[constellation_value].real(aux);
+            aux = imag(iq-iq_true)*d_alpha +(1-d_alpha)* imag(d_di[constellation_value]);
+			d_di[constellation_value].imag(aux);
 		}
 		return d_di;
     }
