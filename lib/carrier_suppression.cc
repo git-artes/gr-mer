@@ -54,11 +54,14 @@ namespace gr {
     {
 	// di vector has the distance between the theoretical symbol point and the corresponding mean point of the cloud of this symbol point.
 	// In order to estimate the cs error we use the four outer constellation points. We estimate the average translation vector of these four outer points. 
-	real(d_cs)= real(di[decimal_right_up]) + real(di[decimal_right_down])+real(di[decimal_left_down])+real(di[decimal_left_up]) ;
-        imag(d_cs)= imag(di[decimal_right_up]) + imag(di[decimal_right_down])+imag(di[decimal_left_down])+imag(di[decimal_left_up]) ;
-	//We average this translation over the four outer points.
-	real(d_cs)= real(d_cs)/4;
-	imag(d_cs)= imag(d_cs)/4;
+	d_cs.real( real(di[decimal_right_up]) + real(di[decimal_right_down])+real(di[decimal_left_down])+real(di[decimal_left_up]) );
+
+    d_cs.imag( imag(di[decimal_right_up]) + imag(di[decimal_right_down])+imag(di[decimal_left_down])+imag(di[decimal_left_up]) );
+	
+    
+    //We average this translation over the four outer points.
+	d_cs.real(real(d_cs)/4);
+	d_cs.imag(imag(d_cs)/4);
 	// returns the residual carrier power normalized to the tx average power.
         return (real(d_cs)*real(d_cs)+imag(d_cs)*imag(d_cs))/tx_power;
     }
