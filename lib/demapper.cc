@@ -1,7 +1,7 @@
 /* -*- c++ -*- */
 /*
- * Copyright 2015
- * Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Pablo Flores Guridi, Federico Larroca. 
+ * Copyright 2023,2015
+ * Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Pablo Flores Guridi, Federico Larroca, Gonzalo Belcredi. 
  * ARTES Group
  * http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3
  * Instituto de Ingenieria Electrica, Facultad de Ingenieria,
@@ -152,6 +152,8 @@ namespace gr {
             gr_complex(-3/sqrt(42),-1/sqrt(42)),
             gr_complex(-3/sqrt(42),-3/sqrt(42)),
         }; 
+        
+
         demapper::demapper(const std::vector<gr_complex> map)
         {
             d_isdbt_constellation=true;
@@ -174,7 +176,7 @@ namespace gr {
 						for(int i=0;i<d_const_size;i++)
 							if (d_constellation[i]!=d_constellation_64qam[i])
 									d_isdbt_constellation = false;
-						break;
+						break;			
 				default:
 						d_isdbt_constellation = false;
 						break;

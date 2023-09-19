@@ -1,5 +1,0 @@
-<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="1.100">
-  <testcase classname="__main__.qa_probe_pj_cf" name="test_001_t" time="1.1003"></testcase>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

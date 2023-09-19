@@ -1,0 +1,50 @@
+id: mer_probe_all_meassurements_cf
+label: Probe All Measurements
+category: '[mer]'
+
+templates:
+  imports: import mer
+  make: mer.probe_all_meassurements_cf(${symbol_table}, ${alpha})
+
+parameters:
+- id: symbol_table
+  label: Symbol Table
+  dtype: complex_vector
+- id: alpha
+  label: Alpha
+  dtype: float
+  
+inputs:
+- label: in
+  dtype: complex
+
+
+outputs:
+- label: mer
+  dtype: float
+- label: ste
+  dtype: float
+  optional: 1
+- label: cs
+  dtype: float
+  optional: 2
+- label: real_ai
+  dtype: float
+  optional: 3
+- label: imag_ai
+  dtype: float
+  optional: 4
+- label: AngleH
+  dtype: float
+  optional: 5
+- label: AngleV
+  dtype: float
+  optional: 6
+- label: pj
+  dtype: float 
+  optional: 7
+- label: snr
+  dtype: float 
+  optional: 8
+
+file_format: 1

@@ -1,12 +1,12 @@
 /* -*- c++ -*- */
 /* 
- * Copyright 2015
- * Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Pablo Flores Guridi, Federico Larroca. 
+ * Copyright 2023,2015
+ * Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Pablo Flores Guridi, Federico Larroca, Gonzalo Belcredi. 
  * ARTES Group
  * http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3
  * Instituto de Ingenieria Electrica, Facultad de Ingenieria,
  * Universidad de la Republica, Uruguay.
- * 
+ *
  * This is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 3, or (at your option)
@@ -23,30 +23,30 @@
  * Boston, MA 02110-1301, USA.
  */
 
-
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
-#include <gnuradio/io_signature.h>
 #include "probe_ai_cf_impl.h"
+#include <gnuradio/io_signature.h>
 
 namespace gr {
-  namespace mer {
+namespace mer {
 
-    probe_ai_cf::sptr
-    probe_ai_cf::make(const std::vector<gr_complex> &symbol_table, double alpha)
-    {
-      return gnuradio::get_initial_sptr
-        (new probe_ai_cf_impl(symbol_table, alpha));
-    }
+using input_type = float;
+using output_type = float;
+probe_ai_cf::sptr probe_ai_cf::make(const std::vector<gr_complex>& symbol_table,
+                                    double alpha)
+{
+    return gnuradio::make_block_sptr<probe_ai_cf_impl>(symbol_table, alpha);
+}
 
 
-    probe_ai_cf_impl::probe_ai_cf_impl(const std::vector<gr_complex> &symbol_table, double alpha)
-      : gr::sync_block("probe_ai_cf",
+/*
+ * The private constructor
+ */
+probe_ai_cf_impl::probe_ai_cf_impl(const std::vector<gr_complex>& symbol_table,
+                                   double alpha)
+    : gr::sync_block("probe_ai_cf",
               gr::io_signature::make(1, 1, sizeof(gr_complex)),
               gr::io_signature::make(2, 2, sizeof(float)))
-    {
+{
         d_nsamples = 1000; // number of samples to send a message with MER value
         d_count = 0;       // sample's counter
 	    // filter parameter to average the di vector in ste object and the tx power.
@@ -60,18 +60,19 @@ namespace gr {
         d_ste = new ste(d_dim_constellation,d_alpha);
 	d_ai = new amplitude_imbalance(d_demapper);
 	d_mer = new mer(d_alpha);
-     }
+     
+}
 
-    probe_ai_cf_impl::~probe_ai_cf_impl()
-    {
-    }
+/*
+ * Our virtual destructor.
+ */
+probe_ai_cf_impl::~probe_ai_cf_impl() {}
 
-    int
-    probe_ai_cf_impl::work(int noutput_items,
-			  gr_vector_const_void_star &input_items,
-			  gr_vector_void_star &output_items)
-    {
- 	const gr_complex *in = (const gr_complex*)input_items[0];
+int probe_ai_cf_impl::work(int noutput_items,
+                           gr_vector_const_void_star& input_items,
+                           gr_vector_void_star& output_items)
+{
+    const gr_complex *in = (const gr_complex*)input_items[0];
       	float *ai_real_out = NULL,*ai_imag_out = NULL;
         ai_real_out = (float *) output_items[0];
         ai_imag_out = (float *) output_items[1];
@@ -97,8 +98,7 @@ namespace gr {
 	}
         // Tell runtime system how many output items we produced.
         return noutput_items;
-    }
+}
 
-  } /* namespace mer */
+} /* namespace mer */
 } /* namespace gr */
-
