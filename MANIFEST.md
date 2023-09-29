@@ -10,14 +10,16 @@ author:
   - Federico "Larroca" La Rocca 
   - Gabriel Gomez Sena 
   - Pablo Flores Guridi 
-  - Victor Gonzalez Barbone 
+  - Victor Gonzalez Barbone
+  - Gonzalo Belcredi
 
 copyright_owner: 
   - Pablo Belzarena 
   - Federico "Larroca" La Rocca  
   - Gabriel Gomez Sena 
   - Pablo Flores Guridi 
-  - Victor Gonzalez Barbone 
+  - Victor Gonzalez Barbone
+  - Gonzalo Belcredi
 
 license:  
 repo: https://github.com/git-artes/gr-mer 

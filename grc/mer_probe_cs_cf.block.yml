@@ -1,0 +1,28 @@
+id: mer_probe_cs_cf
+label: Probe Carrier Suppression Error
+category: '[mer]'
+
+templates:
+  imports: import mer
+  make: mer.probe_cs_cf(${symbol_table}, ${alpha})
+
+parameters:
+- id: symbol_table
+  label: Symbol Table
+  dtype: complex_vector
+- id: alpha
+  label: Alpha
+  dtype: float
+
+inputs:
+- label: in
+  dtype: complex
+
+outputs:
+- label: cs
+  dtype: float
+- label: cs_msg
+  domain: message
+  optional: 1
+
+file_format: 1

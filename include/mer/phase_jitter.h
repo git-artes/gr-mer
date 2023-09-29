@@ -1,7 +1,7 @@
 /* -*- c++ -*- */
 /* 
- * Copyright 2015
- * Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Pablo Flores Guridi, Federico Larroca. 
+ * Copyright 2023,2015
+ * Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Pablo Flores Guridi, Federico Larroca, Gonzalo Belcredi. 
  * ARTES Group
  * http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3
  * Instituto de Ingenieria Electrica, Facultad de Ingenieria,
@@ -53,17 +53,17 @@ namespace gr {
       double update_pj(gr_complex iq,gr_complex cs,gr_complex ai,gr_complex qe,double tx_power, double & snr);
 
     private:
-	int d_decimal_right_down;
-	int d_decimal_right_up;
-	int d_decimal_left_down;
-	int d_decimal_left_up;
-	gr_complex d_point_right_up;
-	demapper * d_demapper;
-	int d_dim_constellation;
-	double d_var_cloud;
-	gr_complex d_mean_cloud;
-	double d_mean_noise;
-	double d_var_noise;
+      int d_decimal_right_down;
+      int d_decimal_right_up;
+      int d_decimal_left_down;
+      int d_decimal_left_up;
+      gr_complex d_point_right_up;
+      demapper * d_demapper;
+      int d_dim_constellation;
+      double d_var_cloud;
+      gr_complex d_mean_cloud;
+      double d_mean_noise;
+      double d_var_noise;
     };
 
   } // namespace mer
