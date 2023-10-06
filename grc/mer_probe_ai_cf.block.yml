@@ -1,0 +1,30 @@
+id: mer_probe_ai_cf
+label: Probe Amplitude Imbalance Error
+category: '[mer]'
+
+templates:
+  imports: import mer
+  make: mer.probe_ai_cf(${symbol_table}, ${alpha})
+  
+parameters:
+- id: symbol_table
+  label: Symbol Table
+  dtype: complex_vector
+- id: alpha
+  label: Alpha
+  dtype: float
+
+inputs:
+- label: in
+  dtype: complex
+
+outputs:
+- label: ai_real
+  dtype: float
+- label: ai_imag
+  dtype: float
+- label: ai_msg
+  domain: message
+  optional: 1
+
+file_format: 1

@@ -1,7 +1,7 @@
 /* -*- c++ -*- */
 /*
- * Copyright 2015
- * Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Pablo Flores Guridi, Federico Larroca. 
+ * Copyright 2023,2015
+ * Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Pablo Flores Guridi, Federico Larroca, Gonzalo Belcredi. 
  * ARTES Group
  * http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3
  * Instituto de Ingenieria Electrica, Facultad de Ingenieria,
@@ -43,10 +43,11 @@ namespace gr {
 	class  MER_API demapper
 	{
 	protected:
-	        static const gr_complex d_constellation_qpsk[]; 
-                static const gr_complex d_constellation_16qam[]; 
-                static const gr_complex d_constellation_64qam[]; 
-                int d_const_size;
+	    static const gr_complex d_constellation_qpsk[]; 
+        static const gr_complex d_constellation_16qam[]; 
+        static const gr_complex d_constellation_64qam[];
+        static const gr_complex d_constellation_256qam[];
+        int d_const_size;
 		double d_re_min;
 		double d_im_min;
 		double d_re_max;

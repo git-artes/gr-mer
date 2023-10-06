@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # 
-# Copyright 2015
-# Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Pablo Flores Guridi, Federico Larroca. 
+# Copyright 2023,2015
+# Pablo Belzarena <belza@fing.edu.uy>, Gabriel Gomez,  Victor Gonzalez-Barbone, Pablo Flores Guridi, Federico Larroca, Gonzalo Belcredi. 
 # ARTES Group
 # http://iie.fing.edu.uy/investigacion/grupos/artes/ingles/index.php3
 # Instituto de Ingenieria Electrica, Facultad de Ingenieria,
@@ -25,22 +25,33 @@
 # 
 
 from gnuradio import gr, gr_unittest
-from gnuradio import blocks
-import mer_swig as mer
+# from gnuradio import blocks
+try:
+    from mer import probe_all_meassurements_cf
+except ImportError:
+    import os
+    import sys
+    dirname, filename = os.path.split(os.path.abspath(__file__))
+    sys.path.append(os.path.join(dirname, "bindings"))
+    from mer import probe_all_meassurements_cf
 
-class qa_probe_all_meassurements_cf (gr_unittest.TestCase):
+class qa_probe_all_meassurements_cf(gr_unittest.TestCase):
 
-    def setUp (self):
-        self.tb = gr.top_block ()
+    def setUp(self):
+        self.tb = gr.top_block()
 
-    def tearDown (self):
+    def tearDown(self):
         self.tb = None
 
-    def test_001_t (self):
+    def test_instance(self):
+        # FIXME: Test will fail until you pass sensible arguments to the constructor
+        instance = probe_all_meassurements_cf()
+
+    def test_001_descriptive_test_name(self):
         # set up fg
-        self.tb.run ()
+        self.tb.run()
         # check data
 
 
 if __name__ == '__main__':
-    gr_unittest.run(qa_probe_all_meassurements_cf, "qa_probe_all_meassurements_cf.xml")
+    gr_unittest.run(qa_probe_all_meassurements_cf)
