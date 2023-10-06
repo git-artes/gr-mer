@@ -46,6 +46,7 @@ namespace gr {
 	    static const gr_complex d_constellation_qpsk[]; 
         static const gr_complex d_constellation_16qam[]; 
         static const gr_complex d_constellation_64qam[];
+        static const gr_complex d_constellation_256qam[];
         int d_const_size;
 		double d_re_min;
 		double d_im_min;
