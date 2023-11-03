@@ -24,5 +24,6 @@ install(FILES
     probe_qe_cf.h
     probe_ste_cf.h
     probe_mer_c.h
-    probe_all_meassurements_cf.h DESTINATION include/mer
+    probe_all_meassurements_cf.h
+    qam_desrotator_cf.h DESTINATION include/mer
 )

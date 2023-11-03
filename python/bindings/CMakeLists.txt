@@ -34,7 +34,8 @@ list(APPEND mer_python_files
     probe_qe_cf_python.cc
     probe_ste_cf_python.cc
     probe_mer_c_python.cc
-    probe_all_meassurements_cf_python.cc python_bindings.cc)
+    probe_all_meassurements_cf_python.cc
+    qam_desrotator_cf_python.cc python_bindings.cc)
 
 GR_PYBIND_MAKE_OOT(mer
    ../..

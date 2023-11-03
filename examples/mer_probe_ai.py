@@ -27,7 +27,7 @@ import sip
 from gnuradio import blocks
 import numpy
 from gnuradio import channels
-from gnuradio import digital
+from gnuradio import dtv
 from gnuradio import gr
 from gnuradio.fft import window
 import sys
@@ -84,6 +84,7 @@ class mer_probe_ai(gr.top_block, Qt.QWidget):
         self.pj = pj = -40
         self.noise = noise = 10e-3
         self.cs = cs = 0
+        self.const_256QAM = const_256QAM = [(1.1504475+1.1504475j),(1.1504475+0.9970545j),(0.9970545+1.1504475j),(0.9970545+0.9970545j),(1.1504475+0.6902685j),(1.1504475+0.8436615j),(0.9970545+0.6902685j),(0.9970545+0.8436615j),(0.6902685+1.1504475j),(0.6902685+0.9970545j),(0.8436615+1.1504475j),(0.8436615+0.9970545j),(0.6902685+0.6902685j),(0.6902685+0.8436615j),(0.8436615+0.6902685j),(0.8436615+0.8436615j),(1.1504475+0.0766965j),(1.1504475+0.2300895j),(0.9970545+0.0766965j),(0.9970545+0.2300895j),(1.1504475+0.5368755j),(1.1504475+0.38348252j),(0.9970545+0.5368755j),(0.9970545+0.38348252j),(0.6902685+0.0766965j),(0.6902685+0.2300895j),(0.8436615+0.0766965j),(0.8436615+0.2300895j),(0.6902685+0.5368755j),(0.6902685+0.38348252j),(0.8436615+0.5368755j),(0.8436615+0.38348252j),(0.0766965+1.1504475j),(0.0766965+0.9970545j),(0.2300895+1.1504475j),(0.2300895+0.9970545j),(0.0766965+0.6902685j),(0.0766965+0.8436615j),(0.2300895+0.6902685j),(0.2300895+0.8436615j),(0.5368755+1.1504475j),(0.5368755+0.9970545j),(0.38348252+1.1504475j),(0.38348252+0.9970545j),(0.5368755+0.6902685j),(0.5368755+0.8436615j),(0.38348252+0.6902685j),(0.38348252+0.8436615j),(0.0766965+0.0766965j),(0.0766965+0.2300895j),(0.2300895+0.0766965j),(0.2300895+0.2300895j),(0.0766965+0.5368755j),(0.0766965+0.38348252j),(0.2300895+0.5368755j),(0.2300895+0.38348252j),(0.5368755+0.0766965j),(0.5368755+0.2300895j),(0.38348252+0.0766965j),(0.38348252+0.2300895j),(0.5368755+0.5368755j),(0.5368755+0.38348252j),(0.38348252+0.5368755j),(0.38348252+0.38348252j),(1.1504475-1.1504475j),(1.1504475-0.9970545j),(0.9970545-1.1504475j),(0.9970545-0.9970545j),(1.1504475-0.6902685j),(1.1504475-0.8436615j),(0.9970545-0.6902685j),(0.9970545-0.8436615j),(0.6902685-1.1504475j),(0.6902685-0.9970545j),(0.8436615-1.1504475j),(0.8436615-0.9970545j),(0.6902685-0.6902685j),(0.6902685-0.8436615j),(0.8436615-0.6902685j),(0.8436615-0.8436615j),(1.1504475-0.0766965j),(1.1504475-0.2300895j),(0.9970545-0.0766965j),(0.9970545-0.2300895j),(1.1504475-0.5368755j),(1.1504475-0.38348252j),(0.9970545-0.5368755j),(0.9970545-0.38348252j),(0.6902685-0.0766965j),(0.6902685-0.2300895j),(0.8436615-0.0766965j),(0.8436615-0.2300895j),(0.6902685-0.5368755j),(0.6902685-0.38348252j),(0.8436615-0.5368755j),(0.8436615-0.38348252j),(0.0766965-1.1504475j),(0.0766965-0.9970545j),(0.2300895-1.1504475j),(0.2300895-0.9970545j),(0.0766965-0.6902685j),(0.0766965-0.8436615j),(0.2300895-0.6902685j),(0.2300895-0.8436615j),(0.5368755-1.1504475j),(0.5368755-0.9970545j),(0.38348252-1.1504475j),(0.38348252-0.9970545j),(0.5368755-0.6902685j),(0.5368755-0.8436615j),(0.38348252-0.6902685j),(0.38348252-0.8436615j),(0.0766965-0.0766965j),(0.0766965-0.2300895j),(0.2300895-0.0766965j),(0.2300895-0.2300895j),(0.0766965-0.5368755j),(0.0766965-0.38348252j),(0.2300895-0.5368755j),(0.2300895-0.38348252j),(0.5368755-0.0766965j),(0.5368755-0.2300895j),(0.38348252-0.0766965j),(0.38348252-0.2300895j),(0.5368755-0.5368755j),(0.5368755-0.38348252j),(0.38348252-0.5368755j),(0.38348252-0.38348252j),(-1.1504475+1.1504475j),(-1.1504475+0.9970545j),(-0.9970545+1.1504475j),(-0.9970545+0.9970545j),(-1.1504475+0.6902685j),(-1.1504475+0.8436615j),(-0.9970545+0.6902685j),(-0.9970545+0.8436615j),(-0.6902685+1.1504475j),(-0.6902685+0.9970545j),(-0.8436615+1.1504475j),(-0.8436615+0.9970545j),(-0.6902685+0.6902685j),(-0.6902685+0.8436615j),(-0.8436615+0.6902685j),(-0.8436615+0.8436615j),(-1.1504475+0.0766965j),(-1.1504475+0.2300895j),(-0.9970545+0.0766965j),(-0.9970545+0.2300895j),(-1.1504475+0.5368755j),(-1.1504475+0.38348252j),(-0.9970545+0.5368755j),(-0.9970545+0.38348252j),(-0.6902685+0.0766965j),(-0.6902685+0.2300895j),(-0.8436615+0.0766965j),(-0.8436615+0.2300895j),(-0.6902685+0.5368755j),(-0.6902685+0.38348252j),(-0.8436615+0.5368755j),(-0.8436615+0.38348252j),(-0.0766965+1.1504475j),(-0.0766965+0.9970545j),(-0.2300895+1.1504475j),(-0.2300895+0.9970545j),(-0.0766965+0.6902685j),(-0.0766965+0.8436615j),(-0.2300895+0.6902685j),(-0.2300895+0.8436615j),(-0.5368755+1.1504475j),(-0.5368755+0.9970545j),(-0.38348252+1.1504475j),(-0.38348252+0.9970545j),(-0.5368755+0.6902685j),(-0.5368755+0.8436615j),(-0.38348252+0.6902685j),(-0.38348252+0.8436615j),(-0.0766965+0.0766965j),(-0.0766965+0.2300895j),(-0.2300895+0.0766965j),(-0.2300895+0.2300895j),(-0.0766965+0.5368755j),(-0.0766965+0.38348252j),(-0.2300895+0.5368755j),(-0.2300895+0.38348252j),(-0.5368755+0.0766965j),(-0.5368755+0.2300895j),(-0.38348252+0.0766965j),(-0.38348252+0.2300895j),(-0.5368755+0.5368755j),(-0.5368755+0.38348252j),(-0.38348252+0.5368755j),(-0.38348252+0.38348252j),(-1.1504475-1.1504475j),(-1.1504475-0.9970545j),(-0.9970545-1.1504475j),(-0.9970545-0.9970545j),(-1.1504475-0.6902685j),(-1.1504475-0.8436615j),(-0.9970545-0.6902685j),(-0.9970545-0.8436615j),(-0.6902685-1.1504475j),(-0.6902685-0.9970545j),(-0.8436615-1.1504475j),(-0.8436615-0.9970545j),(-0.6902685-0.6902685j),(-0.6902685-0.8436615j),(-0.8436615-0.6902685j),(-0.8436615-0.8436615j),(-1.1504475-0.0766965j),(-1.1504475-0.2300895j),(-0.9970545-0.0766965j),(-0.9970545-0.2300895j),(-1.1504475-0.5368755j),(-1.1504475-0.38348252j),(-0.9970545-0.5368755j),(-0.9970545-0.38348252j),(-0.6902685-0.0766965j),(-0.6902685-0.2300895j),(-0.8436615-0.0766965j),(-0.8436615-0.2300895j),(-0.6902685-0.5368755j),(-0.6902685-0.38348252j),(-0.8436615-0.5368755j),(-0.8436615-0.38348252j),(-0.0766965-1.1504475j),(-0.0766965-0.9970545j),(-0.2300895-1.1504475j),(-0.2300895-0.9970545j),(-0.0766965-0.6902685j),(-0.0766965-0.8436615j),(-0.2300895-0.6902685j),(-0.2300895-0.8436615j),(-0.5368755-1.1504475j),(-0.5368755-0.9970545j),(-0.38348252-1.1504475j),(-0.38348252-0.9970545j),(-0.5368755-0.6902685j),(-0.5368755-0.8436615j),(-0.38348252-0.6902685j),(-0.38348252-0.8436615j),(-0.0766965-0.0766965j),(-0.0766965-0.2300895j),(-0.2300895-0.0766965j),(-0.2300895-0.2300895j),(-0.0766965-0.5368755j),(-0.0766965-0.38348252j),(-0.2300895-0.5368755j),(-0.2300895-0.38348252j),(-0.5368755-0.0766965j),(-0.5368755-0.2300895j),(-0.38348252-0.0766965j),(-0.38348252-0.2300895j),(-0.5368755-0.5368755j),(-0.5368755-0.38348252j),(-0.38348252-0.5368755j),(-0.38348252-0.38348252j)]
         self.ai = ai = 0
 
         ##################################################
@@ -443,7 +444,7 @@ class mer_probe_ai(gr.top_block, Qt.QWidget):
             self.qtgui_0_grid_layout_1.setColumnStretch(c, 1)
         self.qtgui_number_sink_0 = qtgui.number_sink(
             gr.sizeof_float,
-            0.5,
+            0,
             qtgui.NUM_GRAPH_HORIZ,
             1,
             None # parent
@@ -524,8 +525,49 @@ class mer_probe_ai(gr.top_block, Qt.QWidget):
             self.qtgui_0_grid_layout_2.setRowStretch(r, 1)
         for c in range(0, 1):
             self.qtgui_0_grid_layout_2.setColumnStretch(c, 1)
+        self.qtgui_const_sink_x_0_0 = qtgui.const_sink_c(
+            1024*10, #size
+            "Rotated Constellation", #name
+            1, #number of inputs
+            None # parent
+        )
+        self.qtgui_const_sink_x_0_0.set_update_time(0.10)
+        self.qtgui_const_sink_x_0_0.set_y_axis(-2, 2)
+        self.qtgui_const_sink_x_0_0.set_x_axis(-2, 2)
+        self.qtgui_const_sink_x_0_0.set_trigger_mode(qtgui.TRIG_MODE_FREE, qtgui.TRIG_SLOPE_POS, 0.0, 0, "")
+        self.qtgui_const_sink_x_0_0.enable_autoscale(False)
+        self.qtgui_const_sink_x_0_0.enable_grid(False)
+        self.qtgui_const_sink_x_0_0.enable_axis_labels(True)
+
+
+        labels = ['', '', '', '', '',
+            '', '', '', '', '']
+        widths = [1, 1, 1, 1, 1,
+            1, 1, 1, 1, 1]
+        colors = ["blue", "red", "red", "red", "red",
+            "red", "red", "red", "red", "red"]
+        styles = [0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0]
+        markers = [0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0]
+        alphas = [1.0, 1.0, 1.0, 1.0, 1.0,
+            1.0, 1.0, 1.0, 1.0, 1.0]
+
+        for i in range(1):
+            if len(labels[i]) == 0:
+                self.qtgui_const_sink_x_0_0.set_line_label(i, "Data {0}".format(i))
+            else:
+                self.qtgui_const_sink_x_0_0.set_line_label(i, labels[i])
+            self.qtgui_const_sink_x_0_0.set_line_width(i, widths[i])
+            self.qtgui_const_sink_x_0_0.set_line_color(i, colors[i])
+            self.qtgui_const_sink_x_0_0.set_line_style(i, styles[i])
+            self.qtgui_const_sink_x_0_0.set_line_marker(i, markers[i])
+            self.qtgui_const_sink_x_0_0.set_line_alpha(i, alphas[i])
+
+        self._qtgui_const_sink_x_0_0_win = sip.wrapinstance(self.qtgui_const_sink_x_0_0.qwidget(), Qt.QWidget)
+        self.top_layout.addWidget(self._qtgui_const_sink_x_0_0_win)
         self.qtgui_const_sink_x_0 = qtgui.const_sink_c(
-            1024, #size
+            1024*10, #size
             "", #name
             1, #number of inputs
             None # parent
@@ -569,8 +611,9 @@ class mer_probe_ai(gr.top_block, Qt.QWidget):
             self.qtgui_0_grid_layout_0.setRowStretch(r, 1)
         for c in range(0, 1):
             self.qtgui_0_grid_layout_0.setColumnStretch(c, 1)
-        self.mer_probe_all_meassurements_cf_0 = mer.probe_all_meassurements_cf([0.9487+0.9487j,0.9487+0.3162j, 0.3162+0.9487j, 0.3162 +0.3162j,0.9487-0.9487j,0.9487- 0.3162j, 0.3162-0.9487j, 0.3162- 0.3162j,-0.9487+0.9487j,-0.9487+ 0.3162j,- 0.3162+0.9487j,- 0.3162+ 0.3162j,-0.9487-0.9487j,-0.9487- 0.3162j,-0.3162-0.9487j,-0.3162- 0.3162j], 0.05)
-        self.digital_chunks_to_symbols_xx_0 = digital.chunks_to_symbols_bc([0.9487+0.9487j,0.9487+0.3162j, 0.3162+0.9487j, 0.3162 +0.3162j,0.9487-0.9487j,0.9487- 0.3162j, 0.3162-0.9487j, 0.3162- 0.3162j,-0.9487+0.9487j,-0.9487+ 0.3162j,- 0.3162+0.9487j,- 0.3162+ 0.3162j,-0.9487-0.9487j,-0.9487- 0.3162j,-0.3162-0.9487j,-0.3162- 0.3162j], 1)
+        self.mer_qam_desrotator_cf_0 = mer.qam_desrotator_cf(256,8100)
+        self.mer_probe_all_meassurements_cf_0 = mer.probe_all_meassurements_cf(const_256QAM, 0.005)
+        self.dtv_dvbt2_modulator_bc_0 = dtv.dvbt2_modulator_bc(dtv.FECFRAME_NORMAL, dtv.MOD_256QAM, dtv.ROTATION_ON)
         self.channels_impairments_0 = channels.impairments(pj, ai, qe, cs, 0, 0, 0, 0)
         self.channels_channel_model_0 = channels.channel_model(
             noise_voltage=noise,
@@ -579,18 +622,17 @@ class mer_probe_ai(gr.top_block, Qt.QWidget):
             taps=[1.0],
             noise_seed=0,
             block_tags=False)
-        self.analog_random_source_x_0 = blocks.vector_source_b(list(map(int, numpy.random.randint(0, 16, 1000))), True)
+        self.analog_random_source_x_0 = blocks.vector_source_b(list(map(int, numpy.random.randint(0, 256, 100000))), True)
 
 
         ##################################################
         # Connections
         ##################################################
-        self.connect((self.analog_random_source_x_0, 0), (self.digital_chunks_to_symbols_xx_0, 0))
-        self.connect((self.channels_channel_model_0, 0), (self.mer_probe_all_meassurements_cf_0, 0))
-        self.connect((self.channels_channel_model_0, 0), (self.qtgui_const_sink_x_0, 0))
-        self.connect((self.channels_channel_model_0, 0), (self.qtgui_freq_sink_x_0, 0))
+        self.connect((self.analog_random_source_x_0, 0), (self.dtv_dvbt2_modulator_bc_0, 0))
+        self.connect((self.channels_channel_model_0, 0), (self.mer_qam_desrotator_cf_0, 0))
+        self.connect((self.channels_channel_model_0, 0), (self.qtgui_const_sink_x_0_0, 0))
         self.connect((self.channels_impairments_0, 0), (self.channels_channel_model_0, 0))
-        self.connect((self.digital_chunks_to_symbols_xx_0, 0), (self.channels_impairments_0, 0))
+        self.connect((self.dtv_dvbt2_modulator_bc_0, 0), (self.channels_impairments_0, 0))
         self.connect((self.mer_probe_all_meassurements_cf_0, 0), (self.qtgui_number_sink_0, 0))
         self.connect((self.mer_probe_all_meassurements_cf_0, 1), (self.qtgui_number_sink_0_0, 0))
         self.connect((self.mer_probe_all_meassurements_cf_0, 6), (self.qtgui_number_sink_0_0_0, 0))
@@ -600,6 +642,9 @@ class mer_probe_ai(gr.top_block, Qt.QWidget):
         self.connect((self.mer_probe_all_meassurements_cf_0, 5), (self.qtgui_number_sink_0_3, 0))
         self.connect((self.mer_probe_all_meassurements_cf_0, 7), (self.qtgui_number_sink_0_4, 0))
         self.connect((self.mer_probe_all_meassurements_cf_0, 4), (self.qtgui_number_sink_1, 0))
+        self.connect((self.mer_qam_desrotator_cf_0, 0), (self.mer_probe_all_meassurements_cf_0, 0))
+        self.connect((self.mer_qam_desrotator_cf_0, 0), (self.qtgui_const_sink_x_0, 0))
+        self.connect((self.mer_qam_desrotator_cf_0, 0), (self.qtgui_freq_sink_x_0, 0))
 
 
     def closeEvent(self, event):
@@ -644,6 +689,12 @@ class mer_probe_ai(gr.top_block, Qt.QWidget):
     def set_cs(self, cs):
         self.cs = cs
         self.channels_impairments_0.set_q_ofs(self.cs)
+
+    def get_const_256QAM(self):
+        return self.const_256QAM
+
+    def set_const_256QAM(self, const_256QAM):
+        self.const_256QAM = const_256QAM
 
     def get_ai(self):
         return self.ai

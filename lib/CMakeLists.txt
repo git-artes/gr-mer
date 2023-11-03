@@ -25,7 +25,8 @@ list(APPEND mer_sources
     probe_qe_cf_impl.cc
     probe_ste_cf_impl.cc
     probe_mer_c_impl.cc
-    probe_all_meassurements_cf_impl.cc )
+    probe_all_meassurements_cf_impl.cc
+    qam_desrotator_cf_impl.cc )
 
 set(mer_sources "${mer_sources}" PARENT_SCOPE)
 if(NOT mer_sources)

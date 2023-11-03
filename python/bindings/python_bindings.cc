@@ -28,6 +28,7 @@ namespace py = pybind11;
     void bind_probe_ste_cf(py::module& m);
     void bind_probe_mer_c(py::module& m);
     void bind_probe_all_meassurements_cf(py::module& m);
+    void bind_qam_desrotator_cf(py::module& m);
 // ) END BINDING_FUNCTION_PROTOTYPES
 
 
@@ -63,5 +64,6 @@ PYBIND11_MODULE(mer_python, m)
     bind_probe_ste_cf(m);
     bind_probe_mer_c(m);
     bind_probe_all_meassurements_cf(m);
+    bind_qam_desrotator_cf(m);
     // ) END BINDING_FUNCTION_CALLS
 }

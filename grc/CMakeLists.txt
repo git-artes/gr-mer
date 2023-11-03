@@ -12,5 +12,6 @@ install(FILES
     mer_probe_qe_cf.block.yml
     mer_probe_ste_cf.block.yml
     mer_probe_mer_c.block.yml
-    mer_probe_all_meassurements_cf.block.yml DESTINATION share/gnuradio/grc/blocks
+    mer_probe_all_meassurements_cf.block.yml
+    mer_qam_desrotator_cf.block.yml DESTINATION share/gnuradio/grc/blocks
 )

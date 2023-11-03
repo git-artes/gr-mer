@@ -1,0 +1,37 @@
+id: mer_qam_desrotator_cf
+label: QAM Desrotator
+category: '[mer]'
+
+templates:
+  imports: import mer
+  make: mer.qam_desrotator_cf(${mod_index},${cell_size})
+
+#  Make one 'parameters' list entry for every parameter you want settable from the GUI.
+#     Keys include:
+#     * id (makes the value accessible as keyname, e.g. in the make entry)
+#     * label (label shown in the GUI)
+#     * dtype (e.g. int, float, complex, byte, short, xxx_vector, ...)
+#     * default
+parameters:
+- id: cell_size
+  label: Cell size
+  dtype: int
+  default: 8100
+- id: mod_index
+  label: QAM Modulation Index
+  options: [4,16,64,256]
+  option_labels: ["4", "16","64","256"]
+  dtype: int
+  default: 256
+
+inputs:
+- label: in
+  dtype: complex
+
+
+outputs:
+- label: out
+  dtype: complex
+
+
+file_format: 1

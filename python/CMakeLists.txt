@@ -46,3 +46,4 @@ GR_ADD_TEST(qa_probe_qe_cf ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_p
 GR_ADD_TEST(qa_probe_ste_cf ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_probe_ste_cf.py)
 GR_ADD_TEST(qa_probe_mer_c ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_probe_mer_c.py)
 GR_ADD_TEST(qa_probe_all_meassurements_cf ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_probe_all_meassurements_cf.py)
+GR_ADD_TEST(qa_qam_desrotator_cf ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_qam_desrotator_cf.py)
